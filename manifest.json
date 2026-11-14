@@ -10,13 +10,8 @@
             "flags": [
                 "ap"
             ]
-        },
-        "Items Only": {
-            "display_name": "Items Only",
-            "flags": [
-                "ap"
-            ]
         }
     },
-    "min_poptracker_version": "0.35.4"
+    "min_poptracker_version": "0.35.4",
+    "target_poptracker_version": "0.36.0"
 }

@@ -1,11 +1,8 @@
 local variant = Tracker.ActiveVariantUID
 
--- Libs
-require("scripts.lib.recent_items.init")
-require("scripts.lib.status_bar.init")
-
 -- Items
-require("scripts.items_import")
+Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/labels.json")
 
 -- Logic
 require("scripts.logic.logic_helper")
@@ -16,10 +13,10 @@ require("scripts.logic.graph_logic.logic_main")
 Tracker:AddMaps("maps/maps.json")
 
 -- Layout
-require("scripts.layouts_import")
+Tracker:AddLayouts("layouts/layout.json")
 
 -- Locations
-require("scripts.locations_import")
+Tracker:AddLocations("locations/Island.json")
 
 -- AutoTracking for PopTracker
 if PopVersion and PopVersion >= "0.26.0" then

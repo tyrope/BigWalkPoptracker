@@ -1,0 +1,10 @@
+{
+    "tracker_horizontal": {
+        "type": "container",
+        "background": "#00000000",
+        "content": {
+            "type": "map",
+            "maps": ["Island"]
+        }
+    }
+}
