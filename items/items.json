@@ -16,14 +16,6 @@
         "codes": "bigwalldoor"
     },
     {
-        "name": "bigdrop",
-        "type": "toggle",
-        "img": "images/items/bigdrop.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigdrop"
-    },
-    {
         "name": "radiomusic02",
         "type": "toggle",
         "img": "images/items/radiomusic02.png",
@@ -64,14 +56,6 @@
         "codes": "greenzonelamps"
     },
     {
-        "name": "bigarms",
-        "type": "toggle",
-        "img": "images/items/bigarms.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigarms"
-    },
-    {
         "name": "greenflaregun",
         "type": "toggle",
         "img": "images/items/greenflaregun.png",
@@ -110,14 +94,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "greencuptowerkey"
-    },
-    {
-        "name": "bignight",
-        "type": "toggle",
-        "img": "images/items/bignight.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bignight"
     },
     {
         "name": "greenzonegadgets",
@@ -172,14 +148,6 @@
         "codes": "lights"
     },
     {
-        "name": "bigtrip",
-        "type": "toggle",
-        "img": "images/items/bigtrip.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigtrip"
-    },
-    {
         "name": "golfball",
         "type": "toggle",
         "img": "images/items/golfball.png",
@@ -220,14 +188,6 @@
         "codes": "greentunneldoor"
     },
     {
-        "name": "bighead",
-        "type": "toggle",
-        "img": "images/items/bighead.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bighead"
-    },
-    {
         "name": "bluecastletowerteleporter",
         "type": "toggle",
         "img": "images/items/bluecastletowerteleporter.png",
@@ -250,14 +210,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "compass"
-    },
-    {
-        "name": "biggoggles",
-        "type": "toggle",
-        "img": "images/items/biggoggles.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "biggoggles"
     },
     {
         "name": "timedtomato",
@@ -316,14 +268,6 @@
         "codes": "greencuptowerteleporter"
     },
     {
-        "name": "bigload",
-        "type": "toggle",
-        "img": "images/items/bigload.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigload"
-    },
-    {
         "name": "radiomusic01",
         "type": "toggle",
         "img": "images/items/radiomusic01.png",
@@ -364,14 +308,6 @@
         "codes": "drawingpanels"
     },
     {
-        "name": "bigbreak",
-        "type": "toggle",
-        "img": "images/items/bigbreak.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigbreak"
-    },
-    {
         "name": "counter",
         "type": "toggle",
         "img": "images/items/counter.png",
@@ -394,14 +330,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "belt"
-    },
-    {
-        "name": "bigconfetti",
-        "type": "toggle",
-        "img": "images/items/bigconfetti.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigconfetti"
     },
     {
         "name": "yellowtunneldoor",
@@ -436,44 +364,12 @@
         "codes": "running"
     },
     {
-        "name": "bigmask",
-        "type": "toggle",
-        "img": "images/items/bigmask.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigmask"
-    },
-    {
-        "name": "bigsilence",
-        "type": "toggle",
-        "img": "images/items/bigsilence.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigsilence"
-    },
-    {
-        "name": "bigbrain",
-        "type": "toggle",
-        "img": "images/items/bigbrain.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigbrain"
-    },
-    {
         "name": "leftarchdoor",
         "type": "toggle",
         "img": "images/items/leftarchdoor.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "leftarchdoor"
-    },
-    {
-        "name": "bigsleep",
-        "type": "toggle",
-        "img": "images/items/bigsleep.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigsleep"
     },
     {
         "name": "seat",
@@ -572,14 +468,6 @@
         ]
     },
     {
-        "name": "bigghost",
-        "type": "toggle",
-        "img": "images/items/bigghost.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigghost"
-    },
-    {
         "name": "chairlift",
         "type": "toggle",
         "img": "images/items/chairlift.png",
@@ -588,28 +476,12 @@
         "codes": "chairlift"
     },
     {
-        "name": "bigtime",
-        "type": "toggle",
-        "img": "images/items/bigtime.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigtime"
-    },
-    {
         "name": "blacktowerteleporter",
         "type": "toggle",
         "img": "images/items/blacktowerteleporter.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "blacktowerteleporter"
-    },
-    {
-        "name": "bigsmell",
-        "type": "toggle",
-        "img": "images/items/bigsmell.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigsmell"
     },
     {
         "name": "tunnels",
@@ -712,14 +584,6 @@
         "codes": "gauntletstage6door"
     },
     {
-        "name": "bigday",
-        "type": "toggle",
-        "img": "images/items/bigday.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigday"
-    },
-    {
         "name": "radiomusic03",
         "type": "toggle",
         "img": "images/items/radiomusic03.png",
@@ -750,14 +614,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "bluecastletowerkey"
-    },
-    {
-        "name": "bigspeed",
-        "type": "toggle",
-        "img": "images/items/bigspeed.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigspeed"
     },
     {
         "name": "posepanels",
@@ -808,14 +664,6 @@
         "codes": "spawnsecretdoor"
     },
     {
-        "name": "bigpaint",
-        "type": "toggle",
-        "img": "images/items/bigpaint.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigpaint"
-    },
-    {
         "name": "radiomusic07",
         "type": "toggle",
         "img": "images/items/radiomusic07.png",
@@ -838,14 +686,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "radio"
-    },
-    {
-        "name": "bigreset",
-        "type": "toggle",
-        "img": "images/items/bigreset.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigreset"
     },
     {
         "name": "synchronizedbuttons",
@@ -896,22 +736,6 @@
         "codes": "inkviewer"
     },
     {
-        "name": "bigmeeting",
-        "type": "toggle",
-        "img": "images/items/bigmeeting.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigmeeting"
-    },
-    {
-        "name": "bigpixels",
-        "type": "toggle",
-        "img": "images/items/bigpixels.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigpixels"
-    },
-    {
         "name": "bigheadmask",
         "type": "toggle",
         "img": "images/items/bigheadmask.png",
@@ -960,14 +784,6 @@
         "codes": "yellowtwisttowerkey"
     },
     {
-        "name": "bigflare",
-        "type": "toggle",
-        "img": "images/items/bigflare.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigflare"
-    },
-    {
         "name": "maproom",
         "type": "toggle",
         "img": "images/items/maproom.png",
@@ -982,14 +798,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "carrying"
-    },
-    {
-        "name": "bigair",
-        "type": "toggle",
-        "img": "images/items/bigair.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigair"
     },
     {
         "name": "gauntletstage3door",
@@ -1038,38 +846,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "torch"
-    },
-    {
-        "name": "bigslide",
-        "type": "toggle",
-        "img": "images/items/bigslide.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigslide"
-    },
-    {
-        "name": "bigjump",
-        "type": "toggle",
-        "img": "images/items/bigjump.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigjump"
-    },
-    {
-        "name": "bigthrow",
-        "type": "toggle",
-        "img": "images/items/bigthrow.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigthrow"
-    },
-    {
-        "name": "bigbrother",
-        "type": "toggle",
-        "img": "images/items/bigbrother.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigbrother"
     },
     {
         "name": "backpack",

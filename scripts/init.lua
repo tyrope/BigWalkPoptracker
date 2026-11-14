@@ -13,7 +13,11 @@ require("scripts.logic.graph_logic.logic_main")
 Tracker:AddMaps("maps/maps.json")
 
 -- Layout
-Tracker:AddLayouts("layouts/layout.json")
+Tracker:AddLayouts("layouts/broadcast.json")
+Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/settings_popup.json")
+Tracker:AddLayouts("layouts/tabs.json")
+Tracker:AddLayouts("layouts/tracker.json")
 
 -- Locations
 Tracker:AddLocations("locations/Island.json")

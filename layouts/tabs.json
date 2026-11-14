@@ -1,0 +1,30 @@
+{
+    "tabbed_maps_horizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Island",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Island"
+                    ]
+                }
+            }
+        ]
+    },
+    "tabbed_maps_vertical": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Island",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Island"
+                    ]
+                }
+            }
+        ]
+    }
+}
