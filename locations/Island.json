@@ -417,8 +417,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 656,
-                        "y": 430,
+                        "x": 687,
+                        "y": 417,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -449,8 +449,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 441,
-                        "y": 338,
+                        "x": 446,
+                        "y": 334,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -487,8 +487,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 643,
-                        "y": 610,
+                        "x": 607,
+                        "y": 123,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -585,8 +585,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 145,
-                        "y": 302,
+                        "x": 242,
+                        "y": 351,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -647,8 +647,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 39,
-                        "y": 609,
+                        "x": 488,
+                        "y": 274,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -763,8 +763,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 91,
-                        "y": 600,
+                        "x": 654,
+                        "y": 130,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -801,8 +801,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 107,
-                        "y": 590,
+                        "x": 428,
+                        "y": 574,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -839,8 +839,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 62,
-                        "y": 559,
+                        "x": 663,
+                        "y": 294,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -929,8 +929,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 44,
-                        "y": 576,
+                        "x": 601,
+                        "y": 916,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -956,7 +956,7 @@
                     {
                         "map": "Island",
                         "x": 170,
-                        "y": 228,
+                        "y": 218,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -1217,8 +1217,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 77,
-                        "y": 580,
+                        "x": 808,
+                        "y": 750,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -1317,8 +1317,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 65,
-                        "y": 595,
+                        "x": 493,
+                        "y": 403,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -1355,8 +1355,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 48,
-                        "y": 591,
+                        "x": 578,
+                        "y": 105,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -1405,8 +1405,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 465,
-                        "y": 143,
+                        "x": 469,
+                        "y": 136,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -1479,8 +1479,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 80,
-                        "y": 596,
+                        "x": 562,
+                        "y": 544,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -1517,8 +1517,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 74,
-                        "y": 616,
+                        "x": 396,
+                        "y": 357,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -1591,8 +1591,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 46,
-                        "y": 624,
+                        "x": 187,
+                        "y": 78,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -1617,8 +1617,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 78,
-                        "y": 629,
+                        "x": 558,
+                        "y": 896,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -1643,8 +1643,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 529,
-                        "y": 969,
+                        "x": 516,
+                        "y": 1008,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -1669,8 +1669,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 649,
-                        "y": 199,
+                        "x": 652,
+                        "y": 183,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -1695,8 +1695,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 760,
-                        "y": 584,
+                        "x": 755,
+                        "y": 588,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -1861,8 +1861,8 @@
                 "map_locations": [
                     {
                         "map": "Island",
-                        "x": 109,
-                        "y": 611,
+                        "x": 626,
+                        "y": 977,
                         "size": 10,
                         "shape": "diamond"
                     }
@@ -3149,7 +3149,7 @@
                         "map": "Island",
                         "x": 512,
                         "y": 201,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3181,7 +3181,7 @@
                         "map": "Island",
                         "x": 628,
                         "y": 542,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3213,7 +3213,7 @@
                         "map": "Island",
                         "x": 463,
                         "y": 701,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3245,7 +3245,7 @@
                         "map": "Island",
                         "x": 357,
                         "y": 534,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3277,7 +3277,7 @@
                         "map": "Island",
                         "x": 569,
                         "y": 748,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3403,7 +3403,7 @@
                         "map": "Island",
                         "x": 142,
                         "y": 334,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3511,7 +3511,7 @@
                         "map": "Island",
                         "x": 331,
                         "y": 283,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3618,7 +3618,7 @@
                     {
                         "map": "Island",
                         "x": 557,
-                        "y": 545,
+                        "y": 555,
                         "size": 10,
                         "shape": "rect"
                     }
@@ -3655,7 +3655,7 @@
                         "map": "Island",
                         "x": 240,
                         "y": 246,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3673,7 +3673,7 @@
                         "map": "Island",
                         "x": 268,
                         "y": 462,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3691,7 +3691,7 @@
                         "map": "Island",
                         "x": 463,
                         "y": 441,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3709,7 +3709,7 @@
                         "map": "Island",
                         "x": 693,
                         "y": 163,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3727,7 +3727,7 @@
                         "map": "Island",
                         "x": 537,
                         "y": 811,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3745,7 +3745,7 @@
                         "map": "Island",
                         "x": 723,
                         "y": 864,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3763,7 +3763,7 @@
                         "map": "Island",
                         "x": 378,
                         "y": 290,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3781,7 +3781,7 @@
                         "map": "Island",
                         "x": 99,
                         "y": 773,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3799,7 +3799,7 @@
                         "map": "Island",
                         "x": 605,
                         "y": 464,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3817,7 +3817,7 @@
                         "map": "Island",
                         "x": 505,
                         "y": 101,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3835,7 +3835,7 @@
                         "map": "Island",
                         "x": 729,
                         "y": 864,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3853,7 +3853,7 @@
                         "map": "Island",
                         "x": 811,
                         "y": 534,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3871,7 +3871,7 @@
                         "map": "Island",
                         "x": 168,
                         "y": 324,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3889,7 +3889,7 @@
                         "map": "Island",
                         "x": 510,
                         "y": 448,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3907,7 +3907,7 @@
                         "map": "Island",
                         "x": 482,
                         "y": 375,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3925,7 +3925,7 @@
                         "map": "Island",
                         "x": 118,
                         "y": 259,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3943,7 +3943,7 @@
                         "map": "Island",
                         "x": 518,
                         "y": 218,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3961,7 +3961,7 @@
                         "map": "Island",
                         "x": 720,
                         "y": 550,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3979,7 +3979,7 @@
                         "map": "Island",
                         "x": 321,
                         "y": 75,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -3997,7 +3997,7 @@
                         "map": "Island",
                         "x": 678,
                         "y": 965,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4015,7 +4015,7 @@
                         "map": "Island",
                         "x": 269,
                         "y": 695,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4051,7 +4051,7 @@
                         "map": "Island",
                         "x": 271,
                         "y": 700,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4069,7 +4069,7 @@
                         "map": "Island",
                         "x": 261,
                         "y": 702,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4087,7 +4087,7 @@
                         "map": "Island",
                         "x": 249,
                         "y": 700,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4105,7 +4105,7 @@
                         "map": "Island",
                         "x": 260,
                         "y": 693,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4123,7 +4123,7 @@
                         "map": "Island",
                         "x": 258,
                         "y": 701,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4141,7 +4141,7 @@
                         "map": "Island",
                         "x": 165,
                         "y": 331,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4159,7 +4159,7 @@
                         "map": "Island",
                         "x": 561,
                         "y": 331,
-                        "size": 8,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4177,7 +4177,7 @@
                         "map": "Island",
                         "x": 609,
                         "y": 496,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4195,7 +4195,7 @@
                         "map": "Island",
                         "x": 341,
                         "y": 395,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4213,7 +4213,7 @@
                         "map": "Island",
                         "x": 81,
                         "y": 320,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4231,7 +4231,7 @@
                         "map": "Island",
                         "x": 436,
                         "y": 289,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4249,7 +4249,7 @@
                         "map": "Island",
                         "x": 623,
                         "y": 228,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4267,7 +4267,7 @@
                         "map": "Island",
                         "x": 543,
                         "y": 146,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4285,7 +4285,7 @@
                         "map": "Island",
                         "x": 838,
                         "y": 598,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4303,7 +4303,7 @@
                         "map": "Island",
                         "x": 914,
                         "y": 599,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4321,7 +4321,7 @@
                         "map": "Island",
                         "x": 553,
                         "y": 360,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4339,7 +4339,7 @@
                         "map": "Island",
                         "x": 533,
                         "y": 361,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4357,7 +4357,7 @@
                         "map": "Island",
                         "x": 324,
                         "y": 427,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4375,7 +4375,7 @@
                         "map": "Island",
                         "x": 353,
                         "y": 425,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4393,7 +4393,7 @@
                         "map": "Island",
                         "x": 94,
                         "y": 659,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4483,7 +4483,7 @@
                         "map": "Island",
                         "x": 83,
                         "y": 692,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4501,7 +4501,7 @@
                         "map": "Island",
                         "x": 69,
                         "y": 694,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4519,7 +4519,7 @@
                         "map": "Island",
                         "x": 82,
                         "y": 715,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4537,7 +4537,7 @@
                         "map": "Island",
                         "x": 59,
                         "y": 715,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4555,7 +4555,7 @@
                         "map": "Island",
                         "x": 33,
                         "y": 707,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4573,7 +4573,7 @@
                         "map": "Island",
                         "x": 109,
                         "y": 677,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4591,7 +4591,7 @@
                         "map": "Island",
                         "x": 93,
                         "y": 733,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4609,7 +4609,7 @@
                         "map": "Island",
                         "x": 66,
                         "y": 739,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4627,7 +4627,7 @@
                         "map": "Island",
                         "x": 72,
                         "y": 735,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
@@ -4735,7 +4735,7 @@
                         "map": "Island",
                         "x": 87,
                         "y": 696,
-                        "size": 6,
+                        "size": 10,
                         "shape": "rect"
                     }
                 ]
