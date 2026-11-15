@@ -1,0 +1,5 @@
+Tracker:AddLocations("locations/Core.json")
+Tracker:AddLocations("locations/Gourdsanity.json")
+Tracker:AddLocations("locations/Lightsanity.json")
+Tracker:AddLocations("locations/Objectsanity.json")
+Tracker:AddLocations("locations/Overworld.json")

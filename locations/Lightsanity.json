@@ -9,7 +9,7 @@
         ],
         "children": [
             {
-                "name": "High Button",
+                "name": "Blue Castle Tower",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -18,35 +18,437 @@
                 ],
                 "sections": [
                     {
-                        "name": "Lamp 1 Held",
+                        "name": "Lamp Lit",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Lamp 2 Held",
+                        "name": "Pedestal Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 592,
+                        "y": 315
+                    }
+                ]
+            },
+            {
+                "name": "Diffuser Peak",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lamp Lit",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Pedestal Lamp 1 Held",
+                        "name": "Pedestal Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 152,
+                        "y": 632
+                    }
+                ]
+            },
+            {
+                "name": "Green Cup Tower",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lamp Lit",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Pedestal Lamp 2 Held",
+                        "name": "Pedestal Lamp 1 Lit",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Pedestal Lamp 3 Held",
+                        "name": "Pedestal Lamp 2 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 621,
+                        "y": 583
+                    }
+                ]
+            },
+            {
+                "name": "South Peak",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lamp 1 Lit",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
+                    {
+                        "name": "Lamp 2 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pedestal Lamp 1 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pedestal Lamp 2 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 682,
+                        "y": 770
+                    }
+                ]
+            },
+            {
+                "name": "Tutorial",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lamp 1 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lamp 2 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lamp 3 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lamp 4 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Lamp 1 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Lamp 2 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Lamp 3 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Light Switch",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 272,
+                        "y": 295
+                    }
+                ]
+            },
+            {
+                "name": "Yellow Twist Tower",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pedestal Lamp 1 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pedestal Lamp 2 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 396,
+                        "y": 147
+                    }
+                ]
+            },
+            {
+                "name": "Cabin Fever Long",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pedestal Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 459,
+                        "y": 823
+                    }
+                ]
+            },
+            {
+                "name": "Cannonball Commute",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 601,
+                        "y": 811
+                    }
+                ]
+            },
+            {
+                "name": "Cannonball",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lamp 1 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lamp 2 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 438,
+                        "y": 400
+                    }
+                ]
+            },
+            {
+                "name": "Centurion Song",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pedestal Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 470,
+                        "y": 136
+                    }
+                ]
+            },
+            {
+                "name": "Coordinates",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 610,
+                        "y": 124
+                    }
+                ]
+            },
+            {
+                "name": "Easy Simultaneous Press",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 162,
+                        "y": 393
+                    }
+                ]
+            },
+            {
+                "name": "Egg Hunt",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pedestal Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 337,
+                        "y": 199
+                    }
+                ]
+            },
+            {
+                "name": "High Button",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
                     {
                         "name": "Lamp 1 Lit",
                         "access_rules": [],
@@ -82,85 +484,7 @@
                     {
                         "map": "Lightsanity",
                         "x": 196,
-                        "y": 303,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Fielding",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Pedestal Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 367,
-                        "y": 546,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Cannonball",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Lamp 1 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp 2 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp 1 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp 2 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 439,
-                        "y": 400,
-                        "size": 10,
-                        "shape": "diamond"
+                        "y": 302
                     }
                 ]
             },
@@ -174,12 +498,6 @@
                 ],
                 "sections": [
                     {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Lamp Lit",
                         "access_rules": [],
                         "visibility_rules": [],
@@ -190,14 +508,12 @@
                     {
                         "map": "Lightsanity",
                         "x": 794,
-                        "y": 459,
-                        "size": 10,
-                        "shape": "diamond"
+                        "y": 458
                     }
                 ]
             },
             {
-                "name": "Trap Room",
+                "name": "Kick Up Pits",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -205,56 +521,6 @@
                     " "
                 ],
                 "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 543,
-                        "y": 725,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Easy Simultaneous Press",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
                     {
                         "name": "Lamp Lit",
                         "access_rules": [],
@@ -265,15 +531,13 @@
                 "map_locations": [
                     {
                         "map": "Lightsanity",
-                        "x": 164,
-                        "y": 391,
-                        "size": 10,
-                        "shape": "diamond"
+                        "x": 397,
+                        "y": 356
                     }
                 ]
             },
             {
-                "name": "Ring Room",
+                "name": "Memory Bombs",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -281,44 +545,6 @@
                     " "
                 ],
                 "sections": [
-                    {
-                        "name": "Pedestal Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 648,
-                        "y": 515,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Coordinates",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
                     {
                         "name": "Lamp Lit",
                         "access_rules": [],
@@ -329,10 +555,200 @@
                 "map_locations": [
                     {
                         "map": "Lightsanity",
-                        "x": 607,
-                        "y": 123,
-                        "size": 10,
-                        "shape": "diamond"
+                        "x": 602,
+                        "y": 651
+                    }
+                ]
+            },
+            {
+                "name": "Musical Holiday",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pedestal Lamp 1 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pedestal Lamp 2 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pedestal Lamp 3 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 546,
+                        "y": 552
+                    }
+                ]
+            },
+            {
+                "name": "Optical Telegraph",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 428,
+                        "y": 575
+                    }
+                ]
+            },
+            {
+                "name": "Poet and Pontiff",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 625,
+                        "y": 976
+                    }
+                ]
+            },
+            {
+                "name": "Pointers Paradise",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pedestal Lamp 1 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pedestal Lamp 2 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 268,
+                        "y": 462
+                    }
+                ]
+            },
+            {
+                "name": "Scout Bombs",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 579,
+                        "y": 108
+                    }
+                ]
+            },
+            {
+                "name": "Singer and Selector",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pedestal Lamp 1 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pedestal Lamp 2 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pedestal Lamp 3 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 187,
+                        "y": 79
                     }
                 ]
             },
@@ -345,42 +761,6 @@
                     " "
                 ],
                 "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 3 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 4 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 5 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
                     {
                         "name": "Lamp Lit",
                         "access_rules": [],
@@ -421,294 +801,8 @@
                 "map_locations": [
                     {
                         "map": "Lightsanity",
-                        "x": 242,
-                        "y": 351,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Observation Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 3 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 3 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 488,
-                        "y": 274,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Basketball",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Pedestal Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 395,
-                        "y": 516,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Optical Telegraph",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 428,
-                        "y": 574,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Poet and Priest",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Pedestal Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 663,
-                        "y": 294,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Memory Bombs",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 603,
-                        "y": 650,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Pointers Paradise",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 310,
-                        "y": 472,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Egg Hunt",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 334,
-                        "y": 199,
-                        "size": 10,
-                        "shape": "diamond"
+                        "x": 241,
+                        "y": 353
                     }
                 ]
             },
@@ -721,42 +815,6 @@
                     " "
                 ],
                 "sections": [
-                    {
-                        "name": "Lamp 1 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp 2 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 3 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 4 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
                     {
                         "name": "Lamp 1 Lit",
                         "access_rules": [],
@@ -797,15 +855,13 @@
                 "map_locations": [
                     {
                         "map": "Lightsanity",
-                        "x": 211,
-                        "y": 397,
-                        "size": 10,
-                        "shape": "diamond"
+                        "x": 212,
+                        "y": 397
                     }
                 ]
             },
             {
-                "name": "Cabin Fever Long",
+                "name": "Trap Room",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -813,18 +869,6 @@
                     " "
                 ],
                 "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
                     {
                         "name": "Lamp Lit",
                         "access_rules": [],
@@ -841,594 +885,8 @@
                 "map_locations": [
                     {
                         "map": "Lightsanity",
-                        "x": 458,
-                        "y": 823,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Breadcrumb Loop",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 493,
-                        "y": 403,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Scout Bombs",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 578,
-                        "y": 105,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Centurion Song",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 469,
-                        "y": 136,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Musical Holiday",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 3 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 3 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 562,
-                        "y": 544,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Kick Up Pits",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 396,
-                        "y": 357,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Singer and Selector",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 3 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 3 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 187,
-                        "y": 78,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Perspective Counting",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Pedestal Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 605,
-                        "y": 695,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Cannonball Commute",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 601,
-                        "y": 813,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Poet and Pontiff",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 626,
-                        "y": 977,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Red Funnel Tower",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 288,
-                        "y": 401,
-                        "size": 14,
-                        "shape": "trapezoid"
-                    }
-                ]
-            },
-            {
-                "name": "Green Cup Tower",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 626,
-                        "y": 584,
-                        "size": 14,
-                        "shape": "trapezoid"
-                    }
-                ]
-            },
-            {
-                "name": "Blue Castle Tower",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 593,
-                        "y": 317,
-                        "size": 14,
-                        "shape": "trapezoid"
-                    }
-                ]
-            },
-            {
-                "name": "Yellow Twist Tower",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Lamp Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 388,
-                        "y": 154,
-                        "size": 14,
-                        "shape": "trapezoid"
+                        "x": 543,
+                        "y": 724
                     }
                 ]
             },
@@ -1442,29 +900,149 @@
                 ],
                 "sections": [
                     {
-                        "name": "Lamp Held",
+                        "name": "Pedestal Lamp 1 Lit",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Pedestal Lamp 1 Held",
+                        "name": "Pedestal Lamp 2 Lit",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Pedestal Lamp 2 Held",
+                        "name": "Pedestal Lamp 3 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 504,
+                        "y": 363
+                    }
+                ]
+            },
+            {
+                "name": "Red Funnel Tower",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pedestal Lamp 1 Lit",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Pedestal Lamp 3 Held",
+                        "name": "Pedestal Lamp 2 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 297,
+                        "y": 388
+                    }
+                ]
+            },
+            {
+                "name": "Basketball",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pedestal Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 396,
+                        "y": 516
+                    }
+                ]
+            },
+            {
+                "name": "Breadcrumb Loop",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pedestal Lamp 1 Lit",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
+                    {
+                        "name": "Pedestal Lamp 2 Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 494,
+                        "y": 402
+                    }
+                ]
+            },
+            {
+                "name": "Fielding",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pedestal Lamp Lit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 367,
+                        "y": 546
+                    }
+                ]
+            },
+            {
+                "name": "Observation Room",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
                     {
                         "name": "Pedestal Lamp 1 Lit",
                         "access_rules": [],
@@ -1487,15 +1065,13 @@
                 "map_locations": [
                     {
                         "map": "Lightsanity",
-                        "x": 505,
-                        "y": 361,
-                        "size": 10,
-                        "shape": "rect"
+                        "x": 497,
+                        "y": 272
                     }
                 ]
             },
             {
-                "name": "South Peak",
+                "name": "Perspective Counting",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1504,49 +1080,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Lamp 1 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp 2 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp 1 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp 2 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp 2 Lit",
+                        "name": "Pedestal Lamp Lit",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1555,15 +1089,13 @@
                 "map_locations": [
                     {
                         "map": "Lightsanity",
-                        "x": 683,
-                        "y": 773,
-                        "size": 10,
-                        "shape": "rect"
+                        "x": 606,
+                        "y": 696
                     }
                 ]
             },
             {
-                "name": "Green Diffuser Train Stop",
+                "name": "Poet and Priest",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1572,7 +1104,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Light Switch",
+                        "name": "Pedestal Lamp Lit",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1581,15 +1113,13 @@
                 "map_locations": [
                     {
                         "map": "Lightsanity",
-                        "x": 512,
-                        "y": 201,
-                        "size": 10,
-                        "shape": "rect"
+                        "x": 665,
+                        "y": 294
                     }
                 ]
             },
             {
-                "name": "Ring Room Train Stop",
+                "name": "Ring Room",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1598,7 +1128,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Light Switch",
+                        "name": "Pedestal Lamp Lit",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1607,15 +1137,13 @@
                 "map_locations": [
                     {
                         "map": "Lightsanity",
-                        "x": 628,
-                        "y": 542,
-                        "size": 10,
-                        "shape": "rect"
+                        "x": 646,
+                        "y": 516
                     }
                 ]
             },
             {
-                "name": "South Valley Beach Train Stop",
+                "name": "Doof Chamber",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1624,7 +1152,31 @@
                 ],
                 "sections": [
                     {
-                        "name": "Light Switch",
+                        "name": "Light Switch (House)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Light Switch (Ring)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Light Switch (Purple)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Light Switch (Reds)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Light Switch (White Spots)",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1633,62 +1185,8 @@
                 "map_locations": [
                     {
                         "map": "Lightsanity",
-                        "x": 463,
-                        "y": 701,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Sports Valley Train Stop",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Light Switch",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 357,
-                        "y": 534,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Trap Room Train Stop",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Light Switch",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 569,
-                        "y": 748,
-                        "size": 10,
-                        "shape": "rect"
+                        "x": 140,
+                        "y": 632
                     }
                 ]
             },
@@ -1718,9 +1216,7 @@
                     {
                         "map": "Lightsanity",
                         "x": 142,
-                        "y": 334,
-                        "size": 10,
-                        "shape": "rect"
+                        "y": 334
                     }
                 ]
             },
@@ -1749,15 +1245,13 @@
                 "map_locations": [
                     {
                         "map": "Lightsanity",
-                        "x": 108,
-                        "y": 834,
-                        "size": 10,
-                        "shape": "diamond"
+                        "x": 162,
+                        "y": 631
                     }
                 ]
             },
             {
-                "name": "Diffuser Peak",
+                "name": "Train",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1766,25 +1260,19 @@
                 ],
                 "sections": [
                     {
-                        "name": "Lamp Held",
+                        "name": "Light Switch,  Front Car)",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Pedestal Lamp Held",
+                        "name": "Light Switch, Middle Car)",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Lamp Lit",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pedestal Lamp Lit",
+                        "name": "Light Switch, Back Car)",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1793,10 +1281,128 @@
                 "map_locations": [
                     {
                         "map": "Lightsanity",
-                        "x": 147,
-                        "y": 694,
-                        "size": 10,
-                        "shape": "diamond"
+                        "x": 172,
+                        "y": 630
+                    }
+                ]
+            },
+            {
+                "name": "Green Diffuser Train Stop",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Light Switch",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 512,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Ring Room Train Stop",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Light Switch",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 628,
+                        "y": 539
+                    }
+                ]
+            },
+            {
+                "name": "South Valley Beach Train Stop",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Light Switch",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 462,
+                        "y": 700
+                    }
+                ]
+            },
+            {
+                "name": "Sports Valley Train Stop",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Light Switch",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 357,
+                        "y": 535
+                    }
+                ]
+            },
+            {
+                "name": "Trap Room Train Stop",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Light Switch",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightsanity",
+                        "x": 570,
+                        "y": 748
                     }
                 ]
             },
@@ -1819,480 +1425,8 @@
                 "map_locations": [
                     {
                         "map": "Lightsanity",
-                        "x": 331,
-                        "y": 283,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Lamp (Tutorial 1) Held",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "visibility_rules": [],
-                "item_count": 1,
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 94,
-                        "y": 659,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Lamp (Tutorial 2) Held",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 75,
-                        "y": 671,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Lamp (Tutorial 3) Held",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 57,
-                        "y": 689,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Lamp (Tutorial 4) Held",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 96,
-                        "y": 712,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Red Lamp (Tutorial 1) Held",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 51,
-                        "y": 702,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Red Lamp (Tutorial 2) Held",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 83,
-                        "y": 692,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Red Lamp (Tutorial 3) Held",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 69,
-                        "y": 694,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Lamp (Tutorial 1) Lit",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 82,
-                        "y": 715,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Lamp (Tutorial 2) Lit",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 59,
-                        "y": 715,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Lamp (Tutorial 3) Lit",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 33,
-                        "y": 707,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Lamp (Tutorial 4) Lit",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 109,
-                        "y": 677,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Red Lamp (Tutorial 1) Lit",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 93,
-                        "y": 733,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Red Lamp (Tutorial 2) Lit",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 66,
-                        "y": 739,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Red Lamp (Tutorial 3) Lit",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 72,
-                        "y": 735,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Light Switch (Doof Chamber, House)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 145,
-                        "y": 848,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Light Switch (Doof Chamber, Ring)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 171,
-                        "y": 862,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Light Switch (Doof Chamber, Purple)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 137,
-                        "y": 865,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Light Switch (Doof Chamber, Reds)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 161,
-                        "y": 866,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Light Switch (Doof Chamber, White Spots)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 159,
-                        "y": 848,
-                        "size": 10,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "Light Switch (Tutorial)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 87,
-                        "y": 696,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Light Switch (Train, Front Car)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 783,
-                        "y": 228,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Light Switch (Train, Middle Car)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 794,
-                        "y": 228,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Light Switch (Train, Back Car)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 805,
-                        "y": 228,
-                        "size": 10,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "First Lamp Pickup",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 775,
-                        "y": 128,
-                        "size": 14,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "First Red Lamp Pickup",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 783,
-                        "y": 136,
-                        "size": 14,
-                        "shape": "diamond"
-                    }
-                ]
-            },
-            {
-                "name": "First Pedestal Lamp Pickup",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lightsanity",
-                        "x": 767,
-                        "y": 136,
-                        "size": 14,
-                        "shape": "diamond"
+                        "x": 332,
+                        "y": 282
                     }
                 ]
             }

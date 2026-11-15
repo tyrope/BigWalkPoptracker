@@ -3,20 +3,29 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "Puzzles",
+                "title": "Core",
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Puzzles"
+                        "Core"
                     ]
                 }
             },
             {
-                "title": "Lightsanity",
+                "title": "Light Sanity",
                 "content": {
                     "type": "map",
                     "maps": [
                         "Lightsanity"
+                    ]
+                }
+            },
+            {
+                "title": "Object Sanity",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Objectsanity"
                     ]
                 }
             }
@@ -26,20 +35,29 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "Puzzles",
+                "title": "Core",
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Puzzles"
+                        "Core"
                     ]
                 }
             },
             {
-                "title": "Lightsanity",
+                "title": "Light Sanity",
                 "content": {
                     "type": "map",
                     "maps": [
                         "Lightsanity"
+                    ]
+                }
+            },
+            {
+                "title": "Object Sanity",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Objectsanity"
                     ]
                 }
             }

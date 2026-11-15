@@ -20,8 +20,7 @@ Tracker:AddLayouts("layouts/tabs.json")
 Tracker:AddLayouts("layouts/tracker.json")
 
 -- Locations
-Tracker:AddLocations("locations/Puzzles.json")
-Tracker:AddLocations("locations/Lightsanity.json")
+require("scripts.locations_import")
 
 -- AutoTracking for PopTracker
 if PopVersion and PopVersion >= "0.26.0" then

@@ -1,14 +1,21 @@
 [
     {
-        "name": "Puzzles",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "name": "Core",
+        "location_size": 20,
+        "location_shape": "diamond",
+        "location_border_thickness": 2,
         "img": "images/maps/Island.png"
     },
     {
         "name": "Lightsanity",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/Island.png"
+    },
+    {
+        "name": "Objectsanity",
+        "location_size": 20,
+        "location_border_thickness": 2,
         "img": "images/maps/Island.png"
     }
 ]
