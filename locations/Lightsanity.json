@@ -1260,19 +1260,19 @@
                 ],
                 "sections": [
                     {
-                        "name": "Light Switch,  Front Car)",
+                        "name": "Red Train headlights",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Light Switch, Middle Car)",
+                        "name": "Yellow Train headlights",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Light Switch, Back Car)",
+                        "name": "Green Train headlights",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
