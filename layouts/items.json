@@ -15,30 +15,34 @@
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 36,
-                        "item_width": 36,
+                        "item_height": 50,
+                        "item_width": 50,
                         "rows": [
                             [
                                 "iconpanels",
                                 "drawingpanels",
                                 "soundpanels",
                                 "pointpanels",
-                                "posepanels",
+                                "posepanels"
+                            ],[
                                 "golfball",
                                 "timedtomato",
-                                "counter"
-                            ],[
+                                "counter",
                                 "speakers",
-                                "buttons",
+                                "buttons"
+                            ],[
                                 "synchronizedbuttons",
                                 "teapots",
                                 "lights",
                                 "inkviewer",
-                                "bigheadmask",
-                                "terrainpegs"
+                                "bigheadmask"
                             ],[
+                                "terrainpegs",
+                                "coordinatescomputer",
+                                "gourd",
                                 "drawbridgekey",
-                                "redfunneltowerkey",
+                                "redfunneltowerkey"
+                            ],[
                                 "greencuptowerkey",
                                 "bluecastletowerkey",
                                 "yellowtwisttowerkey",
@@ -49,13 +53,14 @@
                                 "firstarchdoor",
                                 "leftarchdoor",
                                 "rightarchdoor",
-                                "bigwalldoor",
-                                "spawnsecretdoor",
                                 "maproom"
                             ],[
+                                "bigwalldoor",
+                                "spawnsecretdoor",
                                 "progressivegauntletdoor",
                                 "gauntletstage1door",
-                                "gauntletstage2door",
+                                "gauntletstage2door"
+                            ],[
                                 "gauntletstage3door",
                                 "gauntletstage4door",
                                 "gauntletstage5door",
@@ -66,67 +71,48 @@
                                 "chairlift",
                                 "tunnels",
                                 "redtunneldoor",
-                                "greentunneldoor",
+                                "greentunneldoor"
+                            ],[
                                 "bluetunneldoor",
                                 "yellowtunneldoor",
-                                "purpletunnel"
-                            ],[
+                                "purpletunnel",
                                 "drawbridgeteleporter",
-                                "redfunneltowerteleporter",
+                                "redfunneltowerteleporter"
+                            ],[
                                 "greencuptowerteleporter",
                                 "bluecastletowerteleporter",
                                 "yellowtwisttowerteleporter",
                                 "blacktowerteleporter",
-                                "greendometowerteleporter",
-                                "silentgauntletteleporter"
+                                "greendometowerteleporter"
                             ],[
+                                "silentgauntletteleporter",
                                 "progressivearms",
                                 "progressiverightarm",
                                 "progressiveleftarm",
-                                "throwing",
+                                "throwing"
+                            ],[
                                 "running",
                                 "legs",
                                 "seat",
-                                "carrying"
+                                "carrying",
+                                "radiomusic01"
                             ],[
-                                "radiomusic01",
                                 "radiomusic02",
                                 "radiomusic03",
                                 "radiomusic04",
                                 "radiomusic05",
-                                "radiomusic06",
-                                "radiomusic07"
+                                "radiomusic06"
                             ],[
+                                "radiomusic07",
                                 "redzonelamps",
                                 "redzonegadgets",
                                 "greenzonelamps",
-                                "greenzonegadgets",
+                                "greenzonegadgets"
+                            ],[
                                 "bluezonelamps",
                                 "bluezonegadgets",
                                 "yellowzonelamps",
-                                "yellowzonegadgets"
-                            ],[
-                                "backpack",
-                                "belt",
-                                "gourdcarton",
-                                "flaregun",
-                                "greenflaregun",
-                                "blueflaregun",
-                                "yellowflaregun",
-                                "rainbowflaregun"
-                            ],[
-                                "compass",
-                                "lamp",
-                                "coordinatescomputer",
-                                "megaphone",
-                                "scanner",
-                                "radio",
-                                "laser",
-                                "binoculars"
-                            ],[
-                                "foldingmap",
-                                "walkie-talkie",
-                                "torch",
+                                "yellowzonegadgets",
                                 "update"
                             ]
                         ]

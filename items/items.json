@@ -1,407 +1,11 @@
 [
     {
-        "name": "greendometowerteleporter",
+        "name": "radiomusic03",
         "type": "toggle",
-        "img": "images/items/greendometowerteleporter.png",
+        "img": "images/items/radiomusic03.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "greendometowerteleporter"
-    },
-    {
-        "name": "bigwalldoor",
-        "type": "toggle",
-        "img": "images/items/bigwalldoor.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigwalldoor"
-    },
-    {
-        "name": "radiomusic02",
-        "type": "toggle",
-        "img": "images/items/radiomusic02.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "radiomusic02"
-    },
-    {
-        "name": "drawbridgeteleporter",
-        "type": "toggle",
-        "img": "images/items/drawbridgeteleporter.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "drawbridgeteleporter"
-    },
-    {
-        "name": "blueflaregun",
-        "type": "toggle",
-        "img": "images/items/blueflaregun.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "blueflaregun"
-    },
-    {
-        "name": "radiomusic04",
-        "type": "toggle",
-        "img": "images/items/radiomusic04.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "radiomusic04"
-    },
-    {
-        "name": "greenzonelamps",
-        "type": "toggle",
-        "img": "images/items/greenzonelamps.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "greenzonelamps"
-    },
-    {
-        "name": "greenflaregun",
-        "type": "toggle",
-        "img": "images/items/greenflaregun.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "greenflaregun"
-    },
-    {
-        "name": "rightarchdoor",
-        "type": "toggle",
-        "img": "images/items/rightarchdoor.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "rightarchdoor"
-    },
-    {
-        "name": "purpletunnel",
-        "type": "toggle",
-        "img": "images/items/purpletunnel.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "purpletunnel"
-    },
-    {
-        "name": "gauntletstage5door",
-        "type": "toggle",
-        "img": "images/items/gauntletstage5door.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "gauntletstage5door"
-    },
-    {
-        "name": "greencuptowerkey",
-        "type": "toggle",
-        "img": "images/items/greencuptowerkey.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "greencuptowerkey"
-    },
-    {
-        "name": "greenzonegadgets",
-        "type": "toggle",
-        "img": "images/items/greenzonegadgets.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "greenzonegadgets"
-    },
-    {
-        "name": "drawbridge",
-        "type": "toggle",
-        "img": "images/items/drawbridge.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "drawbridge"
-    },
-    {
-        "name": "progressivegauntletdoor",
-        "type": "progressive",
-        "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 0,
-        "overlay_align": "right",
-        "stages": [
-            {
-                "name": "progressivegauntletdoor stage1",
-                "inherit_codes": true,
-                "img": "/images/items/progressivegauntletdoor.png",
-                "codes": "progressivegauntletdoor, progressivegauntletdoor_stage1"
-            },
-            {
-                "name": "progressivegauntletdoor stage2",
-                "inherit_codes": true,
-                "img": "/images/items/progressivegauntletdoor.png",
-                "codes": "progressivegauntletdoor_stage2"
-            },
-            {
-                "name": "progressivegauntletdoor stage3",
-                "inherit_codes": true,
-                "img": "/images/items/progressivegauntletdoor.png",
-                "codes": "progressivegauntletdoor_stage3"
-            }
-        ]
-    },
-    {
-        "name": "lights",
-        "type": "toggle",
-        "img": "images/items/lights.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "lights"
-    },
-    {
-        "name": "golfball",
-        "type": "toggle",
-        "img": "images/items/golfball.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "golfball"
-    },
-    {
-        "name": "redzonegadgets",
-        "type": "toggle",
-        "img": "images/items/redzonegadgets.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "redzonegadgets"
-    },
-    {
-        "name": "greendometowerkey",
-        "type": "toggle",
-        "img": "images/items/greendometowerkey.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "greendometowerkey"
-    },
-    {
-        "name": "soundpanels",
-        "type": "toggle",
-        "img": "images/items/soundpanels.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "soundpanels"
-    },
-    {
-        "name": "greentunneldoor",
-        "type": "toggle",
-        "img": "images/items/greentunneldoor.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "greentunneldoor"
-    },
-    {
-        "name": "bluecastletowerteleporter",
-        "type": "toggle",
-        "img": "images/items/bluecastletowerteleporter.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bluecastletowerteleporter"
-    },
-    {
-        "name": "gauntletstage2door",
-        "type": "toggle",
-        "img": "images/items/gauntletstage2door.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "gauntletstage2door"
-    },
-    {
-        "name": "compass",
-        "type": "toggle",
-        "img": "images/items/compass.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "compass"
-    },
-    {
-        "name": "timedtomato",
-        "type": "toggle",
-        "img": "images/items/timedtomato.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "timedtomato"
-    },
-    {
-        "name": "flaregun",
-        "type": "toggle",
-        "img": "images/items/flaregun.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "flaregun"
-    },
-    {
-        "name": "gauntletstage4door",
-        "type": "toggle",
-        "img": "images/items/gauntletstage4door.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "gauntletstage4door"
-    },
-    {
-        "name": "firstarchdoor",
-        "type": "toggle",
-        "img": "images/items/firstarchdoor.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "firstarchdoor"
-    },
-    {
-        "name": "lamp",
-        "type": "toggle",
-        "img": "images/items/lamp.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "lamp"
-    },
-    {
-        "name": "coordinatescomputer",
-        "type": "toggle",
-        "img": "images/items/coordinatescomputer.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "coordinatescomputer"
-    },
-    {
-        "name": "greencuptowerteleporter",
-        "type": "toggle",
-        "img": "images/items/greencuptowerteleporter.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "greencuptowerteleporter"
-    },
-    {
-        "name": "radiomusic01",
-        "type": "toggle",
-        "img": "images/items/radiomusic01.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "radiomusic01"
-    },
-    {
-        "name": "yellowtwisttowerteleporter",
-        "type": "toggle",
-        "img": "images/items/yellowtwisttowerteleporter.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "yellowtwisttowerteleporter"
-    },
-    {
-        "name": "rainbowflaregun",
-        "type": "toggle",
-        "img": "images/items/rainbowflaregun.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "rainbowflaregun"
-    },
-    {
-        "name": "blackmonolithtowerkey",
-        "type": "toggle",
-        "img": "images/items/blackmonolithtowerkey.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "blackmonolithtowerkey"
-    },
-    {
-        "name": "drawingpanels",
-        "type": "toggle",
-        "img": "images/items/drawingpanels.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "drawingpanels"
-    },
-    {
-        "name": "counter",
-        "type": "toggle",
-        "img": "images/items/counter.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "counter"
-    },
-    {
-        "name": "megaphone",
-        "type": "toggle",
-        "img": "images/items/megaphone.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "megaphone"
-    },
-    {
-        "name": "belt",
-        "type": "toggle",
-        "img": "images/items/belt.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "belt"
-    },
-    {
-        "name": "yellowtunneldoor",
-        "type": "toggle",
-        "img": "images/items/yellowtunneldoor.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "yellowtunneldoor"
-    },
-    {
-        "name": "throwing",
-        "type": "toggle",
-        "img": "images/items/throwing.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "throwing"
-    },
-    {
-        "name": "legs",
-        "type": "toggle",
-        "img": "images/items/legs.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "legs"
-    },
-    {
-        "name": "running",
-        "type": "toggle",
-        "img": "images/items/running.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "running"
-    },
-    {
-        "name": "leftarchdoor",
-        "type": "toggle",
-        "img": "images/items/leftarchdoor.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "leftarchdoor"
-    },
-    {
-        "name": "seat",
-        "type": "toggle",
-        "img": "images/items/seat.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "seat"
-    },
-    {
-        "name": "train",
-        "type": "toggle",
-        "img": "images/items/train.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "train"
-    },
-    {
-        "name": "radiomusic06",
-        "type": "toggle",
-        "img": "images/items/radiomusic06.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "radiomusic06"
-    },
-    {
-        "name": "bluezonelamps",
-        "type": "toggle",
-        "img": "images/items/bluezonelamps.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bluezonelamps"
+        "codes": "radiomusic03"
     },
     {
         "name": "progressivearms",
@@ -412,19 +16,19 @@
         "overlay_align": "right",
         "stages": [
             {
-                "name": "progressivearms stage1",
+                "name": "progressivearms point",
                 "inherit_codes": true,
                 "img": "/images/items/progressivearms.png",
                 "codes": "progressivearms, progressivearms_stage1"
             },
             {
-                "name": "progressivearms stage2",
+                "name": "progressivearms up",
                 "inherit_codes": true,
                 "img": "/images/items/progressivearms.png",
                 "codes": "progressivearms_stage2"
             },
             {
-                "name": "progressivearms stage3",
+                "name": "progressivearms out",
                 "inherit_codes": true,
                 "img": "/images/items/progressivearms.png",
                 "codes": "progressivearms_stage3"
@@ -432,404 +36,12 @@
         ]
     },
     {
-        "name": "speakers",
+        "name": "radiomusic02",
         "type": "toggle",
-        "img": "images/items/speakers.png",
+        "img": "images/items/radiomusic02.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "speakers"
-    },
-    {
-        "name": "progressiverightarm",
-        "type": "progressive",
-        "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 0,
-        "overlay_align": "right",
-        "stages": [
-            {
-                "name": "progressiverightarm stage1",
-                "inherit_codes": true,
-                "img": "/images/items/progressiverightarm.png",
-                "codes": "progressiverightarm, progressiverightarm_stage1"
-            },
-            {
-                "name": "progressiverightarm stage2",
-                "inherit_codes": true,
-                "img": "/images/items/progressiverightarm.png",
-                "codes": "progressiverightarm_stage2"
-            },
-            {
-                "name": "progressiverightarm stage3",
-                "inherit_codes": true,
-                "img": "/images/items/progressiverightarm.png",
-                "codes": "progressiverightarm_stage3"
-            }
-        ]
-    },
-    {
-        "name": "chairlift",
-        "type": "toggle",
-        "img": "images/items/chairlift.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "chairlift"
-    },
-    {
-        "name": "blacktowerteleporter",
-        "type": "toggle",
-        "img": "images/items/blacktowerteleporter.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "blacktowerteleporter"
-    },
-    {
-        "name": "tunnels",
-        "type": "toggle",
-        "img": "images/items/tunnels.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "tunnels"
-    },
-    {
-        "name": "progressiveleftarm",
-        "type": "progressive",
-        "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 0,
-        "overlay_align": "right",
-        "stages": [
-            {
-                "name": "progressiveleftarm stage1",
-                "inherit_codes": true,
-                "img": "/images/items/progressiveleftarm.png",
-                "codes": "progressiveleftarm, progressiveleftarm_stage1"
-            },
-            {
-                "name": "progressiveleftarm stage2",
-                "inherit_codes": true,
-                "img": "/images/items/progressiveleftarm.png",
-                "codes": "progressiveleftarm_stage2"
-            },
-            {
-                "name": "progressiveleftarm stage3",
-                "inherit_codes": true,
-                "img": "/images/items/progressiveleftarm.png",
-                "codes": "progressiveleftarm_stage3"
-            }
-        ]
-    },
-    {
-        "name": "radiomusic05",
-        "type": "toggle",
-        "img": "images/items/radiomusic05.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "radiomusic05"
-    },
-    {
-        "name": "buttons",
-        "type": "toggle",
-        "img": "images/items/buttons.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "buttons"
-    },
-    {
-        "name": "silentgauntletteleporter",
-        "type": "toggle",
-        "img": "images/items/silentgauntletteleporter.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "silentgauntletteleporter"
-    },
-    {
-        "name": "gourdcarton",
-        "type": "toggle",
-        "img": "images/items/gourdcarton.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "gourdcarton"
-    },
-    {
-        "name": "drawbridgekey",
-        "type": "toggle",
-        "img": "images/items/drawbridgekey.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "drawbridgekey"
-    },
-    {
-        "name": "redfunneltowerkey",
-        "type": "toggle",
-        "img": "images/items/redfunneltowerkey.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "redfunneltowerkey"
-    },
-    {
-        "name": "pointpanels",
-        "type": "toggle",
-        "img": "images/items/pointpanels.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "pointpanels"
-    },
-    {
-        "name": "gauntletstage6door",
-        "type": "toggle",
-        "img": "images/items/gauntletstage6door.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "gauntletstage6door"
-    },
-    {
-        "name": "radiomusic03",
-        "type": "toggle",
-        "img": "images/items/radiomusic03.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "radiomusic03"
-    },
-    {
-        "name": "teapots",
-        "type": "toggle",
-        "img": "images/items/teapots.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "teapots"
-    },
-    {
-        "name": "scanner",
-        "type": "toggle",
-        "img": "images/items/scanner.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "scanner"
-    },
-    {
-        "name": "bluecastletowerkey",
-        "type": "toggle",
-        "img": "images/items/bluecastletowerkey.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bluecastletowerkey"
-    },
-    {
-        "name": "posepanels",
-        "type": "toggle",
-        "img": "images/items/posepanels.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "posepanels"
-    },
-    {
-        "name": "yellowzonegadgets",
-        "type": "toggle",
-        "img": "images/items/yellowzonegadgets.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "yellowzonegadgets"
-    },
-    {
-        "name": "redfunneltowerteleporter",
-        "type": "toggle",
-        "img": "images/items/redfunneltowerteleporter.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "redfunneltowerteleporter"
-    },
-    {
-        "name": "gauntletstage7door",
-        "type": "toggle",
-        "img": "images/items/gauntletstage7door.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "gauntletstage7door"
-    },
-    {
-        "name": "yellowzonelamps",
-        "type": "toggle",
-        "img": "images/items/yellowzonelamps.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "yellowzonelamps"
-    },
-    {
-        "name": "spawnsecretdoor",
-        "type": "toggle",
-        "img": "images/items/spawnsecretdoor.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "spawnsecretdoor"
-    },
-    {
-        "name": "radiomusic07",
-        "type": "toggle",
-        "img": "images/items/radiomusic07.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "radiomusic07"
-    },
-    {
-        "name": "gourd",
-        "type": "toggle",
-        "img": "images/items/gourd.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "gourd"
-    },
-    {
-        "name": "radio",
-        "type": "toggle",
-        "img": "images/items/radio.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "radio"
-    },
-    {
-        "name": "synchronizedbuttons",
-        "type": "toggle",
-        "img": "images/items/synchronizedbuttons.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "synchronizedbuttons"
-    },
-    {
-        "name": "laser",
-        "type": "toggle",
-        "img": "images/items/laser.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "laser"
-    },
-    {
-        "name": "binoculars",
-        "type": "toggle",
-        "img": "images/items/binoculars.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "binoculars"
-    },
-    {
-        "name": "redtunneldoor",
-        "type": "toggle",
-        "img": "images/items/redtunneldoor.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "redtunneldoor"
-    },
-    {
-        "name": "yellowflaregun",
-        "type": "toggle",
-        "img": "images/items/yellowflaregun.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "yellowflaregun"
-    },
-    {
-        "name": "inkviewer",
-        "type": "toggle",
-        "img": "images/items/inkviewer.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "inkviewer"
-    },
-    {
-        "name": "bigheadmask",
-        "type": "toggle",
-        "img": "images/items/bigheadmask.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bigheadmask"
-    },
-    {
-        "name": "bluezonegadgets",
-        "type": "toggle",
-        "img": "images/items/bluezonegadgets.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bluezonegadgets"
-    },
-    {
-        "name": "bluetunneldoor",
-        "type": "toggle",
-        "img": "images/items/bluetunneldoor.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bluetunneldoor"
-    },
-    {
-        "name": "iconpanels",
-        "type": "toggle",
-        "img": "images/items/iconpanels.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "iconpanels"
-    },
-    {
-        "name": "foldingmap",
-        "type": "toggle",
-        "img": "images/items/foldingmap.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "foldingmap"
-    },
-    {
-        "name": "yellowtwisttowerkey",
-        "type": "toggle",
-        "img": "images/items/yellowtwisttowerkey.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "yellowtwisttowerkey"
-    },
-    {
-        "name": "maproom",
-        "type": "toggle",
-        "img": "images/items/maproom.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "maproom"
-    },
-    {
-        "name": "carrying",
-        "type": "toggle",
-        "img": "images/items/carrying.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "carrying"
-    },
-    {
-        "name": "gauntletstage3door",
-        "type": "toggle",
-        "img": "images/items/gauntletstage3door.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "gauntletstage3door"
-    },
-    {
-        "name": "gauntletstage1door",
-        "type": "toggle",
-        "img": "images/items/gauntletstage1door.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "gauntletstage1door"
-    },
-    {
-        "name": "redzonelamps",
-        "type": "toggle",
-        "img": "images/items/redzonelamps.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "redzonelamps"
-    },
-    {
-        "name": "walkie-talkie",
-        "type": "toggle",
-        "img": "images/items/walkie-talkie.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "walkie-talkie"
+        "codes": "radiomusic02"
     },
     {
         "name": "terrainpegs",
@@ -840,20 +52,590 @@
         "codes": "terrainpegs"
     },
     {
-        "name": "torch",
+        "name": "redfunneltowerkey",
         "type": "toggle",
-        "img": "images/items/torch.png",
+        "img": "images/items/redfunneltowerkey.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "torch"
+        "codes": "redfunneltowerkey"
     },
     {
-        "name": "backpack",
+        "name": "gauntletstage4door",
         "type": "toggle",
-        "img": "images/items/backpack.png",
+        "img": "images/items/gauntletstage4door.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "backpack"
+        "codes": "gauntletstage4door"
+    },
+    {
+        "name": "greentunneldoor",
+        "type": "toggle",
+        "img": "images/items/greentunneldoor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "greentunneldoor"
+    },
+    {
+        "name": "lights",
+        "type": "toggle",
+        "img": "images/items/lights.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lights"
+    },
+    {
+        "name": "chairlift",
+        "type": "toggle",
+        "img": "images/items/chairlift.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "chairlift"
+    },
+    {
+        "name": "tunnels",
+        "type": "toggle",
+        "img": "images/items/tunnels.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "tunnels"
+    },
+    {
+        "name": "gauntletstage5door",
+        "type": "toggle",
+        "img": "images/items/gauntletstage5door.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "gauntletstage5door"
+    },
+    {
+        "name": "synchronizedbuttons",
+        "type": "toggle",
+        "img": "images/items/synchronizedbuttons.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "synchronizedbuttons"
+    },
+    {
+        "name": "progressiveleftarm",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "overlay_align": "right",
+        "stages": [
+            {
+                "name": "progressiveleftarm point",
+                "inherit_codes": true,
+                "img": "/images/items/progressiveleftarm.png",
+                "codes": "progressiveleftarm, progressiveleftarm_stage1"
+            },
+            {
+                "name": "progressiveleftarm up",
+                "inherit_codes": true,
+                "img": "/images/items/progressiveleftarm.png",
+                "codes": "progressiveleftarm_stage2"
+            },
+            {
+                "name": "progressiveleftarm out",
+                "inherit_codes": true,
+                "img": "/images/items/progressiveleftarm.png",
+                "codes": "progressiveleftarm_stage3"
+            }
+        ]
+    },
+    {
+        "name": "iconpanels",
+        "type": "toggle",
+        "img": "images/items/iconpanels.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "iconpanels"
+    },
+    {
+        "name": "teapots",
+        "type": "toggle",
+        "img": "images/items/teapots.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "teapots"
+    },
+    {
+        "name": "golfball",
+        "type": "toggle",
+        "img": "images/items/golfball.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "golfball"
+    },
+    {
+        "name": "yellowtunneldoor",
+        "type": "toggle",
+        "img": "images/items/yellowtunneldoor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "yellowtunneldoor"
+    },
+    {
+        "name": "bluecastletowerteleporter",
+        "type": "toggle",
+        "img": "images/items/bluecastletowerteleporter.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bluecastletowerteleporter"
+    },
+    {
+        "name": "progressivegauntletdoor",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "overlay_align": "right",
+        "stages": [
+            {
+                "name": "progressivegauntletdoor 1",
+                "inherit_codes": true,
+                "img": "/images/items/progressivegauntletdoor.png",
+                "codes": "progressivegauntletdoor, progressivegauntletdoor_stage1"
+            },
+            {
+                "name": "progressivegauntletdoor 2",
+                "inherit_codes": true,
+                "img": "/images/items/progressivegauntletdoor.png",
+                "codes": "progressivegauntletdoor_stage2"
+            },
+            {
+                "name": "progressivegauntletdoor 3",
+                "inherit_codes": true,
+                "img": "/images/items/progressivegauntletdoor.png",
+                "codes": "progressivegauntletdoor_stage3"
+            },
+            {
+                "name": "progressivegauntletdoor 4",
+                "inherit_codes": true,
+                "img": "/images/items/progressivegauntletdoor.png",
+                "codes": "progressivegauntletdoor_stage4"
+            },
+            {
+                "name": "progressivegauntletdoor 5",
+                "inherit_codes": true,
+                "img": "/images/items/progressivegauntletdoor.png",
+                "codes": "progressivegauntletdoor_stage5"
+            },
+            {
+                "name": "progressivegauntletdoor 6",
+                "inherit_codes": true,
+                "img": "/images/items/progressivegauntletdoor.png",
+                "codes": "progressivegauntletdoor_stage6"
+            },
+            {
+                "name": "progressivegauntletdoor 7",
+                "inherit_codes": true,
+                "img": "/images/items/progressivegauntletdoor.png",
+                "codes": "progressivegauntletdoor_stage7"
+            }
+        ]
+    },
+    {
+        "name": "blacktowerteleporter",
+        "type": "toggle",
+        "img": "images/items/blacktowerteleporter.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "blacktowerteleporter"
+    },
+    {
+        "name": "redtunneldoor",
+        "type": "toggle",
+        "img": "images/items/redtunneldoor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "redtunneldoor"
+    },
+    {
+        "name": "maproom",
+        "type": "toggle",
+        "img": "images/items/maproom.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "maproom"
+    },
+    {
+        "name": "gauntletstage1door",
+        "type": "toggle",
+        "img": "images/items/gauntletstage1door.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "gauntletstage1door"
+    },
+    {
+        "name": "train",
+        "type": "toggle",
+        "img": "images/items/train.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "train"
+    },
+    {
+        "name": "timedtomato",
+        "type": "toggle",
+        "img": "images/items/timedtomato.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "timedtomato"
+    },
+    {
+        "name": "gauntletstage2door",
+        "type": "toggle",
+        "img": "images/items/gauntletstage2door.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "gauntletstage2door"
+    },
+    {
+        "name": "running",
+        "type": "toggle",
+        "img": "images/items/running.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "running"
+    },
+    {
+        "name": "radiomusic05",
+        "type": "toggle",
+        "img": "images/items/radiomusic05.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "radiomusic05"
+    },
+    {
+        "name": "gourd",
+        "type": "consumable",
+        "img": "images/items/gourd.png",
+        "min_quantity": 0,
+        "max_quantity": 45,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "gourd"
+    },
+    {
+        "name": "bluezonegadgets",
+        "type": "toggle",
+        "img": "images/items/bluezonegadgets.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bluezonegadgets"
+    },
+    {
+        "name": "posepanels",
+        "type": "toggle",
+        "img": "images/items/posepanels.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "posepanels"
+    },
+    {
+        "name": "redfunneltowerteleporter",
+        "type": "toggle",
+        "img": "images/items/redfunneltowerteleporter.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "redfunneltowerteleporter"
+    },
+    {
+        "name": "legs",
+        "type": "toggle",
+        "img": "images/items/legs.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "legs"
+    },
+    {
+        "name": "greenzonelamps",
+        "type": "toggle",
+        "img": "images/items/greenzonelamps.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "greenzonelamps"
+    },
+    {
+        "name": "greencuptowerteleporter",
+        "type": "toggle",
+        "img": "images/items/greencuptowerteleporter.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "greencuptowerteleporter"
+    },
+    {
+        "name": "counter",
+        "type": "toggle",
+        "img": "images/items/counter.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "counter"
+    },
+    {
+        "name": "firstarchdoor",
+        "type": "toggle",
+        "img": "images/items/firstarchdoor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "firstarchdoor"
+    },
+    {
+        "name": "leftarchdoor",
+        "type": "toggle",
+        "img": "images/items/leftarchdoor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "leftarchdoor"
+    },
+    {
+        "name": "drawingpanels",
+        "type": "toggle",
+        "img": "images/items/drawingpanels.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "drawingpanels"
+    },
+    {
+        "name": "buttons",
+        "type": "toggle",
+        "img": "images/items/buttons.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "buttons"
+    },
+    {
+        "name": "gauntletstage6door",
+        "type": "toggle",
+        "img": "images/items/gauntletstage6door.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "gauntletstage6door"
+    },
+    {
+        "name": "pointpanels",
+        "type": "toggle",
+        "img": "images/items/pointpanels.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "pointpanels"
+    },
+    {
+        "name": "yellowtwisttowerteleporter",
+        "type": "toggle",
+        "img": "images/items/yellowtwisttowerteleporter.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "yellowtwisttowerteleporter"
+    },
+    {
+        "name": "drawbridge",
+        "type": "toggle",
+        "img": "images/items/drawbridge.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "drawbridge"
+    },
+    {
+        "name": "redzonelamps",
+        "type": "toggle",
+        "img": "images/items/redzonelamps.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "redzonelamps"
+    },
+    {
+        "name": "yellowtwisttowerkey",
+        "type": "toggle",
+        "img": "images/items/yellowtwisttowerkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "yellowtwisttowerkey"
+    },
+    {
+        "name": "rightarchdoor",
+        "type": "toggle",
+        "img": "images/items/rightarchdoor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rightarchdoor"
+    },
+    {
+        "name": "redzonegadgets",
+        "type": "toggle",
+        "img": "images/items/redzonegadgets.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "redzonegadgets"
+    },
+    {
+        "name": "throwing",
+        "type": "toggle",
+        "img": "images/items/throwing.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "throwing"
+    },
+    {
+        "name": "bigheadmask",
+        "type": "toggle",
+        "img": "images/items/bigheadmask.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bigheadmask"
+    },
+    {
+        "name": "speakers",
+        "type": "toggle",
+        "img": "images/items/speakers.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "speakers"
+    },
+    {
+        "name": "yellowzonelamps",
+        "type": "toggle",
+        "img": "images/items/yellowzonelamps.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "yellowzonelamps"
+    },
+    {
+        "name": "bluezonelamps",
+        "type": "toggle",
+        "img": "images/items/bluezonelamps.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bluezonelamps"
+    },
+    {
+        "name": "silentgauntletteleporter",
+        "type": "toggle",
+        "img": "images/items/silentgauntletteleporter.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "silentgauntletteleporter"
+    },
+    {
+        "name": "radiomusic04",
+        "type": "toggle",
+        "img": "images/items/radiomusic04.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "radiomusic04"
+    },
+    {
+        "name": "gauntletstage7door",
+        "type": "toggle",
+        "img": "images/items/gauntletstage7door.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "gauntletstage7door"
+    },
+    {
+        "name": "seat",
+        "type": "toggle",
+        "img": "images/items/seat.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "seat"
+    },
+    {
+        "name": "coordinatescomputer",
+        "type": "toggle",
+        "img": "images/items/coordinatescomputer.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "coordinatescomputer"
+    },
+    {
+        "name": "radiomusic01",
+        "type": "toggle",
+        "img": "images/items/radiomusic01.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "radiomusic01"
+    },
+    {
+        "name": "radiomusic07",
+        "type": "toggle",
+        "img": "images/items/radiomusic07.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "radiomusic07"
+    },
+    {
+        "name": "purpletunnel",
+        "type": "toggle",
+        "img": "images/items/purpletunnel.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "purpletunnel"
+    },
+    {
+        "name": "soundpanels",
+        "type": "toggle",
+        "img": "images/items/soundpanels.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "soundpanels"
+    },
+    {
+        "name": "greenzonegadgets",
+        "type": "toggle",
+        "img": "images/items/greenzonegadgets.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "greenzonegadgets"
+    },
+    {
+        "name": "progressiverightarm",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "overlay_align": "right",
+        "stages": [
+            {
+                "name": "progressiverightarm point",
+                "inherit_codes": true,
+                "img": "/images/items/progressiverightarm.png",
+                "codes": "progressiverightarm, progressiverightarm_stage1"
+            },
+            {
+                "name": "progressiverightarm up",
+                "inherit_codes": true,
+                "img": "/images/items/progressiverightarm.png",
+                "codes": "progressiverightarm_stage2"
+            },
+            {
+                "name": "progressiverightarm out",
+                "inherit_codes": true,
+                "img": "/images/items/progressiverightarm.png",
+                "codes": "progressiverightarm_stage3"
+            }
+        ]
+    },
+    {
+        "name": "bluecastletowerkey",
+        "type": "toggle",
+        "img": "images/items/bluecastletowerkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bluecastletowerkey"
+    },
+    {
+        "name": "blackmonolithtowerkey",
+        "type": "toggle",
+        "img": "images/items/blackmonolithtowerkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "blackmonolithtowerkey"
     },
     {
         "name": "progressivemonument",
@@ -864,24 +646,152 @@
         "overlay_align": "right",
         "stages": [
             {
-                "name": "progressivemonument stage1",
+                "name": "progressivemonument 1",
                 "inherit_codes": true,
                 "img": "/images/items/progressivemonument.png",
                 "codes": "progressivemonument, progressivemonument_stage1"
             },
             {
-                "name": "progressivemonument stage2",
+                "name": "progressivemonument 2",
                 "inherit_codes": true,
                 "img": "/images/items/progressivemonument.png",
                 "codes": "progressivemonument_stage2"
             },
             {
-                "name": "progressivemonument stage3",
+                "name": "progressivemonument 3",
                 "inherit_codes": true,
                 "img": "/images/items/progressivemonument.png",
                 "codes": "progressivemonument_stage3"
+            },
+            {
+                "name": "progressivemonument 4",
+                "inherit_codes": true,
+                "img": "/images/items/progressivemonument.png",
+                "codes": "progressivemonument_stage4"
+            },
+            {
+                "name": "progressivemonument 5",
+                "inherit_codes": true,
+                "img": "/images/items/progressivemonument.png",
+                "codes": "progressivemonument_stage5"
+            },
+            {
+                "name": "progressivemonument 6",
+                "inherit_codes": true,
+                "img": "/images/items/progressivemonument.png",
+                "codes": "progressivemonument_stage6"
+            },
+            {
+                "name": "progressivemonument 7",
+                "inherit_codes": true,
+                "img": "/images/items/progressivemonument.png",
+                "codes": "progressivemonument_stage7"
             }
         ]
+    },
+    {
+        "name": "spawnsecretdoor",
+        "type": "toggle",
+        "img": "images/items/spawnsecretdoor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "spawnsecretdoor"
+    },
+    {
+        "name": "radiomusic06",
+        "type": "toggle",
+        "img": "images/items/radiomusic06.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "radiomusic06"
+    },
+    {
+        "name": "gauntletstage3door",
+        "type": "toggle",
+        "img": "images/items/gauntletstage3door.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "gauntletstage3door"
+    },
+    {
+        "name": "greendometowerkey",
+        "type": "toggle",
+        "img": "images/items/greendometowerkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "greendometowerkey"
+    },
+    {
+        "name": "yellowzonegadgets",
+        "type": "toggle",
+        "img": "images/items/yellowzonegadgets.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "yellowzonegadgets"
+    },
+    {
+        "name": "inkviewer",
+        "type": "toggle",
+        "img": "images/items/inkviewer.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "inkviewer"
+    },
+    {
+        "name": "greencuptowerkey",
+        "type": "toggle",
+        "img": "images/items/greencuptowerkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "greencuptowerkey"
+    },
+    {
+        "name": "greendometowerteleporter",
+        "type": "toggle",
+        "img": "images/items/greendometowerteleporter.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "greendometowerteleporter"
+    },
+    {
+        "name": "carrying",
+        "type": "toggle",
+        "img": "images/items/carrying.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "carrying"
+    },
+    {
+        "name": "bluetunneldoor",
+        "type": "toggle",
+        "img": "images/items/bluetunneldoor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bluetunneldoor"
+    },
+    {
+        "name": "drawbridgeteleporter",
+        "type": "toggle",
+        "img": "images/items/drawbridgeteleporter.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "drawbridgeteleporter"
+    },
+    {
+        "name": "bigwalldoor",
+        "type": "toggle",
+        "img": "images/items/bigwalldoor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bigwalldoor"
+    },
+    {
+        "name": "drawbridgekey",
+        "type": "toggle",
+        "img": "images/items/drawbridgekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "drawbridgekey"
     },
     {
         "name": "update",
