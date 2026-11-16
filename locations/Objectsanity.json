@@ -19,37 +19,49 @@
                 "sections": [
                     {
                         "name": "Binoculars",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Blue Castle Tower/Binoculars"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Laser",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Blue Castle Tower/Laser"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Scanner",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Blue Castle Tower/Scanner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Torch",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Blue Castle Tower/Torch"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Blue Castle Tower/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Blue Castle Tower/Pedestal Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -73,7 +85,9 @@
                 "sections": [
                     {
                         "name": "Binoculars",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Carousel/Binoculars"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -97,43 +111,57 @@
                 "sections": [
                     {
                         "name": "Binoculars",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Green Cup Tower/Binoculars"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Laser",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Green Cup Tower/Laser"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Scanner",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Green Cup Tower/Scanner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Torch",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Green Cup Tower/Torch"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Green Cup Tower/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Green Cup Tower/Pedestal Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Green Cup Tower/Pedestal Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -157,31 +185,41 @@
                 "sections": [
                     {
                         "name": "Binoculars",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Peak/Binoculars"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Radio",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Peak/Radio"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Peak/Pedestal Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Peak/Pedestal Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 3 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Peak/Pedestal Lamp 3 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -205,37 +243,49 @@
                 "sections": [
                     {
                         "name": "Binoculars",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Red Funnel Tower/Binoculars"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Laser",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Red Funnel Tower/Laser"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Scanner",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Red Funnel Tower/Scanner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Torch",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Red Funnel Tower/Torch"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Red Funnel Tower/Pedestal Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Red Funnel Tower/Pedestal Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -259,37 +309,49 @@
                 "sections": [
                     {
                         "name": "Binoculars",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/South Peak/Binoculars"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Scanner",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/South Peak/Scanner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/South Peak/Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/South Peak/Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/South Peak/Pedestal Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/South Peak/Pedestal Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -313,43 +375,57 @@
                 "sections": [
                     {
                         "name": "Binoculars",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Yellow Twist Tower/Binoculars"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Laser",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Yellow Twist Tower/Laser"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Scanner",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Yellow Twist Tower/Scanner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Torch",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Yellow Twist Tower/Torch"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Yellow Twist Tower/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Yellow Twist Tower/Pedestal Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Yellow Twist Tower/Pedestal Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -373,7 +449,9 @@
                 "sections": [
                     {
                         "name": "Clock",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Green Diffuser Train Stop/Clock"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -397,7 +475,9 @@
                 "sections": [
                     {
                         "name": "Clock",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Ring Room Train Stop/Clock"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -421,7 +501,9 @@
                 "sections": [
                     {
                         "name": "Clock",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/South Valley Beach Train Stop/Clock"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -445,7 +527,9 @@
                 "sections": [
                     {
                         "name": "Clock",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Sports Valley Train Stop/Clock"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -469,7 +553,9 @@
                 "sections": [
                     {
                         "name": "Clock",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Trap Room Train Stop/Clock"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -493,19 +579,25 @@
                 "sections": [
                     {
                         "name": "Clock",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Upper Hub/Clock"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Radio",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Upper Hub/Radio"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Scanner",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Upper Hub/Scanner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -529,31 +621,41 @@
                 "sections": [
                     {
                         "name": "Compass",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Map Room/Compass"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Folding Map",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Map Room/Folding Map"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Laser 1",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Map Room/Laser 1"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Laser 2",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Map Room/Laser 2"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Laser 3",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Map Room/Laser 3"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -577,61 +679,81 @@
                 "sections": [
                     {
                         "name": "Large Cowbell",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Tutorial/Large Cowbell"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Medium Cowbell",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Tutorial/Medium Cowbell"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Small Cowbell",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Tutorial/Small Cowbell"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Tutorial/Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Tutorial/Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp 3 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Tutorial/Lamp 3 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp 4 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Tutorial/Lamp 4 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Red Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Tutorial/Red Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Red Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Tutorial/Red Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Red Lamp 3 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Tutorial/Red Lamp 3 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -655,7 +777,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Megaphone (Pyramid Holder)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -679,7 +803,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Megaphone (Ramp Holder)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -703,7 +829,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Megaphone (Spiral Holder)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -727,7 +855,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Radio (Abbey Music Garden)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -751,7 +881,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Radio (Doof Chamber)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -775,7 +907,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Radio (Factory Music Garden)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -799,7 +933,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Radio (Floorplan Music Garden)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -823,7 +959,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Radio (Greensteps Music Garden)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -847,7 +985,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Radio (Lighthouse Music Garden)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -871,7 +1011,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Radio (Musical Holiday)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -895,7 +1037,9 @@
                 "sections": [
                     {
                         "name": "Scanner",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Intro Platform/Scanner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -919,7 +1063,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Torch (Blue Tunnel Outlet)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -943,7 +1089,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Torch (Green Tunnel Outlet)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -967,7 +1115,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Torch (Red Tunnel Outlet)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -991,7 +1141,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Torch (Tutorial Exit)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1015,7 +1167,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Torch (Yellow Tunnel Outlet)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1029,7 +1183,7 @@
                 ]
             },
             {
-                "name": "Walkie-Talkie (Back Beach Hill, Yellow)",
+                "name": "Walkie-Talkie (Back Beach Hill-Yellow)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1039,7 +1193,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Walkie-Talkie (Back Beach Hill-Yellow)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1053,7 +1209,7 @@
                 ]
             },
             {
-                "name": "Walkie-Talkie (Beach, Blue)",
+                "name": "Walkie-Talkie (Beach-Blue)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1063,7 +1219,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Walkie-Talkie (Beach-Blue)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1077,7 +1235,7 @@
                 ]
             },
             {
-                "name": "Walkie-Talkie (Ocean Treasure, Yellow)",
+                "name": "Walkie-Talkie (Ocean Treasure-Yellow)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1087,7 +1245,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Walkie-Talkie (Ocean Treasure-Yellow)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1101,7 +1261,7 @@
                 ]
             },
             {
-                "name": "Walkie-Talkie (Ocean Treasure, Blue)",
+                "name": "Walkie-Talkie (Ocean Treasure-Blue)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1111,7 +1271,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Walkie-Talkie (Ocean Treasure-Blue)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1125,7 +1287,7 @@
                 ]
             },
             {
-                "name": "Walkie-Talkie (Peak, Blue)",
+                "name": "Walkie-Talkie (Peak-Blue)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1135,7 +1297,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Walkie-Talkie (Peak-Blue)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1149,7 +1313,7 @@
                 ]
             },
             {
-                "name": "Walkie-Talkie (Peak, Yellow)",
+                "name": "Walkie-Talkie (Peak-Yellow)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1159,7 +1323,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Walkie-Talkie (Peak-Yellow)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1173,7 +1339,7 @@
                 ]
             },
             {
-                "name": "Walkie-Talkie (Red Cone Hill, Yellow)",
+                "name": "Walkie-Talkie (Red Cone Hill-Yellow)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1183,7 +1349,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Walkie-Talkie (Red Cone Hill-Yellow)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1197,7 +1365,7 @@
                 ]
             },
             {
-                "name": "Walkie-Talkie (Red Cone Valley, Blue)",
+                "name": "Walkie-Talkie (Red Cone Valley-Blue)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1207,7 +1375,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Walkie-Talkie (Red Cone Valley-Blue)/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1231,7 +1401,9 @@
                 "sections": [
                     {
                         "name": "Paintbrush",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Salon/Paintbrush"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1255,7 +1427,9 @@
                 "sections": [
                     {
                         "name": "Paintbrush",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Secret Salon/Paintbrush"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1279,13 +1453,17 @@
                 "sections": [
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Diffuser Peak/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Diffuser Peak/Pedestal Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1309,13 +1487,17 @@
                 "sections": [
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Cabin Fever Long/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Cabin Fever Long/Pedestal Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1339,7 +1521,9 @@
                 "sections": [
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Cannonball Commute/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1363,13 +1547,17 @@
                 "sections": [
                     {
                         "name": "Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Cannonball/Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Cannonball/Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1393,13 +1581,17 @@
                 "sections": [
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Centurion Song/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Centurion Song/Pedestal Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1423,7 +1615,9 @@
                 "sections": [
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Coordinates/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1447,7 +1641,9 @@
                 "sections": [
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Easy Simultaneous Press/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1471,13 +1667,17 @@
                 "sections": [
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Egg Hunt/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Egg Hunt/Pedestal Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1501,31 +1701,41 @@
                 "sections": [
                     {
                         "name": "Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/High Button/Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/High Button/Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/High Button/Pedestal Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/High Button/Pedestal Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 3 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/High Button/Pedestal Lamp 3 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1549,7 +1759,9 @@
                 "sections": [
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Invisible Ink/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1573,7 +1785,9 @@
                 "sections": [
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Kick Up Pits/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1597,7 +1811,9 @@
                 "sections": [
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Memory Bombs/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1621,25 +1837,33 @@
                 "sections": [
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Musical Holiday/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Musical Holiday/Pedestal Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Musical Holiday/Pedestal Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 3 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Musical Holiday/Pedestal Lamp 3 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1663,7 +1887,9 @@
                 "sections": [
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Optical Telegraph/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1687,7 +1913,9 @@
                 "sections": [
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Poet and Pontiff/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1711,19 +1939,25 @@
                 "sections": [
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Pointers Paradise/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Pointers Paradise/Pedestal Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Pointers Paradise/Pedestal Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1747,7 +1981,9 @@
                 "sections": [
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Scout Bombs/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1771,25 +2007,33 @@
                 "sections": [
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Singer and Selector/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Singer and Selector/Pedestal Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Singer and Selector/Pedestal Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 3 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Singer and Selector/Pedestal Lamp 3 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1813,37 +2057,49 @@
                 "sections": [
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Telescope to Box/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Telescope to Box/Pedestal Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Telescope to Box/Pedestal Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 3 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Telescope to Box/Pedestal Lamp 3 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 4 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Telescope to Box/Pedestal Lamp 4 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 5 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Telescope to Box/Pedestal Lamp 5 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1867,37 +2123,49 @@
                 "sections": [
                     {
                         "name": "Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Teller Window/Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Teller Window/Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Teller Window/Pedestal Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Teller Window/Pedestal Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 3 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Teller Window/Pedestal Lamp 3 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 4 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Teller Window/Pedestal Lamp 4 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1921,13 +2189,17 @@
                 "sections": [
                     {
                         "name": "Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Trap Room/Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Trap Room/Pedestal Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1951,7 +2223,9 @@
                 "sections": [
                     {
                         "name": "Pedestal Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Basketball/Pedestal Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1975,13 +2249,17 @@
                 "sections": [
                     {
                         "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Breadcrumb Loop/Pedestal Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Breadcrumb Loop/Pedestal Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2005,7 +2283,9 @@
                 "sections": [
                     {
                         "name": "Pedestal Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Fielding/Pedestal Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2029,19 +2309,25 @@
                 "sections": [
                     {
                         "name": "Pedestal Lamp 1 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Observation Room/Pedestal Lamp 1 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Observation Room/Pedestal Lamp 2 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 3 Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Observation Room/Pedestal Lamp 3 Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2065,7 +2351,9 @@
                 "sections": [
                     {
                         "name": "Pedestal Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Perspective Counting/Pedestal Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2089,7 +2377,9 @@
                 "sections": [
                     {
                         "name": "Pedestal Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Poet and Priest/Pedestal Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2113,7 +2403,9 @@
                 "sections": [
                     {
                         "name": "Pedestal Lamp Held",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/Ring Room/Pedestal Lamp Held"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2137,7 +2429,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/First Walkie-Talkie/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2161,7 +2455,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/First Megaphone/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2185,7 +2481,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/First Radio/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2209,7 +2507,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/First Binoculars/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2233,7 +2533,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/First Laser/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2257,7 +2559,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/First Torch/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2281,7 +2585,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/First Scanner/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2305,7 +2611,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/First Clock/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2329,7 +2637,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/First Compass/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2353,7 +2663,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/First Folding Map/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2377,7 +2689,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/First Large Cowbell/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2401,7 +2715,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/First Medium Cowbell/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2425,7 +2741,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/First Small Cowbell/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2449,7 +2767,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/First Paintbrush/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2473,7 +2793,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/First Lamp/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2497,7 +2819,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/First Red Lamp/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2521,7 +2845,9 @@
                 "sections": [
                     {
                         "name": "Pickup",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Objectsanity/First Pedestal Lamp/Pickup"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }

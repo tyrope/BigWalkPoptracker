@@ -19,13 +19,17 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Blue Castle Tower/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Blue Castle Tower/Pedestal Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -49,13 +53,17 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Diffuser Peak/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Diffuser Peak/Pedestal Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -79,19 +87,25 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Green Cup Tower/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Green Cup Tower/Pedestal Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Green Cup Tower/Pedestal Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -115,25 +129,33 @@
                 "sections": [
                     {
                         "name": "Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/South Peak/Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/South Peak/Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/South Peak/Pedestal Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/South Peak/Pedestal Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -157,49 +179,65 @@
                 "sections": [
                     {
                         "name": "Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Tutorial/Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Tutorial/Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp 3 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Tutorial/Lamp 3 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp 4 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Tutorial/Lamp 4 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Red Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Tutorial/Red Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Red Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Tutorial/Red Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Red Lamp 3 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Tutorial/Red Lamp 3 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Light Switch",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Tutorial/Light Switch"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -223,19 +261,25 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Yellow Twist Tower/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Yellow Twist Tower/Pedestal Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Yellow Twist Tower/Pedestal Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -259,13 +303,17 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Cabin Fever Long/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Cabin Fever Long/Pedestal Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -289,7 +337,9 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Cannonball Commute/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -313,13 +363,17 @@
                 "sections": [
                     {
                         "name": "Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Cannonball/Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Cannonball/Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -343,13 +397,17 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Centurion Song/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Centurion Song/Pedestal Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -373,7 +431,9 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Coordinates/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -397,7 +457,9 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Easy Simultaneous Press/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -421,13 +483,17 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Egg Hunt/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Egg Hunt/Pedestal Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -451,31 +517,41 @@
                 "sections": [
                     {
                         "name": "Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/High Button/Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/High Button/Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/High Button/Pedestal Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/High Button/Pedestal Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 3 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/High Button/Pedestal Lamp 3 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -499,7 +575,9 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Invisible Ink/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -523,7 +601,9 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Kick Up Pits/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -547,7 +627,9 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Memory Bombs/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -571,25 +653,33 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Musical Holiday/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Musical Holiday/Pedestal Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Musical Holiday/Pedestal Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 3 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Musical Holiday/Pedestal Lamp 3 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -613,7 +703,9 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Optical Telegraph/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -637,7 +729,9 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Poet and Pontiff/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -661,19 +755,25 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Pointers Paradise/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Pointers Paradise/Pedestal Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Pointers Paradise/Pedestal Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -697,7 +797,9 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Scout Bombs/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -721,25 +823,33 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Singer and Selector/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Singer and Selector/Pedestal Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Singer and Selector/Pedestal Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 3 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Singer and Selector/Pedestal Lamp 3 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -763,37 +873,49 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Telescope to Box/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Telescope to Box/Pedestal Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Telescope to Box/Pedestal Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 3 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Telescope to Box/Pedestal Lamp 3 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 4 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Telescope to Box/Pedestal Lamp 4 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 5 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Telescope to Box/Pedestal Lamp 5 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -817,37 +939,49 @@
                 "sections": [
                     {
                         "name": "Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Teller Window/Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Teller Window/Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Teller Window/Pedestal Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Teller Window/Pedestal Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 3 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Teller Window/Pedestal Lamp 3 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 4 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Teller Window/Pedestal Lamp 4 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -871,13 +1005,17 @@
                 "sections": [
                     {
                         "name": "Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Trap Room/Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Trap Room/Pedestal Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -901,19 +1039,25 @@
                 "sections": [
                     {
                         "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Peak/Pedestal Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Peak/Pedestal Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 3 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Peak/Pedestal Lamp 3 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -937,13 +1081,17 @@
                 "sections": [
                     {
                         "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Red Funnel Tower/Pedestal Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Red Funnel Tower/Pedestal Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -967,7 +1115,9 @@
                 "sections": [
                     {
                         "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Basketball/Pedestal Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -991,13 +1141,17 @@
                 "sections": [
                     {
                         "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Breadcrumb Loop/Pedestal Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Breadcrumb Loop/Pedestal Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1021,7 +1175,9 @@
                 "sections": [
                     {
                         "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Fielding/Pedestal Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1045,19 +1201,25 @@
                 "sections": [
                     {
                         "name": "Pedestal Lamp 1 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Observation Room/Pedestal Lamp 1 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 2 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Observation Room/Pedestal Lamp 2 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pedestal Lamp 3 Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Observation Room/Pedestal Lamp 3 Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1081,7 +1243,9 @@
                 "sections": [
                     {
                         "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Perspective Counting/Pedestal Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1105,7 +1269,9 @@
                 "sections": [
                     {
                         "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Poet and Priest/Pedestal Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1129,7 +1295,9 @@
                 "sections": [
                     {
                         "name": "Pedestal Lamp Lit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Ring Room/Pedestal Lamp Lit"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1153,31 +1321,41 @@
                 "sections": [
                     {
                         "name": "Light Switch (House)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Doof Chamber/Light Switch (House)"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Light Switch (Ring)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Doof Chamber/Light Switch (Ring)"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Light Switch (Purple)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Doof Chamber/Light Switch (Purple)"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Light Switch (Reds)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Doof Chamber/Light Switch (Reds)"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Light Switch (White Spots)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Doof Chamber/Light Switch (White Spots)"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1201,13 +1379,17 @@
                 "sections": [
                     {
                         "name": "Light Switch (Main)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Salon/Light Switch (Main)"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Light Switch (Mirror)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Salon/Light Switch (Mirror)"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1231,13 +1413,17 @@
                 "sections": [
                     {
                         "name": "Light Switch (Main)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Secret Salon/Light Switch (Main)"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Light Switch (Mirror)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Secret Salon/Light Switch (Mirror)"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1261,19 +1447,25 @@
                 "sections": [
                     {
                         "name": "Red Train headlights",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Train/Red Train headlights"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Yellow Train headlights",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Train/Yellow Train headlights"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Green Train headlights",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Train/Green Train headlights"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1297,7 +1489,9 @@
                 "sections": [
                     {
                         "name": "Light Switch",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Green Diffuser Train Stop/Light Switch"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1321,7 +1515,9 @@
                 "sections": [
                     {
                         "name": "Light Switch",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Ring Room Train Stop/Light Switch"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1345,7 +1541,9 @@
                 "sections": [
                     {
                         "name": "Light Switch",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/South Valley Beach Train Stop/Light Switch"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1369,7 +1567,9 @@
                 "sections": [
                     {
                         "name": "Light Switch",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Sports Valley Train Stop/Light Switch"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1393,7 +1593,9 @@
                 "sections": [
                     {
                         "name": "Light Switch",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Trap Room Train Stop/Light Switch"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1417,7 +1619,9 @@
                 "sections": [
                     {
                         "name": "Light Switch",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$ParseAccess|@Lightsanity/Upper Hub Train Stop/Light Switch"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
