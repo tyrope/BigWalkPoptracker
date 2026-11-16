@@ -6,12 +6,9 @@ require("scripts.lib.status_bar.init")
 
 -- Items
 Tracker:AddItems("items/items.json")
-Tracker:AddItems("items/labels.json")
 
 -- Logic
-require("scripts.logic.logic_helper")
-require("scripts.logic.base_logic")
-require("scripts.logic.graph_logic.logic_main")
+require("scripts.logic.init")
 
 -- Maps
 Tracker:AddMaps("maps/maps.json")
