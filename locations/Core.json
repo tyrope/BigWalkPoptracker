@@ -19,7 +19,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Cabin Fever/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -43,7 +43,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/High Button/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -67,7 +67,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Fielding/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -91,7 +91,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Cannonball/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -115,7 +115,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Invisible Ink/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -139,7 +139,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Trap Room/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -163,7 +163,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Medium Simultaneous Press/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -187,7 +187,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Easy Simultaneous Press/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -211,7 +211,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Ring Room/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -235,7 +235,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Obby/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -259,7 +259,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Carousel/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -283,7 +283,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Coordinates/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -307,7 +307,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Telescope to Box/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -331,7 +331,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Observation Room/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -355,7 +355,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Window Labyrinth/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -379,7 +379,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Basketball/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -403,7 +403,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Concert/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -427,7 +427,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Indoor Semaphore/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -451,7 +451,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Optical Telegraph/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -475,7 +475,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Poet and Priest/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -499,7 +499,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Memory Bombs/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -523,7 +523,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Tile Thief/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -547,7 +547,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Charades Rooms/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -571,7 +571,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Microphone Array/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -596,7 +596,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Pointers Paradise/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -620,7 +620,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Coordinates Holding/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -644,7 +644,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Egg Hunt/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -668,7 +668,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Egg Hunt/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -692,7 +692,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Signal Flags/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -716,7 +716,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Cabin Fever Long/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -740,7 +740,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Breadcrumb Loop/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -764,7 +764,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Scout Bombs/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -788,7 +788,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Centurion Song/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -812,7 +812,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Musical Holiday/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -836,7 +836,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Kick Up Pits/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -860,7 +860,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Singer and Selector/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -884,7 +884,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Dancer and Selector/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -908,7 +908,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Speed Obby/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -932,7 +932,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Blindfold Catwalk/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -956,7 +956,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Blindfold Fishtrap/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -980,7 +980,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Perspective Counting/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1004,7 +1004,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Centurion Seance/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1028,7 +1028,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Flare Run/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1052,7 +1052,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Cannonball Commute/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1076,7 +1076,7 @@
                 "sections": [
                     {
                         "name": "Puzzle",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Poet and Pontiff/Puzzle"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1100,55 +1100,55 @@
                 "sections": [
                     {
                         "name": "Reached",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Drawbridge/Reached"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monument Full",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Drawbridge/Monument Full"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monument Key",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Drawbridge/Monument Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Key Cut 1",
-                        "access_rules": [],
+                        "name": "Key Cut",
+                        "access_rules": ["^$ParseAccess|@Core/Drawbridge/Key Cut 1"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 2",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Drawbridge/Key Cut 2"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 3",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Drawbridge/Key Cut 3"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 4",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Drawbridge/Key Cut 4"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 5",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Drawbridge/Key Cut 5"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Deposit",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Drawbridge/Key Deposit"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1174,61 +1174,61 @@
                 "sections": [
                     {
                         "name": "Reached",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Red Funnel Tower/Reached"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fireworks",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Red Funnel Tower/Fireworks"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monument Full",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Red Funnel Tower/Monument Full"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monument Key",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Red Funnel Tower/Monument Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 1",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Red Funnel Tower/Key Cut 1"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 2",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Red Funnel Tower/Key Cut 2"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 3",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Red Funnel Tower/Key Cut 3"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 4",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Red Funnel Tower/Key Cut 4"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 5",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Red Funnel Tower/Key Cut 5"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Deposit",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Red Funnel Tower/Key Deposit"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1254,61 +1254,61 @@
                 "sections": [
                     {
                         "name": "Reached",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Green Cup Tower/Reached"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fireworks",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Green Cup Tower/Fireworks"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monument Full",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Green Cup Tower/Monument Full"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monument Key",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Green Cup Tower/Monument Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 1",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Green Cup Tower/Key Cut 1"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 2",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Green Cup Tower/Key Cut 2"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 3",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Green Cup Tower/Key Cut 3"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 4",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Green Cup Tower/Key Cut 4"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 5",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Green Cup Tower/Key Cut 5"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Deposit",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Green Cup Tower/Key Deposit"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1334,61 +1334,61 @@
                 "sections": [
                     {
                         "name": "Reached",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Blue Castle Tower/Reached"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fireworks",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Blue Castle Tower/Fireworks"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monument Full",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Blue Castle Tower/Monument Full"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monument Key",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Blue Castle Tower/Monument Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 1",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Blue Castle Tower/Key Cut 1"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 2",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Blue Castle Tower/Key Cut 2"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 3",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Blue Castle Tower/Key Cut 3"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 4",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Blue Castle Tower/Key Cut 4"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 5",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Blue Castle Tower/Key Cut 5"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Deposit",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Blue Castle Tower/Key Deposit"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1414,61 +1414,61 @@
                 "sections": [
                     {
                         "name": "Reached",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Yellow Twist Tower/Reached"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fireworks",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Yellow Twist Tower/Fireworks"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monument Full",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Yellow Twist Tower/Monument Full"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monument Key",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Yellow Twist Tower/Monument Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 1",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Yellow Twist Tower/Key Cut 1"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 2",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Yellow Twist Tower/Key Cut 2"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 3",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Yellow Twist Tower/Key Cut 3"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 4",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Yellow Twist Tower/Key Cut 4"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Cut 5",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Yellow Twist Tower/Key Cut 5"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Deposit",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Yellow Twist Tower/Key Deposit"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1494,25 +1494,25 @@
                 "sections": [
                     {
                         "name": "Reached",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Black Monolith Tower/Reached"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monument Full",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Black Monolith Tower/Monument Full"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monument Key",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Black Monolith Tower/Monument Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Deposit",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Black Monolith Tower/Key Deposit"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1538,25 +1538,25 @@
                 "sections": [
                     {
                         "name": "Reached",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Green Dome Tower/Reached"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monument Full",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Green Dome Tower/Monument Full"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monument Key",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Green Dome Tower/Monument Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Key Deposit",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Green Dome Tower/Key Deposit"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1582,7 +1582,7 @@
                 "sections": [
                     {
                         "name": "On",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Radio Station 02/On"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1607,7 +1607,7 @@
                 "sections": [
                     {
                         "name": "On",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Radio Station 07/On"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1632,7 +1632,7 @@
                 "sections": [
                     {
                         "name": "On",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Radio Station 05/On"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1657,7 +1657,7 @@
                 "sections": [
                     {
                         "name": "On",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Radio Station 01/On"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1682,7 +1682,7 @@
                 "sections": [
                     {
                         "name": "On",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Radio Station 04/On"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1707,7 +1707,7 @@
                 "sections": [
                     {
                         "name": "On",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Radio Station 06/On"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1732,7 +1732,7 @@
                 "sections": [
                     {
                         "name": "On",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Radio Station 03/On"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1757,43 +1757,43 @@
                 "sections": [
                     {
                         "name": "Peg Board",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Gauntlet/Peg Board"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pointers",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Gauntlet/Pointers"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kick To Kick",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Gauntlet/Kick To Kick"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sim Press",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Gauntlet/Sim Press"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Volley Ball",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Gauntlet/Volley Ball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Invisible",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Gauntlet/Invisible"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sculptures",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Gauntlet/Sculptures"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1819,7 +1819,7 @@
                 "sections": [
                     {
                         "name": "Collected",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Sky Blue Backpack/Collected"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1845,7 +1845,7 @@
                 "sections": [
                     {
                         "name": "Collected",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Yellow Backpack/Collected"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1871,7 +1871,7 @@
                 "sections": [
                     {
                         "name": "Collected",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Teal Backpack/Collected"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1897,7 +1897,7 @@
                 "sections": [
                     {
                         "name": "Collected",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Orange Backpack/Collected"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1923,7 +1923,7 @@
                 "sections": [
                     {
                         "name": "Collected",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Pink Backpack/Collected"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1949,7 +1949,7 @@
                 "sections": [
                     {
                         "name": "Collected",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Maroon Backpack/Collected"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1975,7 +1975,7 @@
                 "sections": [
                     {
                         "name": "Collected",
-                        "access_rules": [],
+                        "access_rules": ["^$ParseAccess|@Core/Green Belt/Collected"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
