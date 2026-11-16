@@ -1,3 +1,4 @@
+-- ["and", [rules]] / ["or", [rules]] => all / any of the rules
 function ParseMultiple(method, rules)
     if method == "and" then
         exitValue = false
@@ -23,11 +24,14 @@ function ConvertItemName(item)
     return name
 end
 
+-- ["has", item, count] => at least count of item received
 function ParseHas(item, count)
     item_obj = Tracker:FindObjectForCode(ConvertItemName(item))
     return item_obj.AcquiredCount >= count
 end
 
+-- ["all", [items]] / ["any", [items]] => one of each / one of any
+-- ["from", [items], count] => at least count items in total among the list
 function ParseItems(method, items, count)
     if method ~= "all" and method ~= "any" and method ~= "from" then
         print("[BigWalk]ERR: Wrong method for ParseItems")
@@ -53,6 +57,7 @@ function ParseItems(method, items, count)
     end
 end
 
+-- ["loc", location] => that location is reachable (its region and its rule)
 function ParseLocation(parentLoc)
     for _,loc in pairs(SLOT_LOGIC["locations"]) do
         if loc[1] == parentLoc then
@@ -64,6 +69,7 @@ function ParseLocation(parentLoc)
     return false
 end
 
+-- ["reg", region] => that region is reachable
 function ParseRegion(region)
     if region == SLOT_LOGIC["origin"] then
         return true
@@ -79,30 +85,20 @@ end
 
 -- Definitions provided at https://github.com/Grizfreak/BigWalk-archipelago/blob/master/apworld/README.md
 function ParseRule(rule)
-    -- ["true"] / ["false"] => always / never
     if rule[1] == "true" then
         return true
     elseif rule[1] == "false" then
         return false
-
-    -- ["and", [rules]] / ["or", [rules]] => all / any of the rules
     elseif rule[1] == "and" or rule[1] == "or" then
         return ParseMultiple(rule[1], rule[2])
-
-    -- ["has", item, count] => at least count of item received
     elseif rule[1] == "has" then
         return ParseHas(rule[2],rule[3])
-    -- ["all", [items]] / ["any", [items]] => one of each / one of any
     elseif rule[1] == "all" or rule[1] == "any" then
         return ParseItems(rule[1], rule[2], nil)
-    -- ["from", [items], count] => at least count items in total among the list
     elseif rule[1] == "from" then
         return ParseItems(rule[1], rule[2], rule[3])
-
-    -- ["loc", location] => that location is reachable (its region and its rule)
     elseif rule[1] == "loc" then
         return ParseLocation(rule[2])
-    -- ["reg", region] => that region is reachable
     elseif rule[1] == "reg" then
         return ParseRegion(rule[2])
     end
