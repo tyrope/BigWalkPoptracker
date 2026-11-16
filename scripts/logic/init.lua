@@ -12,9 +12,9 @@ function ParseAccess(locID)
         print("[BigWalk] ERR: ParseAccess("..locID..") => Input parsed as nil!")
         return nil
     end
-    if loc_obj.AccessibilityLevel == AccessibilityLevel.Cleared then
-        -- Don't unclear cleared checks.
-        return AccessibilityLevel.Cleared
+    if SLOT_LOGIC == nil or loc_obj.AccessibilityLevel == AccessibilityLevel.Cleared then
+        -- Don't touch logic if we're not connected, and don't unclear cleared checks.
+        return loc_obj.AccessibilityLevel
     end
     for _, loc in pairs(SLOT_LOGIC["locations"]) do
         if loc[2] == 0 then
