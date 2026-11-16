@@ -1213,9 +1213,9 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Key Cut",
+                        "name": "Key Cut 1",
                         "access_rules": [
-                            "^$ParseAccess|@Core/Drawbridge/Key Cut"
+                            "^$ParseAccess|@Core/Drawbridge/Key Cut 1"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
