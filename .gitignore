@@ -1,2 +1,4 @@
 *.xcf
 releases/*
+dev-docs/*
+dev-tools/*
