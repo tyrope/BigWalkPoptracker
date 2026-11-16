@@ -40,8 +40,8 @@ function ParseItems(method, items, count)
         elseif method == "any" and amount > 0 then
             return true
         elseif method == "from" and amount > 0 then
-            count = count - 1
-            if count == 0 then
+            count = count - amount
+            if count <= 0 then
                 return true
             end
         end
