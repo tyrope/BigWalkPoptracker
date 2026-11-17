@@ -2618,6 +2618,448 @@
                         "shape": "diamond"
                     }
                 ]
+            },
+            {
+                "name": "First Walkie-Talkie",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pickup",
+                        "access_rules": [
+                            "^$ParseAccess|@Core/First Walkie-Talkie/Pickup"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Core",
+                        "x": 736,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "First Megaphone",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pickup",
+                        "access_rules": [
+                            "^$ParseAccess|@Core/First Megaphone/Pickup"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Core",
+                        "x": 736,
+                        "y": 146
+                    }
+                ]
+            },
+            {
+                "name": "First Radio",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pickup",
+                        "access_rules": [
+                            "^$ParseAccess|@Core/First Radio/Pickup"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Core",
+                        "x": 736,
+                        "y": 138
+                    }
+                ]
+            },
+            {
+                "name": "First Binoculars",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pickup",
+                        "access_rules": [
+                            "^$ParseAccess|@Core/First Binoculars/Pickup"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Core",
+                        "x": 744,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "First Laser",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pickup",
+                        "access_rules": [
+                            "^$ParseAccess|@Core/First Laser/Pickup"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Core",
+                        "x": 752,
+                        "y": 146
+                    }
+                ]
+            },
+            {
+                "name": "First Torch",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pickup",
+                        "access_rules": [
+                            "^$ParseAccess|@Core/First Torch/Pickup"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Core",
+                        "x": 744,
+                        "y": 146
+                    }
+                ]
+            },
+            {
+                "name": "First Scanner",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pickup",
+                        "access_rules": [
+                            "^$ParseAccess|@Core/First Scanner/Pickup"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Core",
+                        "x": 776,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "First Clock",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pickup",
+                        "access_rules": [
+                            "^$ParseAccess|@Core/First Clock/Pickup"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Core",
+                        "x": 744,
+                        "y": 138
+                    }
+                ]
+            },
+            {
+                "name": "First Compass",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pickup",
+                        "access_rules": [
+                            "^$ParseAccess|@Core/First Compass/Pickup"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Core",
+                        "x": 752,
+                        "y": 138
+                    }
+                ]
+            },
+            {
+                "name": "First Folding Map",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pickup",
+                        "access_rules": [
+                            "^$ParseAccess|@Core/First Folding Map/Pickup"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Core",
+                        "x": 752,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "First Large Cowbell",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pickup",
+                        "access_rules": [
+                            "^$ParseAccess|@Core/First Large Cowbell/Pickup"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Core",
+                        "x": 760,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "First Medium Cowbell",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pickup",
+                        "access_rules": [
+                            "^$ParseAccess|@Core/First Medium Cowbell/Pickup"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Core",
+                        "x": 760,
+                        "y": 138
+                    }
+                ]
+            },
+            {
+                "name": "First Small Cowbell",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pickup",
+                        "access_rules": [
+                            "^$ParseAccess|@Core/First Small Cowbell/Pickup"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Core",
+                        "x": 760,
+                        "y": 146
+                    }
+                ]
+            },
+            {
+                "name": "First Paintbrush",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pickup",
+                        "access_rules": [
+                            "^$ParseAccess|@Core/First Paintbrush/Pickup"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Core",
+                        "x": 768,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "First Lamp",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pickup",
+                        "access_rules": [
+                            "^$ParseAccess|@Core/First Lamp/Pickup"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Core",
+                        "x": 768,
+                        "y": 138
+                    }
+                ]
+            },
+            {
+                "name": "First Red Lamp",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pickup",
+                        "access_rules": [
+                            "^$ParseAccess|@Core/First Red Lamp/Pickup"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Core",
+                        "x": 768,
+                        "y": 146
+                    }
+                ]
+            },
+            {
+                "name": "First Pedestal Lamp",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pickup",
+                        "access_rules": [
+                            "^$ParseAccess|@Core/First Pedestal Lamp/Pickup"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Core",
+                        "x": 776,
+                        "y": 138
+                    }
+                ]
             }
         ]
     }
