@@ -6,6 +6,16 @@ function FetchSlotLogic(slot_data)
     SLOT_LOGIC = slot_data["logic"]
 end
 
+function LoadTrackerJson()
+    Tracker:AddLayouts("layouts/tracker.json")
+end
+
+function LoadLocationsJsons()
+    Tracker:AddLocations("locations/Core.json")
+    Tracker:AddLocations("locations/Lightsanity.json")
+    Tracker:AddLocations("locations/Objectsanity.json")
+end
+
 function ParseAccess(locID)
     -- AccessibilityLevel.None          - Red
     -- AccessibilityLevel.NoPriority    - Red
@@ -23,11 +33,6 @@ function ParseAccess(locID)
         return loc_obj.AccessibilityLevel
     end
     for _, loc in pairs(SLOT_LOGIC["locations"]) do
-        if loc[2] == 8613850 and locID == "@Core/Drawbridge/Monument Key" then
-            print("[BigWalk] DBG: Drawbridge key ID: "..loc_obj.FullID)
-            print("[BigWalk] DBG: location ID 8613850in the SLOT_LOGIC is.. "..loc[1])
-            print("[BigWalk] DBG: Which maps to..."..LOCATION_MAPPING[loc[2]][1])
-        end
         if loc[2] == 0 then
             goto skipWrongLoc
         elseif LOCATION_MAPPING[loc[2]][1] ~= locID then
@@ -42,7 +47,7 @@ function ParseAccess(locID)
         end
         ::skipWrongLoc::
     end
-    print("[BigWalk] ERR: ID for "..locID.." not found.")
+    print("[BigWalk] INFO: ID for "..locID.." not found. Is it disabled in the yaml?")
     return AccessibilityLevel.Inspect
 end
 

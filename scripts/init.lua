@@ -7,20 +7,20 @@ require("scripts.lib.status_bar.init")
 -- Items
 Tracker:AddItems("items/items.json")
 
--- Logic
-require("scripts.logic.init")
-
 -- Maps
 Tracker:AddMaps("maps/maps.json")
+
+-- Logic
+require("scripts.logic.init")
 
 -- Layout
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/settings_popup.json")
-Tracker:AddLayouts("layouts/tracker.json")
+LoadTrackerJson() -- from scripts.logic
 
 -- Locations
-require("scripts.locations_import")
+LoadLocationsJsons() -- from scripts.logic
 
 -- AutoTracking for PopTracker
 if PopVersion and PopVersion >= "0.26.0" then
