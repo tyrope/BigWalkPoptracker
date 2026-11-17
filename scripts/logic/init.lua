@@ -1,5 +1,4 @@
 require("scripts.logic.ruleparser")
-require("scripts.logic.visibility") -- For LAYOUT_REQUIRED
 
 SLOT_LOGIC = nil
 ID_LOOKUP_TABLE = {}
@@ -30,31 +29,6 @@ function LookupSlotLocation(locID)
         return nil
     end
     return ID_LOOKUP_TABLE[locID]
-end
-
-function LoadTrackerJson()
-    if LAYOUT_REQUIRED == nil then
-        print("[BigWalk] ERROR: Trying to load a layout with nil.")
-        return
-    end
-    Tracker:AddLayouts("layouts/trackers/"..LAYOUT_REQUIRED..".json")
-end
-
-function LoadLocationsJsons()
-    if LAYOUT_REQUIRED == nil then
-        print("[BigWalk] ERROR: Trying to load locations with nil.")
-        return
-    end
-    Tracker:AddLocations("locations/Core.json")
-
-    if string.find(LAYOUT_REQUIRED, "light") ~= nil then
-        Tracker:AddLocations("locations/Lightsanity.json")
-    end
-
-    if string.find(LAYOUT_REQUIRED, "object") ~= nil then
-        Tracker:AddLocations("locations/Objectsanity.json")
-    end
-
 end
 
 function ParseAccess(locID)

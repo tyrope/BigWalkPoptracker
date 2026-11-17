@@ -1,7 +1,4 @@
-require("scripts.logic") -- To get 
-
 SLOT_VIS_DATA = {}
-LAYOUT_REQUIRED = "core"
 
 function SetSlotVisData(slot_data)
     -- Gourd deposit count.
@@ -152,22 +149,20 @@ function SetSlotVisData(slot_data)
 
     SLOT_VIS_DATA["running"] = ability ~= "disabled" and slot_data["lock_running"]
 
-    -- Layouts
+    -- Layout & Locations
+    layout = "core"
+    Tracker:AddLocations("locations/Core.json")
     if slot_data["light_sanity"] ~= "off" then
-        LAYOUT_REQUIRED = LAYOUT_REQUIRED .. "-light"
+        layout = layout .. "-light"
+        Tracker:AddLocations("locations/Lightsanity.json")
     end
-    if slot_data then
-        LAYOUT_REQUIRED = LAYOUT_REQUIRED .. "-object"
+    if slot_data["object_sanity"] == "every" then
+        layout = layout .. "-object"
+        Tracker:AddLocations("locations/Objectsanity.json")
     end
-end
+    Tracker:AddLayouts("layouts/trackers/"..layout..".json")
 
-function ParseVisible(locID)
-    if SLOT_VIS_DATA[locID] ~= nil then
-        return SLOT_VIS_DATA
-    else
-        print("[BigWalk] ERROR: "..locID.." not in SLOT_VIS_DATA")
-        return true
-    end
+    -- TODO: Item layouts.
 end
 
 function SetSlotVisObjectsanity(slot_data)
@@ -185,7 +180,7 @@ function SetSlotVisObjectsanity(slot_data)
         elseif i == "cowbell" then
             items = {"Small Cowbell", "Medium Cowbell", "Large Cowbell"}
         else
-            items = {item:gsub("^%l", string.upper)}
+            items = {i:gsub("^%l", string.upper)}
         end
         for _, item in ipairs(items) do
             isVis = false
@@ -232,5 +227,18 @@ function SetSlotVisZonelock(slot_data)
     end
 end
 
--- Archipelago:AddClearHandler("InitialVisibility", SetSlotVisData)
+
+
+
+
+function ParseVisible(locID)
+    if SLOT_VIS_DATA[locID] ~= nil then
+        return SLOT_VIS_DATA
+    else
+        print("[BigWalk] ERROR: "..locID.." not in SLOT_VIS_DATA")
+        return true
+    end
+end
+
+Archipelago:AddClearHandler("InitialVisibility", SetSlotVisData)
 

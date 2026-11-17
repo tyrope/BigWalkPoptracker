@@ -12,15 +12,12 @@ Tracker:AddMaps("maps/maps.json")
 
 -- Logic
 require("scripts.logic.init")
+require("scripts.logic.visibility")
 
 -- Layout
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/settings_popup.json")
-LoadTrackerJson() -- from scripts.logic
-
--- Locations
-LoadLocationsJsons() -- from scripts.logic
 
 -- AutoTracking for PopTracker
 if PopVersion and PopVersion >= "0.26.0" then
