@@ -23,9 +23,9 @@ function ParseAccess(locID)
         return loc_obj.AccessibilityLevel
     end
     for _, loc in pairs(SLOT_LOGIC["locations"]) do
-        if loc[2] == 8600300 and locID == "@Core/Drawbridge/Monument Key" then
+        if loc[2] == 8613850 and locID == "@Core/Drawbridge/Monument Key" then
             print("[BigWalk] DBG: Drawbridge key ID: "..loc_obj.FullID)
-            print("[BigWalk] DBG: location ID 8600300 in the SLOT_LOGIC is.. "..loc[1])
+            print("[BigWalk] DBG: location ID 8613850in the SLOT_LOGIC is.. "..loc[1])
             print("[BigWalk] DBG: Which maps to..."..LOCATION_MAPPING[loc[2]][1])
         end
         if loc[2] == 0 then
