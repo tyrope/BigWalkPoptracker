@@ -2,3 +2,5 @@
 releases/*
 dev-docs/*
 dev-tools/*
+.luarc.json
+datapackage_url.json

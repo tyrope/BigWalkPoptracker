@@ -1,0 +1,25 @@
+{
+    "versions": [
+        {
+            "package_version": "0.1.0",
+            "download_url": "https://github.com/tyrope/BigWalkPoptracker/releases/download/v0.1.0/BigWalkPoptracker-v0.1.0.zip",
+            "sha256": "43625b7dd3dfda4554ecfb988c390154e45fc90a06da4741c3a2ffe4053ba97f",
+            "changelog": [
+                "Some of the items have pictures",
+                "The tracker now only loads after connecting to archipelago",
+                "Locations that aren't part of your slot aren't shown on the map",
+                "LOGIC!"
+            ]
+        },
+        {
+            "package_version": "0.0.1",
+            "download_url": "https://github.com/tyrope/BigWalkPoptracker/releases/download/v0.0.1/BigWalkPoptracker-v0.0.1.zip",
+            "sha256": "b4d4b6df2089adac20e052dd46773f1def8e911a82d3c569c0e2296448ad4235",
+            "changelog": [
+                "All the location checks, split over 3 maps (Core, Light sanity, Object sanity)",
+                "Every item in the bar on the left."
+            ]
+        }
+    ]
+}
+

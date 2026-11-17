@@ -3,7 +3,7 @@
     "game_name": "Big Walk",
     "package_version": "0.1.0",
     "package_uid": "big walk_ap",
-    "author": "builder_script",
+    "author": "tyrope",
     "variants": {
         "Map Tracker": {
             "display_name": "Map Tracker",
@@ -12,6 +12,8 @@
             ]
         }
     },
+    "versions_url": "https://raw.githubusercontent.com/tyrope/BigWalkPoptracker/master/versions.json",
     "min_poptracker_version": "0.35.4",
     "target_poptracker_version": "0.36.0"
 }
+
