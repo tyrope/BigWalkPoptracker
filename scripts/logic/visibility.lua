@@ -169,7 +169,15 @@ function SetSlotVisObjectsanity(slot_data)
     allItems = {"binoculars","clock","compass","cowbell","lamp","laser","map",
         "megaphone","radio","scanner","torch","walkie_talkie","paintbrush"}
     objSan = slot_data["objest_sanity"]
-    sanItems = slot_data["object_sanity_kind_keys"]
+
+    sanItemMapping = {}
+    for _, item in ipairs(allItems) do
+        sanItemMapping[item] = false
+        for _, san in pairs(slot_data["object_sanity_kind_keys"]) do
+            sanItemMapping[item] = true
+            break
+        end
+    end
 
     -- Set the "first pickup" locations on @Core:
     for _,i in ipairs(allItems) do
@@ -185,14 +193,7 @@ function SetSlotVisObjectsanity(slot_data)
             items = {i:gsub("^%l", string.upper)}
         end
         for _, item in ipairs(items) do
-            isVis = false
-            for _, san in pairs(sanItems) do
-                if san == i then
-                    isVis = true
-                    break
-                end
-            end
-            isVis = isVis and objSan == "first_pickup"
+            isVis = sanItemMapping[i] and objSan == "first_pickup"
             if slot_data["light_sanity"] ~= "off" and (
                 item == "Lamp" or item == "Red Lamp" or item == "Pedestal Lamp"
             ) then
