@@ -179,6 +179,8 @@ function SetSlotVisObjectsanity(slot_data)
             items = {"Lamp", "Red Lamp", "Pedestal Lamp"}
         elseif i == "cowbell" then
             items = {"Small Cowbell", "Medium Cowbell", "Large Cowbell"}
+        elseif i == "map" then
+            items = {"Folding Map"}
         else
             items = {i:gsub("^%l", string.upper)}
         end
