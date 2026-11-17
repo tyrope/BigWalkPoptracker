@@ -1,3 +1,5 @@
+require("scripts.lib.stringrecipes")
+
 SLOT_VIS_DATA = {}
 
 function SetSlotVisData(slot_data)
@@ -174,8 +176,10 @@ function SetSlotVisObjectsanity(slot_data)
     for _, item in ipairs(allItems) do
         sanItemMapping[item] = false
         for _, san in pairs(slot_data["object_sanity_kind_keys"]) do
-            sanItemMapping[item] = true
-            break
+            if san == item then
+                sanItemMapping[item] = true
+                break
+            end
         end
     end
 
@@ -202,6 +206,42 @@ function SetSlotVisObjectsanity(slot_data)
             end
             SLOT_VIS_DATA["@Core/First "..item.."/Pickup"] = isVis and objSan == "first_pickup"
         end
+    end
+
+    -- @Objectsanity, here be dragons.
+    for _, loc in pairs(LOCATION_MAPPING) do
+        loc = loc[1]
+        if string_starts_with(loc, "@Objectsanity") == false then
+            -- Not an objectsanity.
+            goto continueForLoc
+        end
+        if string_ends_with(loc,"Held") then
+            -- Some form of lamp. It's visibility is the inverse of light sanity.
+            SLOT_VIS_DATA[loc] = slot_data["light_sanity"] == "off" and sanItemMapping["lamp"]
+
+        elseif string_ends_with(loc,{"1","2","3"}) then
+            -- Surprise! MapRoom is an exception that has 3 lasers, at least we know it's a laser.
+            SLOT_VIS_DATA[loc] = sanItemMapping["laser"]
+
+        elseif string_ends_with(loc,"Pickup") then
+            -- One of @Objectsanity/ITEM (LOCATION)/Pickup
+            name = string_split(loc,"/")[2]
+            name = string.lower(string_split(name," ")[1])
+            name = string.gsub(name,"-","_") -- Walkies...
+            SLOT_VIS_DATA[loc] = sanItemMapping[name]
+        else
+            -- Probably ending in an item name. Time to split the string.
+            name = string_split(loc,"/")[3]
+            name = string.lower(name)
+            if sanItemMapping[name] ~= nil then
+                SLOT_VIS_DATA[loc] = sanItemMapping[name]
+            else
+                -- Folding Map or (Small/Medium/Large) Cowbell, we want the second word.
+                name = string_split(name, " ")[2]
+                SLOT_VIS_DATA[loc] = sanItemMapping[name]
+            end
+        end
+        ::continueForLoc::
     end
 end
 
