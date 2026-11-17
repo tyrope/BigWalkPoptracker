@@ -1,4 +1,5 @@
 require("scripts.logic.ruleparser")
+require("scripts.logic.visibility")
 
 SLOT_LOGIC = nil
 ID_LOOKUP_TABLE = {}
@@ -40,7 +41,9 @@ function ParseAccess(locID)
     -- AccessibilityLevel.Normal        - Green
     loc_obj = Tracker:FindObjectForCode(locID)
     if loc_obj == nil then
-        print("[BigWalk] ERR: ParseAccess("..locID..") => Input parsed as nil!")
+        if ParseVisible(locID) then
+            print("[BigWalk] ERROR: ParseAccess("..locID..")::Input parsed as nil!")
+        end
         return nil
     end
     if SLOT_LOGIC == nil or loc_obj.AccessibilityLevel == AccessibilityLevel.Cleared then
@@ -49,12 +52,12 @@ function ParseAccess(locID)
     end
     slot_loc = LookupSlotLocation(locID)
     if slot_loc == nil then
-        print("[BigWalk] DEBUG: Could not map "..locID.." to a slot location.")
+        print("[BigWalk] DEBUG: ParseAccess::Could not map "..locID.." to a slot location.")
         return AccessibilityLevel.Inspect
     end
     rules = SLOT_LOGIC["rules"][slot_loc[4]+1]
     if rules == nil then
-        print("[BigWalk] ERR: Rules for "..slot_loc[1].."not found, somehow?")
+        print("[BigWalk] ERROR: ParseAccess::Rules for "..slot_loc[1].."not found, somehow?")
         return AccessibilityLevel.Inspect
     end
     parsedRule = ParseRule(rules)

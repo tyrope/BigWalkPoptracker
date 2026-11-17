@@ -11,7 +11,7 @@ function SetSlotVisData(slot_data)
     elseif slot_data["deposit_locations"] == "none" then
         SLOT_VIS_DATA["@Core/Gourd Deposit/Count"] = false
     else
-        print("[BigWalk] ERROR: Invalid value for slot_data[\"deposit_locations\"]")
+        print("[BigWalk] ERROR: SetSlotVisData::Invalid value for slot_data[\"deposit_locations\"]")
     end
 
     -- Radio stations and music.
@@ -132,7 +132,7 @@ function SetSlotVisData(slot_data)
         elseif v == "HubTunnel" then
             SLOT_VIS_DATA["rightarchdoor"] = true
         else
-            print("[BigWalk] ERROR: Unknown locked arch door in slot:"..v)
+            print("[BigWalk] ERROR: SetSlotVisData::Unknown locked arch door in slot:"..v)
         end
     end
 
@@ -229,15 +229,11 @@ function SetSlotVisZonelock(slot_data)
     end
 end
 
-
-
-
-
 function ParseVisible(locID)
     if SLOT_VIS_DATA[locID] ~= nil then
         return SLOT_VIS_DATA
     else
-        print("[BigWalk] ERROR: "..locID.." not in SLOT_VIS_DATA")
+        print("[BigWalk] ERROR: ParseVisible::"..locID.." not in SLOT_VIS_DATA")
         return true
     end
 end

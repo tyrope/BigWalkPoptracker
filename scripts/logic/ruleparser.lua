@@ -4,9 +4,6 @@ function ParseMultiple(method, rules)
         exitValue = false
     elseif method == "or" then
         exitValue = true
-    else
-        print("[BigWalk]ERR: Wrong method for ParseMultiple.")
-        return nil
     end
 
     for _,rule in pairs(rules) do
@@ -33,10 +30,6 @@ end
 -- ["all", [items]] / ["any", [items]] => one of each / one of any
 -- ["from", [items], count] => at least count items in total among the list
 function ParseItems(method, items, count)
-    if method ~= "all" and method ~= "any" and method ~= "from" then
-        print("[BigWalk]ERR: Wrong method for ParseItems")
-        return nil
-    end
     for _,item in pairs(items) do
         amount = Tracker:FindObjectForCode(ConvertItemName(item)).AcquiredCount
         if method == "all" and amount == 0 then
@@ -64,8 +57,7 @@ function ParseLocation(parentLoc)
             return ParseRule(loc[4]+1)
         end
     end
-    print("[BigWalk]ERR: Trying to parse a location rule that doesn't exist?!")
-    print(parentLoc)
+    print("[BigWalk]ERROR: ParseLocation::Rule location doesn't exist?!", parentLoc)
     return false
 end
 
@@ -79,7 +71,7 @@ function ParseRegion(region)
             return CanReachRegion(region)
         end
     end
-    print("[BigWalkPack] ERR: Region not accessible, ever."..region)
+    print("[BigWalk] ERROR: ParseRegion::Not accessible, ever."..region)
     return false
 end
 
@@ -102,6 +94,6 @@ function ParseRule(rule)
     elseif rule[1] == "reg" then
         return ParseRegion(rule[2])
     end
-    print("[BigWalkPack] ERR: Rule type not recognized: "..rule[1])
+    print("[BigWalk] ERROR: ParseRule::Rule type not recognized: "..rule[1])
 end
 
