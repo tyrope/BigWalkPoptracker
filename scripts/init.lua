@@ -16,7 +16,6 @@ require("scripts.logic.visibility")
 
 -- Layout
 Tracker:AddLayouts("layouts/broadcast.json")
-Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/settings_popup.json")
 
 -- AutoTracking for PopTracker

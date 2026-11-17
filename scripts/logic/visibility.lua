@@ -165,6 +165,7 @@ function SetSlotVisData(slot_data)
     Tracker:AddLayouts("layouts/trackers/"..layout..".json")
 
     -- TODO: Item layouts.
+    Tracker:AddLayouts("layouts/items.json")
 end
 
 function SetSlotVisObjectsanity(slot_data)
