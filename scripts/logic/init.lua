@@ -41,9 +41,7 @@ function ParseAccess(locID)
     -- AccessibilityLevel.Normal        - Green
     loc_obj = Tracker:FindObjectForCode(locID)
     if loc_obj == nil then
-        if ParseVisible(locID) then
-            print("[BigWalk] ERROR: ParseAccess("..locID..")::Input parsed as nil!")
-        end
+        print("[BigWalk] ERROR: ParseAccess("..locID..")::Input parsed as nil!")
         return nil
     end
     if SLOT_LOGIC == nil or loc_obj.AccessibilityLevel == AccessibilityLevel.Cleared then
@@ -52,7 +50,9 @@ function ParseAccess(locID)
     end
     slot_loc = LookupSlotLocation(locID)
     if slot_loc == nil then
-        print("[BigWalk] DEBUG: ParseAccess::Could not map "..locID.." to a slot location.")
+        if ParseVisible(locID) then
+            print("[BigWalk] ERROR: ParseAccess::Could not map "..locID.." to a slot location.")
+        end
         return AccessibilityLevel.Inspect
     end
     rules = SLOT_LOGIC["rules"][slot_loc[4]+1]
@@ -60,8 +60,7 @@ function ParseAccess(locID)
         print("[BigWalk] ERROR: ParseAccess::Rules for "..slot_loc[1].."not found, somehow?")
         return AccessibilityLevel.Inspect
     end
-    parsedRule = ParseRule(rules)
-    if parsedRule then
+    if ParseRule(rules) then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
