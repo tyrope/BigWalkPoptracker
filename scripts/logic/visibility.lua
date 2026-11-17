@@ -231,10 +231,10 @@ end
 
 function ParseVisible(locID)
     if SLOT_VIS_DATA[locID] ~= nil then
-        return SLOT_VIS_DATA
+        return SLOT_VIS_DATA[locID]
     else
         print("[BigWalk] ERROR: ParseVisible::"..locID.." not in SLOT_VIS_DATA")
-        return true
+        return false
     end
 end
 
