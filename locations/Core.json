@@ -1213,7 +1213,9 @@
                         "access_rules": [
                             "^$ParseAccess|@Core/Drawbridge/Monument Key"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "^$ParseVisible|@Core/Drawbridge/Monument Key"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -1329,7 +1331,9 @@
                         "access_rules": [
                             "^$ParseAccess|@Core/Red Funnel Tower/Monument Key"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "^$ParseVisible|@Core/Red Funnel Tower/Monument Key"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -1445,7 +1449,9 @@
                         "access_rules": [
                             "^$ParseAccess|@Core/Green Cup Tower/Monument Key"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "^$ParseVisible|@Core/Green Cup Tower/Monument Key"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -1561,7 +1567,9 @@
                         "access_rules": [
                             "^$ParseAccess|@Core/Blue Castle Tower/Monument Key"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "^$ParseVisible|@Core/Blue Castle Tower/Monument Key"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -1677,7 +1685,9 @@
                         "access_rules": [
                             "^$ParseAccess|@Core/Yellow Twist Tower/Monument Key"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "^$ParseVisible|@Core/Yellow Twist Tower/Monument Key"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -1783,7 +1793,9 @@
                         "access_rules": [
                             "^$ParseAccess|@Core/Black Monolith Tower/Monument Key"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "^$ParseVisible|@Core/Black Monolith Tower/Monument Key"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -1839,7 +1851,9 @@
                         "access_rules": [
                             "^$ParseAccess|@Core/Green Dome Tower/Monument Key"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "^$ParseVisible|@Core/Green Dome Tower/Monument Key"
+                        ],
                         "item_count": 1
                     },
                     {
