@@ -11,7 +11,7 @@ Tracker:AddItems("items/items.json")
 Tracker:AddMaps("maps/maps.json")
 
 -- Logic
-require("scripts.logic.init")
+require("scripts.logic.logicEntry")
 require("scripts.logic.visibility")
 
 -- Layout
