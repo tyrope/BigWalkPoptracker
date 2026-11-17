@@ -1,0 +1,71 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#00000000",
+        "content": {
+            "type": "dock",
+            "content": [
+                {
+                    "type": "container",
+                    "background": "#101010",
+                    "dock": "top",
+                    "content": {
+                        "type": "item",
+                        "item": "status_bar",
+                        "max_height": 16
+                    }
+                },
+                {
+                    "type": "dock",
+                    "dropshadow": true,
+                    "content": [
+                        {
+                            "type": "dock",
+                            "dock": "left",
+                            "v_alignment": "stretch",
+                            "content": [
+                                {
+                                    "type": "group",
+                                    "header": "Items",
+                                    "dock": "top",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "shared_item_grid_vertical"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dock",
+                            "content": [
+                                {
+                                    "type": "tabbed",
+                                    "tabs": [
+                                        {
+                                            "title": "Core",
+                                            "content": {
+                                                "type": "map",
+                                                "maps": [
+                                                    "Core"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "title": "Light Sanity",
+                                            "content": {
+                                                "type": "map",
+                                                "maps": [
+                                                    "Lightsanity"
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
