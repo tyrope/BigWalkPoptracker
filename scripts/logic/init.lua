@@ -7,10 +7,15 @@ function FetchSlotLogic(slot_data)
 end
 
 function LoadTrackerJson()
-    Tracker:AddLayouts("layouts/tracker.json")
+    -- TODO Detemine which layout to load.
+    --Tracker:AddLayouts("layouts/trackers/core.json")
+    --Tracker:AddLayouts("layouts/trackers/core-light.json")
+    --Tracker:AddLayouts("layouts/trackers/core-object.json")
+    Tracker:AddLayouts("layouts/trackers/core-light-object.json")
 end
 
 function LoadLocationsJsons()
+    -- TODO Only load locations based on the layout loaded.
     Tracker:AddLocations("locations/Core.json")
     Tracker:AddLocations("locations/Lightsanity.json")
     Tracker:AddLocations("locations/Objectsanity.json")
