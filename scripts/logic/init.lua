@@ -1,9 +1,34 @@
 require("scripts.logic.ruleparser")
 
 SLOT_LOGIC = nil
+ID_LOOKUP_TABLE = {}
 
 function FetchSlotLogic(slot_data)
     SLOT_LOGIC = slot_data["logic"]
+end
+
+function LookupSlotLocation(locID)
+    if ID_LOOKUP_TABLE[locID] == nil then
+        -- Either the table is empty or we're not in it, do the expensive lookup.
+        for _, loc in pairs(SLOT_LOGIC["locations"]) do
+            if loc[2] == 0 then
+                goto skipWrongLoc
+            elseif LOCATION_MAPPING[loc[2]][1] == locID then
+                ID_LOOKUP_TABLE[locID] = loc
+                break
+            end
+            ::skipWrongLoc::
+        end
+        if ID_LOOKUP_TABLE[locID] == nil then
+            -- We tried, but couldn't find ourselves, mark as unavailable.
+            ID_LOOKUP_TABLE[locID] = -1
+        end
+    end
+    if ID_LOOKUP_TABLE[locID] == -1 then
+        -- We don't have an associated slot location.
+        return nil
+    end
+    return ID_LOOKUP_TABLE[locID]
 end
 
 function LoadTrackerJson()
@@ -37,23 +62,22 @@ function ParseAccess(locID)
         -- Don't touch logic if we're not connected, and don't unclear cleared checks.
         return loc_obj.AccessibilityLevel
     end
-    for _, loc in pairs(SLOT_LOGIC["locations"]) do
-        if loc[2] == 0 then
-            goto skipWrongLoc
-        elseif LOCATION_MAPPING[loc[2]][1] ~= locID then
-            goto skipWrongLoc
-        end
-        rules = SLOT_LOGIC["rules"][loc[4]+1]
-        parsedRule = ParseRule(rules)
-        if parsedRule then
-            return AccessibilityLevel.Normal
-        else
-            return AccessibilityLevel.None
-        end
-        ::skipWrongLoc::
+    slot_loc = LookupSlotLocation(locID)
+    if slot_loc == nil then
+        print("[BigWalk] DEBUG: Could not map "..locID.." to a slot location.")
+        return AccessibilityLevel.Inspect
     end
-    print("[BigWalk] INFO: ID for "..locID.." not found. Is it disabled in the yaml?")
-    return AccessibilityLevel.Inspect
+    rules = SLOT_LOGIC["rules"][slot_loc[4]+1]
+    if rules == nil then
+        print("[BigWalk] ERR: Rules for "..slot_loc[1].."not found, somehow?")
+        return AccessibilityLevel.Inspect
+    end
+    parsedRule = ParseRule(rules)
+    if parsedRule then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
 end
 
 Archipelago:AddClearHandler("InitialLogic", FetchSlotLogic)
