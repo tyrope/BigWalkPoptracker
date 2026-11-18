@@ -4,6 +4,11 @@ local variant = Tracker.ActiveVariantUID
 require("scripts.lib.recent_items.init")
 require("scripts.lib.status_bar.init")
 
+-- Locations
+Tracker:AddLocations("locations/Core.json")
+Tracker:AddLocations("locations/Lightsanity.json")
+Tracker:AddLocations("locations/Objectsanity.json")
+
 -- Items
 Tracker:AddItems("items/items.json")
 

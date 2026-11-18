@@ -153,14 +153,11 @@ function SetSlotVisData(slot_data)
 
     -- Layout & Locations
     layout = "core"
-    Tracker:AddLocations("locations/Core.json")
     if slot_data["light_sanity"] ~= "off" then
         layout = layout .. "-light"
-        Tracker:AddLocations("locations/Lightsanity.json")
     end
     if slot_data["object_sanity"] == "every" then
         layout = layout .. "-object"
-        Tracker:AddLocations("locations/Objectsanity.json")
     end
     Tracker:AddLayouts("layouts/trackers/"..layout..".json")
 
