@@ -18,19 +18,20 @@
             {
                 "name": "progressivearms point",
                 "inherit_codes": true,
-                "img": "/images/items/progressivearms.png",
+                "img": "/images/items/progressivearms1.png",
+                "disabled_img": "/images/items/progressivearm0.png",
                 "codes": "progressivearms, progressivearms_stage1"
             },
             {
                 "name": "progressivearms up",
                 "inherit_codes": true,
-                "img": "/images/items/progressivearms.png",
+                "img": "/images/items/progressivearms2.png",
                 "codes": "progressivearms_stage2"
             },
             {
                 "name": "progressivearms out",
                 "inherit_codes": true,
-                "img": "/images/items/progressivearms.png",
+                "img": "/images/items/progressivearms3.png",
                 "codes": "progressivearms_stage3"
             }
         ]
@@ -126,19 +127,20 @@
             {
                 "name": "progressiveleftarm point",
                 "inherit_codes": true,
-                "img": "/images/items/progressiveleftarm.png",
+                "img": "/images/items/progressiveleftarm1.png",
+                "disabled_img": "/images/items/progressivearm0.png",
                 "codes": "progressiveleftarm, progressiveleftarm_stage1"
             },
             {
                 "name": "progressiveleftarm up",
                 "inherit_codes": true,
-                "img": "/images/items/progressiveleftarm.png",
+                "img": "/images/items/progressiveleftarm2.png",
                 "codes": "progressiveleftarm_stage2"
             },
             {
                 "name": "progressiveleftarm out",
                 "inherit_codes": true,
-                "img": "/images/items/progressiveleftarm.png",
+                "img": "/images/items/progressiveleftarm3.png",
                 "codes": "progressiveleftarm_stage3"
             }
         ]
@@ -194,43 +196,44 @@
             {
                 "name": "progressivegauntletdoor 1",
                 "inherit_codes": true,
-                "img": "/images/items/progressivegauntletdoor.png",
+                "img": "/images/items/gauntletstage1door.png",
+                "disabled_img": "/images/items/progressivegauntletdoor.png",
                 "codes": "progressivegauntletdoor, progressivegauntletdoor_stage1"
             },
             {
                 "name": "progressivegauntletdoor 2",
                 "inherit_codes": true,
-                "img": "/images/items/progressivegauntletdoor.png",
+                "img": "/images/items/gauntletstage2door.png",
                 "codes": "progressivegauntletdoor_stage2"
             },
             {
                 "name": "progressivegauntletdoor 3",
                 "inherit_codes": true,
-                "img": "/images/items/progressivegauntletdoor.png",
+                "img": "/images/items/gauntletstage3door.png",
                 "codes": "progressivegauntletdoor_stage3"
             },
             {
                 "name": "progressivegauntletdoor 4",
                 "inherit_codes": true,
-                "img": "/images/items/progressivegauntletdoor.png",
+                "img": "/images/items/gauntletstage4door.png",
                 "codes": "progressivegauntletdoor_stage4"
             },
             {
                 "name": "progressivegauntletdoor 5",
                 "inherit_codes": true,
-                "img": "/images/items/progressivegauntletdoor.png",
+                "img": "/images/items/gauntletstage5door.png",
                 "codes": "progressivegauntletdoor_stage5"
             },
             {
                 "name": "progressivegauntletdoor 6",
                 "inherit_codes": true,
-                "img": "/images/items/progressivegauntletdoor.png",
+                "img": "/images/items/gauntletstage6door.png",
                 "codes": "progressivegauntletdoor_stage6"
             },
             {
                 "name": "progressivegauntletdoor 7",
                 "inherit_codes": true,
-                "img": "/images/items/progressivegauntletdoor.png",
+                "img": "/images/items/gauntletstage7door.png",
                 "codes": "progressivegauntletdoor_stage7"
             }
         ]
@@ -276,7 +279,7 @@
         "codes": "train"
     },
     {
-        "name": "timedtomato",
+        "name": "Time-ato",
         "type": "toggle",
         "img": "images/items/timedtomato.png",
         "initial_active_state": false,
@@ -604,19 +607,20 @@
             {
                 "name": "progressiverightarm point",
                 "inherit_codes": true,
-                "img": "/images/items/progressiverightarm.png",
+                "img": "/images/items/progressiverightarm1.png",
+                "disabled_img": "/images/items/progressivearm0.png",
                 "codes": "progressiverightarm, progressiverightarm_stage1"
             },
             {
                 "name": "progressiverightarm up",
                 "inherit_codes": true,
-                "img": "/images/items/progressiverightarm.png",
+                "img": "/images/items/progressiverightarm2.png",
                 "codes": "progressiverightarm_stage2"
             },
             {
                 "name": "progressiverightarm out",
                 "inherit_codes": true,
-                "img": "/images/items/progressiverightarm.png",
+                "img": "/images/items/progressiverightarm3.png",
                 "codes": "progressiverightarm_stage3"
             }
         ]
