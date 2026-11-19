@@ -1,0 +1,123 @@
+{
+    "shared_item_grid_vertical": {
+        "type": "group",
+        "header": "Items",
+        "dock": "top",
+        "content": {
+            "type": "array",
+            "orientation": "vertical",
+            "margin": "0,0",
+            "content": [
+                {
+                    "type": "itemgrid",
+                    "item_margin": "2, 2",
+                    "h_alignment": "left",
+                    "item_h_alignment": "center",
+                    "item_v_alignment": "center",
+                    "item_height": 50,
+                    "item_width": 50,
+                    "rows": [
+                        [
+                            "iconpanels",
+                            "drawingpanels",
+                            "soundpanels",
+                            "pointpanels",
+                            "posepanels"
+                        ],[
+                            "golfball",
+                            "timedtomato",
+                            "counter",
+                            "speakers",
+                            "buttons"
+                        ],[
+                            "synchronizedbuttons",
+                            "teapots",
+                            "lights",
+                            "inkviewer",
+                            "bigheadmask"
+                        ],[
+                            "terrainpegs",
+                            "coordinatescomputer",
+                            "gourd",
+                            "drawbridgekey",
+                            "redfunneltowerkey"
+                        ],[
+                            "greencuptowerkey",
+                            "bluecastletowerkey",
+                            "yellowtwisttowerkey",
+                            "blackmonolithtowerkey",
+                            "greendometowerkey"
+                        ],[
+                            "drawbridge",
+                            "firstarchdoor",
+                            "leftarchdoor",
+                            "rightarchdoor",
+                            "maproom"
+                        ],[
+                            "bigwalldoor",
+                            "spawnsecretdoor",
+                            "progressivegauntletdoor",
+                            "gauntletstage1door",
+                            "gauntletstage2door"
+                                ],[
+                            "gauntletstage3door",
+                            "gauntletstage4door",
+                            "gauntletstage5door",
+                            "gauntletstage6door",
+                            "gauntletstage7door"
+                        ],[
+                            "train",
+                            "chairlift",
+                            "tunnels",
+                            "redtunneldoor",
+                            "greentunneldoor"
+                        ],[
+                            "bluetunneldoor",
+                            "yellowtunneldoor",
+                            "purpletunnel",
+                            "drawbridgeteleporter",
+                            "redfunneltowerteleporter"
+                        ],[
+                            "greencuptowerteleporter",
+                            "bluecastletowerteleporter",
+                            "yellowtwisttowerteleporter",
+                            "blacktowerteleporter",
+                            "greendometowerteleporter"
+                        ],[
+                            "silentgauntletteleporter",
+                            "progressivearms",
+                            "progressiverightarm",
+                            "progressiveleftarm",
+                            "throwing"
+                        ],[
+                            "running",
+                            "legs",
+                            "seat",
+                            "carrying",
+                            "radiomusic01"
+                        ],[
+                            "radiomusic02",
+                            "radiomusic03",
+                            "radiomusic04",
+                            "radiomusic05",
+                            "radiomusic06"
+                        ],[
+                            "radiomusic07",
+                            "redzonelamps",
+                            "redzonegadgets",
+                            "greenzonelamps",
+                            "greenzonegadgets"
+                        ],[
+                            "bluezonelamps",
+                            "bluezonegadgets",
+                            "yellowzonelamps",
+                            "yellowzonegadgets",
+                            "update"
+                        ]
+                    ]
+                }
+            ]
+        }
+    }
+}
+
