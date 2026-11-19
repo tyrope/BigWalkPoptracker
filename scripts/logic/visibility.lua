@@ -51,6 +51,7 @@ function SetSlotVisData(slot_data)
     SetSlotVisObjectsanity(slot_data) -- Objectsanity
 
     SetLocationVisibilities(slot_data) -- Location layouts
+    SetItemVisibilities(slot_data) -- Item Layouts
 end
 
 ----- LOCATIONS -----
@@ -198,6 +199,8 @@ function SetLocationVisibilities(slot_data)
     Tracker:AddLayouts("layouts/maps/"..layout..".json")
 end
 
+----- ITEMS -----
+
 function SetSlotVisZonelock(slot_data)
     lamps = false
     gadgets = false
@@ -216,10 +219,105 @@ function SetSlotVisZonelock(slot_data)
     -- lamps also become part of the equation if lightsanity isn't off.
     lamps = lamps or slot_data["light_sanity"] ~= "off"
 
-    -- Set the zones.
-    for _,colour in ipairs({"red","green","blue","yellow"}) do
-        SLOT_VIS_DATA[colour.."zonelamps"] = lamps
-        SLOT_VIS_DATA[colour.."zonegadgets"] = gadgets
+    return {lamps, gadgets}
+end
+
+function FindDoorItemJson(slot_data)
+    doorjson = ""
+
+    for _,v in pairs(slot_data["locked_arch_doors"]) do
+        if v == "SpawnHubGate" then
+            doorjson = doorjson.."_first"
+        elseif v == "HubShortcutToSportsCreek" then
+            doorjson = doorjson.."_left"
+        elseif v == "HubTunnel" then
+            doorjson = doorjson.."_right"
+        end
+    end
+
+    doorjson = doorjson:gsub("_left_right","_sides")
+
+    -- This one shouldn't happen, but you never know...
+    doorjson = doorjson:gsub("_right_left","_sides")
+
+    if slot_data["gauntlet_mode"] == "locked_stages" then -- Gauntlet.
+        if slot_data["gauntlet_stage_items"] == "progressive" then
+            doorjson = doorjson.."_gauntProg"
+        else
+            doorjson = doorjson.."_gauntInd"
+        end
+    end
+    if doorjson == "" then
+        doorjson = "none"
+    else -- Remove the starting underscore.
+        doorjson = doorjson:sub(2)
+    end
+    return "layouts/items/doors/"..doorjson..".json"
+end
+
+function SetItemVisibilities(slot_data)
+    -- Puzzle pieces
+    if slot_data["lock_puzzle_needs"] then
+        Tracker:AddLayouts("layouts/items/puzzle/enabled.json")
+    else
+        Tracker:AddLayouts("layouts/items/puzzle/disabled.json")
+    end
+
+    -- Radio Music.
+    if slot_data["radio_station_items"] then
+        Tracker:AddLayouts("layouts/items/radio/enabled.json")
+    else
+        Tracker:AddLayouts("layouts/items/radio/disabled.json")
+    end
+
+    Tracker:AddLayouts("layouts/items/keys.json")
+
+    -- teleports. This might need tweaking?
+    if slot_data["teleport_buttons"] == "items" then
+        Tracker:AddLayouts("layouts/items/teleport/enabled.json")
+    else
+        Tracker:AddLayouts("layouts/items/teleport/disabled.json")
+    end
+
+    -- Doors.
+    Tracker:AddLayouts(FindDoorItemJson(slot_data))
+
+    -- Abilities
+    if slot_data["lock_abilities"] == "disabled" then
+        Tracker:AddLayouts("layouts/items/abilities/disabled.json")
+    elseif slot_data["lock_abilites"] == "handed" then
+        if slot_data["lock_running"] then
+            Tracker:AddLayouts("layouts/items/abilities/handed_running.json")
+        else
+            Tracker:AddLayouts("layouts/items/abilities/handed.json")
+        end
+    else -- lock_abilities == ambidextrous
+        if slot_data["lock_running"] then
+            Tracker:AddLayouts("layouts/items/abilities/ambidextrous_running.json")
+        else
+            Tracker:AddLayouts("layouts/items/abilities/ambidextrous.json")
+        end
+    end
+
+    zones = SetSlotVisZonelock(slot_data)
+    if zones[1] and zones[2] then
+        -- lamps and gadgets
+        Tracker:AddLayouts("layouts/items/zonelocks/both.json")
+    elseif zones[1] then
+        -- only lamps
+        Tracker:AddLayouts("layouts/items/zonelocks/lamps.json")
+    elseif zones[2] then
+        -- only gadgets
+        Tracker:AddLayouts("layouts/items/zonelocks/gadgets.json")
+    else
+        -- Neither.
+        Tracker:AddLayouts("layouts/items/zonelocks/disabled.json")
+    end
+
+    if slot_data["tunnel_sanity"] then
+        Tracker:AddLayouts("layouts/items/core_tunnelsanity.json")
+    else
+        Tracker:AddLayouts("layouts/items/core.json")
     end
 end
 

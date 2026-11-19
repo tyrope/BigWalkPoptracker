@@ -1,0 +1,38 @@
+{
+    "items_puzzlepieces": {
+        "type": "group",
+        "header": "Puzzle Pieces",
+        "content": {
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "h_alignment": "left",
+            "item_h_alignment": "center",
+            "item_v_alignment": "center",
+            "item_height": 42,
+            "item_width": 42,
+            "rows": [
+                [
+                    "iconpanels",
+                    "posepanels",
+                    "drawingpanels",
+                    "soundpanels",
+                    "pointpanels",
+                    "inkviewer",
+                    "buttons",
+                    "synchronizedbuttons",
+                    "speakers"
+                ],[
+                    "lights",
+                    "counter",
+                    "timedtomato",
+                    "golfball",
+                    "terrainpegs",
+                    "teapots",
+                    "bigheadmask",
+                    "coordinatescomputer"
+                ]
+            ]
+        }
+    }
+}
+

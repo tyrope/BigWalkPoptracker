@@ -1,0 +1,28 @@
+{
+    "items_zonelocks": {
+        "type": "group",
+        "header": "Zone Locks",
+        "content": {
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "h_alignment": "left",
+            "item_h_alignment": "center",
+            "item_v_alignment": "center",
+            "item_height": 43,
+            "item_width": 43,
+            "rows": [
+                [
+                    "redzonelamps",
+                    "redzonegadgets",
+                    "greenzonelamps",
+                    "greenzonegadgets",
+                    "bluezonelamps",
+                    "bluezonegadgets",
+                    "yellowzonelamps",
+                    "yellowzonegadgets"
+                ]
+            ]
+        }
+    }
+}
+
