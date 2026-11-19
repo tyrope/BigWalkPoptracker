@@ -2,6 +2,7 @@ require("scripts.lib.stringrecipes")
 
 SLOT_VIS_DATA = {}
 
+----- Mostly locations, but also triggers items. -----
 function SetSlotVisData(slot_data)
     -- Gourd deposit count.
     if slot_data["deposit_locations"] == "all" then
@@ -16,13 +17,51 @@ function SetSlotVisData(slot_data)
         print("[BigWalk] ERROR: SetSlotVisData::Invalid value for slot_data[\"deposit_locations\"]")
     end
 
-    -- Radio stations and music.
+    -- Radio stations.
     for i=1,7 do
         SLOT_VIS_DATA["@Core/Radio Station 0"..i.."/On"] = slot_data["radio_station_checks"]
-        SLOT_VIS_DATA["radiomusic0"..i] = slot_data["radio_station_items"]
     end
 
-    -- Monuments
+    -- Pack Sanity.
+    SetSlotVisRange({"Sky Blue Backpack","Yellow Backpack","Teal Backpack",
+        "Orange Backpack","Pink Backpack","Maroon Backpack","Green Belt",
+        "Purple Belt","Yellow Belt","Orange Belt","Blue Belt","Gourd Carton"},
+    "@Core/", "/Collected", slot_data["pack_sanity"] ~= false)
+
+    -- Firework Sanity
+    SetSlotVisRange({"Hub","Red Funnel Tower", "Yellow Twist Tower",
+        "Blue Castle Tower","Green Cup Tower","Peak","South Peak",
+        "Intro Platform"}, "@Core/", "/Fireworks", slot_data["firework_sanity"])
+
+    -- Flare gun sanity
+    SetSlotVisRange({"Red","Green","Yellow","Blue"}, "@Core/",
+        " Flare Gun/Pickup", slot_data["flare_gun_sanity"])
+
+    -- Purple gourd puzzles.
+    for _,v in ipairs({"Cabin Fever Long", "Centurion Seance", "Speed Obby",
+        "Dancer and Selector", "Charades Rooms", "Poet and Pontiff",
+        "Cannonball Commute"}) do
+        SLOT_VIS_DATA["@Core/"..v.."/Puzzle"] = slot_data["include_big_game_puzzles"] ~= "disabled"
+    end
+
+    -- Gauntlet
+    SLOT_VIS_DATA["@Core/Gauntlet"] = slot_data["gauntlet_mode"] == "locked_stages"
+
+    SetSlotVisMonuments(slot_data) -- Monuments
+    SetSlotVisObjectsanity(slot_data) -- Objectsanity
+
+    SetLocationVisibilities(slot_data) -- Location layouts
+end
+
+----- LOCATIONS -----
+
+function SetSlotVisRange(checkArray, loc_prefix, loc_suffic, visible)
+    for _,v in ipairs(checkArray) do
+        SLOT_VIS_DATA[loc_prefix..v..loc_suffic] = visible
+    end
+end
+
+function SetSlotVisMonuments(slot_data)
     slotkeynames = {
         bigKeyIntro="Drawbridge",
         bigKeyRedZone="Red Funnel Tower",
@@ -61,19 +100,6 @@ function SetSlotVisData(slot_data)
         end
     end
 
-    -- Pack Sanity.
-    for _,v in ipairs({"Sky Blue Backpack","Yellow Backpack","Teal Backpack",
-        "Orange Backpack","Pink Backpack","Maroon Backpack","Green Belt",
-        "Purple Belt","Yellow Belt","Orange Belt","Blue Belt","Gourd Carton"}) do
-        SLOT_VIS_DATA["@Core/"..v.."/Collected"] = (slot_data["pack_sanity"] ~= false)
-    end
-
-    -- Firework Sanity
-    for _,v in ipairs({"Hub","Red Funnel Tower", "Yellow Twist Tower","Blue Castle Tower",
-        "Green Cup Tower","Peak","South Peak","Intro Platform"}) do
-        SLOT_VIS_DATA["@Core/"..v.."/Fireworks"] = slot_data["firework_sanity"]
-    end
-
     for _,v in ipairs({"Drawbridge", "Red Funnel Tower", "Green Cup Tower", "Blue Castle Tower", "Yellow Twist Tower"}) do
         -- Key Cut 1-5
         for i=1,5 do
@@ -81,94 +107,12 @@ function SetSlotVisData(slot_data)
         end
     end
 
-    -- Flare gun sanity
-    for _,v in ipairs({"Red","Green","Yellow","Blue"}) do
-        SLOT_VIS_DATA["@Core/"..v.." Flare Gun/Pickup"] = slot_data["flare_gun_sanity"]
-    end
-
-    SetSlotVisObjectsanity(slot_data)
-    SetSlotVisZonelock(slot_data)
-
-    -- Tunnel Sanity
-    SLOT_VIS_DATA["tunnels"] = (slot_data["tunnel_sanity"] == false)
-    for _,v in ipairs({"redtunneldoor","greentunneldoor","bluetunneldoor","yellowtunneldoor","purpletunnel"}) do
-        SLOT_VIS_DATA[v] = slot_data["tunnel_sanity"]
-    end
-
-    -- Lock puzzle needs
-    for _,v in ipairs({"buttons","synchronizedbuttons","iconpanels","drawingpanels",
-        "posepanels","soundpanels","speakers","lights","teapots",
-        "timedtomato","golfball","bigheadmask","inkviewer","counter",
-        "coordinatescomputer","terrainpegs"}) do
-        SLOT_VIS_DATA[v] = slot_data["lock_puzzle_needs"]
-    end
-
-    -- Map room is special.
-    SLOT_VIS_DATA["maproom"] = slot_data["start_with_map_room_open"]
-
-    -- Purple gourd puzzles.
-    for _,v in ipairs({"Cabin Fever Long", "Centurion Seance", "Speed Obby",
-        "Dancer and Selector", "Charades Rooms", "Poet and Pontiff",
-        "Cannonball Commute"}) do
-        SLOT_VIS_DATA["@Core/"..v.."/Puzzle"] = slot_data["include_big_game_puzzles"] ~= "disabled"
-    end
-
-    -- Gauntlet
-    gauntLock = slot_data["gauntlet_mode"] == "locked_stages"
-    gauntProg = slot_data["gauntlet_stage_items"] == "progressive"
-    SLOT_VIS_DATA["@Core/Gauntlet"] = gauntLock
-    SLOT_VIS_DATA["progressivegauntletdoor"] = gauntLock and gauntProg
-    for i=1,7 do
-        SLOT_VIS_DATA["progressivestage"..i.."door"] = gauntLock and (gauntProg == false)
-    end
-
-    -- Arch doors
-    SLOT_VIS_DATA["firstarchdoor"] = false
-    SLOT_VIS_DATA["leftarchdoor"] = false
-    SLOT_VIS_DATA["righttarchdoor"] = false
-    for _, v in pairs(slot_data["locked_arch_doors"]) do
-        if v == "SpawnHubGate" then
-            SLOT_VIS_DATA["firstarchdoor"] = true
-        elseif v == "HubShortcutToSportsCreek" then
-            SLOT_VIS_DATA["leftarchdoor"] = true
-        elseif v == "HubTunnel" then
-            SLOT_VIS_DATA["rightarchdoor"] = true
-        else
-            print("[BigWalk] ERROR: SetSlotVisData::Unknown locked arch door in slot:"..v)
-        end
-    end
-
-    -- Abilities
-    ability = slot_data["lock_abilities"]
-    SLOT_VIS_DATA["legs"] = ability ~= "disabled"
-    SLOT_VIS_DATA["seat"] = ability ~= "disabled"
-    SLOT_VIS_DATA["throwing"] = ability ~= "disabled"
-    SLOT_VIS_DATA["carrying"] = ability ~= "disabled"
-
-    SLOT_VIS_DATA["progressiveleftarm"] = ability == "handed"
-    SLOT_VIS_DATA["progressiverighttarm"] = ability == "handed"
-    SLOT_VIS_DATA["progressivearma"] = ability == "ambidextrous"
-
-    SLOT_VIS_DATA["running"] = ability ~= "disabled" and slot_data["lock_running"]
-
-    -- Layout & Locations
-    layout = "core"
-    if slot_data["light_sanity"] ~= "off" then
-        layout = layout .. "-light"
-    end
-    if slot_data["object_sanity"] == "every" then
-        layout = layout .. "-object"
-    end
-    Tracker:AddLayouts("layouts/maps/"..layout..".json")
-
-    -- TODO: Item layouts.
-    Tracker:AddLayouts("layouts/items/items.json")
 end
 
 function SetSlotVisObjectsanity(slot_data)
     allItems = {"binoculars","clock","compass","cowbell","lamp","laser","map",
         "megaphone","radio","scanner","torch","walkie_talkie","paintbrush"}
-    objSan = slot_data["objest_sanity"]
+    objSan = slot_data["object_sanity"]
 
     sanItemMapping = {}
     for _, item in ipairs(allItems) do
@@ -222,10 +166,10 @@ function SetSlotVisObjectsanity(slot_data)
             SLOT_VIS_DATA[loc] = sanItemMapping["laser"]
 
         elseif string_ends_with(loc,"Pickup") then
-            -- One of @Objectsanity/ITEM (LOCATION)/Pickup
-            name = string_split(loc,"/")[2]
-            name = string.lower(string_split(name," ")[1])
-            name = string.gsub(name,"-","_") -- Walkies...
+            -- One of @Objectsanity/Item (Location)/Pickup
+            name = string_split(loc,"/")[2] -- Item (Location)
+            name = string.lower(string_split(name," ")[1]) -- item
+            name = string.gsub(name,"-","_") -- Walkies wanna be special
             SLOT_VIS_DATA[loc] = sanItemMapping[name]
         else
             -- Probably ending in an item name. Time to split the string.
@@ -241,6 +185,17 @@ function SetSlotVisObjectsanity(slot_data)
         end
         ::continueForLoc::
     end
+end
+
+function SetLocationVisibilities(slot_data)
+    layout = "core"
+    if slot_data["light_sanity"] ~= "off" then
+        layout = layout .. "-light"
+    end
+    if slot_data["object_sanity"] == "every" then
+        layout = layout .. "-object"
+    end
+    Tracker:AddLayouts("layouts/maps/"..layout..".json")
 end
 
 function SetSlotVisZonelock(slot_data)
@@ -267,6 +222,9 @@ function SetSlotVisZonelock(slot_data)
         SLOT_VIS_DATA[colour.."zonegadgets"] = gadgets
     end
 end
+
+
+---- RUNTIME -----
 
 function ParseVisible(locID)
     if SLOT_VIS_DATA[locID] ~= nil then
