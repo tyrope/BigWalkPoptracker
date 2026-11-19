@@ -60,7 +60,15 @@ function ParseAccess(locID)
         print("[BigWalk] ERROR: ParseAccess::Rules for "..slot_loc[1].."not found, somehow?")
         return AccessibilityLevel.Inspect
     end
-    if ParseRule(rules) then
+
+    -- DEBUG
+    if locID == "@Core/Easy Simultaneous Press/Puzzle" then
+        verbose = true
+    else
+        verbose = false
+    end
+
+    if ParseRule(rules, verbose) then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None

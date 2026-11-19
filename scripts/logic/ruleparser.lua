@@ -76,23 +76,37 @@ function ParseRegion(region)
 end
 
 -- Definitions provided at https://github.com/Grizfreak/BigWalk-archipelago/blob/master/apworld/README.md
-function ParseRule(rule)
+function ParseRule(rule, verbose)
     if rule[1] == "true" then
+        if verbose then print("[BigWalk] DEBUG: \"true\" rule is true.") end
         return true
     elseif rule[1] == "false" then
+        if verbose then print("[BigWalk] DEBUG: \"false\" rule is false.") end
         return false
     elseif rule[1] == "and" or rule[1] == "or" then
-        return ParseMultiple(rule[1], rule[2])
+        temp = ParseMultiple(rule[1], rule[2])
+        if verbose then print("[BigWalk] DEBUG: \""..rule[1].."\" rule is:",temp) end
+        return temp
     elseif rule[1] == "has" then
-        return ParseHas(rule[2],rule[3])
+        temp = ParseHas(rule[2],rule[3])
+        if verbose then print("[BigWalk] DEBUG: \"has\" rule is:",temp) end
+        return temp
     elseif rule[1] == "all" or rule[1] == "any" then
-        return ParseItems(rule[1], rule[2], nil)
+        temp = ParseItems(rule[1], rule[2], nil)
+        if verbose then print("[BigWalk] DEBUG: \""..rule[1].."\" rule is:",temp) end
+        return temp
     elseif rule[1] == "from" then
-        return ParseItems(rule[1], rule[2], rule[3])
+        temp = ParseItems(rule[1], rule[2], rule[3])
+        if verbose then print("[BigWalk] DEBUG: \"from\" rule is:",temp) end
+        return temp
     elseif rule[1] == "loc" then
-        return ParseLocation(rule[2])
+        temp = ParseLocation(rule[2])
+        if verbose then print("[BigWalk] DEBUG: \"loc\" rule is:",temp) end
+        return temp
     elseif rule[1] == "reg" then
-        return ParseRegion(rule[2])
+        temp = ParseRegion(rule[2])
+        if verbose then print("[BigWalk] DEBUG: \"reg\" rule is:",temp) end
+        return temp
     end
     print("[BigWalk] ERROR: ParseRule::Rule type not recognized: "..rule[1])
 end
