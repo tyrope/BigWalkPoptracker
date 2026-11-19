@@ -29,15 +29,22 @@ end
 
 -- ["all", [items]] / ["any", [items]] => one of each / one of any
 -- ["from", [items], count] => at least count items in total among the list
-function ParseItems(method, items, count)
+function ParseItems(method, items, count, verbose)
     for _,item in pairs(items) do
-        amount = Tracker:FindObjectForCode(ConvertItemName(item)).AcquiredCount
-        if method == "all" and amount == 0 then
+        convName = ConvertItemName(item)
+        amount = Tracker:FindObjectForCode(convName).AcquiredCount
+        active = Tracker:FindObjectForCode(convName).Active
+        if method == "all" and (amount == 0 and not active) then
             return false
-        elseif method == "any" and amount > 0 then
+        elseif method == "any" and (amount > 0 or active) then
             return true
         elseif method == "from" and amount > 0 then
             count = count - amount
+            if count <= 0 then
+                return true
+            end
+        elseif method == "from" and active then
+            count = count - 1
             if count <= 0 then
                 return true
             end
@@ -92,7 +99,7 @@ function ParseRule(rule, verbose)
         if verbose then print("[BigWalk] DEBUG: \"has\" rule is:",temp) end
         return temp
     elseif rule[1] == "all" or rule[1] == "any" then
-        temp = ParseItems(rule[1], rule[2], nil)
+        temp = ParseItems(rule[1], rule[2], nil, verbose)
         if verbose then print("[BigWalk] DEBUG: \""..rule[1].."\" rule is:",temp) end
         return temp
     elseif rule[1] == "from" then

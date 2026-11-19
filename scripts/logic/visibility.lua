@@ -1,6 +1,7 @@
 require("scripts.lib.stringrecipes")
 
 SLOT_VIS_DATA = {}
+MAPS_LOADED = {}
 
 ----- Mostly locations, but also triggers items. -----
 function SetSlotVisData(slot_data)
@@ -190,11 +191,14 @@ end
 
 function SetLocationVisibilities(slot_data)
     layout = "core"
+    table.insert(MAPS_LOADED, "@Core")
     if slot_data["light_sanity"] ~= "off" then
         layout = layout .. "-light"
+        table.insert(MAPS_LOADED, "@Lightsanity")
     end
     if slot_data["object_sanity"] == "every" then
         layout = layout .. "-object"
+        table.insert(MAPS_LOADED, "@Objectsanity")
     end
     Tracker:AddLayouts("layouts/maps/"..layout..".json")
 end
@@ -325,10 +329,20 @@ end
 ---- RUNTIME -----
 
 function ParseVisible(locID)
+    onMap = false
+    for _, v in pairs(MAPS_LOADED) do
+        if string_starts_with(locID,v) then
+            onMap = true
+            break
+        end
+    end
+
     if SLOT_VIS_DATA[locID] ~= nil then
-        return SLOT_VIS_DATA[locID]
+        return onMap and SLOT_VIS_DATA[locID]
     else
-        print("[BigWalk] ERROR: ParseVisible::"..locID.." not in SLOT_VIS_DATA")
+        if onMap then
+            print("[BigWalk] ERROR: ParseVisible::"..locID.." not in SLOT_VIS_DATA")
+        end
         return false
     end
 end
