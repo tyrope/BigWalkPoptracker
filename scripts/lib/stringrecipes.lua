@@ -16,11 +16,12 @@ function string_ends_with(str, ending)
     if type(ending) == "string" then
         return ending == "" or str:sub(-#ending) == ending
     else
-        result = false
         for _, e in ipairs(ending) do
-            result = result or string_ends_with(str,e)
+            if string_ends_with(str,e) == true then
+                return true
+            end
         end
-        return result
+        return false
     end
 end
 
@@ -49,4 +50,8 @@ function string_split(sFullstring, sSeparator, nMax, bRegexp)
    end
 
    return aRecord
+end
+
+function string_contains(fullstring, substr)
+    return string.find(fullstring,substr) ~= nil
 end

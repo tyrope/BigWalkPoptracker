@@ -1,0 +1,60 @@
+{
+    "shared_item_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "dock": "top",
+        "content": [
+            {
+                "type": "group",
+                "header": "Core items",
+                "content": {
+                    "type": "itemgrid",
+                    "item_margin": "2, 2",
+                    "h_alignment": "left",
+                    "item_h_alignment": "center",
+                    "item_v_alignment": "center",
+                    "item_height": 50,
+                    "item_width": 50,
+                    "rows": [
+                        [
+                            "gourd",
+                            "train",
+                            "chairlift",
+                            "tunnels"
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "layout",
+                "key": "items_puzzlepieces"
+            },
+            {
+                "type": "layout",
+                "key": "items_radio"
+            },
+            {
+                "type": "layout",
+                "key": "items_keys"
+            },
+            {
+                "type": "layout",
+                "key": "items_teleporters"
+            },
+            {
+                "type": "layout",
+                "key": "items_abilities"
+            },
+            {
+                "type": "layout",
+                "key": "items_doors"
+            },
+            {
+                "type": "layout",
+                "key": "items_zonelocks"
+            }
+        ]
+    }
+}
+

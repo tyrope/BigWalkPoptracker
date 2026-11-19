@@ -25,13 +25,8 @@
                             "v_alignment": "stretch",
                             "content": [
                                 {
-                                    "type": "group",
-                                    "header": "Items",
-                                    "dock": "top",
-                                    "content": {
-                                        "type": "layout",
-                                        "key": "shared_item_grid_vertical"
-                                    }
+                                    "type": "layout",
+                                    "key": "shared_item_grid_vertical"
                                 }
                             ]
                         },
@@ -39,18 +34,8 @@
                             "type": "dock",
                             "content": [
                                 {
-                                    "type": "tabbed",
-                                    "tabs": [
-                                        {
-                                            "title": "Core",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "Core"
-                                                ]
-                                            }
-                                        }
-                                    ]
+                                    "type": "layout",
+                                    "key": "maps"
                                 }
                             ]
                         }
@@ -60,3 +45,4 @@
         }
     }
 }
+
