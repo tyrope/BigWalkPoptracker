@@ -22,6 +22,8 @@ require("scripts.logic.visibility")
 -- Layout
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/settings_popup.json")
+Tracker:AddLayouts("layouts/maps/blank.json")
+Tracker:AddLayouts("layouts/tracker.json")
 
 -- AutoTracking for PopTracker
 if PopVersion and PopVersion >= "0.26.0" then

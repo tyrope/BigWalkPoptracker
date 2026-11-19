@@ -159,7 +159,7 @@ function SetSlotVisData(slot_data)
     if slot_data["object_sanity"] == "every" then
         layout = layout .. "-object"
     end
-    Tracker:AddLayouts("layouts/trackers/"..layout..".json")
+    Tracker:AddLayouts("layouts/maps/"..layout..".json")
 
     -- TODO: Item layouts.
     Tracker:AddLayouts("layouts/items.json")
