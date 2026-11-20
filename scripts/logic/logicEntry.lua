@@ -62,7 +62,7 @@ function ParseAccess(locID)
     end
 
     -- DEBUG
-    if locID == "@Core/Easy Simultaneous Press/Puzzle" then
+    if locID == "@Core/Yellow Flare Gun/Pickup" then
         verbose = true
     else
         verbose = false
