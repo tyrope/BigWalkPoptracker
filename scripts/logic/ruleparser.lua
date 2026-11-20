@@ -73,7 +73,7 @@ function ParseRegion(region)
     if region == SLOT_LOGIC["origin"] then
         return true
     end
-    for _,exit in pairs(SLOT_LOGIC["exit"]) do
+    for _,exit in pairs(SLOT_LOGIC["exits"]) do
         if exit[2] == region then
             return CanReachRegion(region)
         end
