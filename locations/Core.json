@@ -2180,8 +2180,8 @@
                 "map_locations": [
                     {
                         "map": "Core",
-                        "x": 464,
-                        "y": 442,
+                        "x": 240,
+                        "y": 246,
                         "border_thickness": 3,
                         "shape": "triangle"
                     }
@@ -2240,8 +2240,8 @@
                 "map_locations": [
                     {
                         "map": "Core",
-                        "x": 240,
-                        "y": 246,
+                        "x": 464,
+                        "y": 442,
                         "border_thickness": 3,
                         "shape": "triangle"
                     }
