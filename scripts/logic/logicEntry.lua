@@ -5,6 +5,9 @@ SLOT_LOGIC = nil
 ID_LOOKUP_TABLE = {}
 
 function FetchSlotLogic(slot_data)
+    if BIGWALK_VERBOSE then
+        print("[BigWalk]FetchSlotLogic:: (re)connected to ap.")
+    end
     SLOT_LOGIC = slot_data["logic"]
     ID_LOOKUP_TABLE = {}
 end

@@ -1,5 +1,7 @@
 local variant = Tracker.ActiveVariantUID
 
+BIGWALK_VERBOSE = true
+
 -- Libs
 require("scripts.lib.recent_items.init")
 require("scripts.lib.status_bar.init")
