@@ -105,7 +105,7 @@ function SetSlotVisMonuments(slot_data)
     for _,v in ipairs({"Drawbridge", "Red Funnel Tower", "Green Cup Tower", "Blue Castle Tower", "Yellow Twist Tower"}) do
         -- Key Cut 1-5
         for i=1,5 do
-            SLOT_VIS_DATA["@Core/"..v.."/Key Cut "..i] = slot_data["cut_key_sanity"]
+            SLOT_VIS_DATA["@Core/"..v.."/Key Cut "..i] = slot_data["cut_key_sanity"] ~= "off"
         end
     end
 
