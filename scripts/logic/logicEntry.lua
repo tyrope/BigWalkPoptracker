@@ -6,6 +6,7 @@ ID_LOOKUP_TABLE = {}
 
 function FetchSlotLogic(slot_data)
     SLOT_LOGIC = slot_data["logic"]
+    ID_LOOKUP_TABLE = {}
 end
 
 function LookupSlotLocation(locID)

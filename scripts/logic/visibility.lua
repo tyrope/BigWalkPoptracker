@@ -5,6 +5,8 @@ MAPS_LOADED = {}
 
 ----- Mostly locations, but also triggers items. -----
 function SetSlotVisData(slot_data)
+    SLOT_VIS_DATA = {}
+
     -- Gourd deposit count.
     if slot_data["deposit_locations"] == "all" then
         SLOT_VIS_DATA["@Core/Gourd Deposit/Count"] = true
@@ -295,12 +297,14 @@ function SetItemVisibilities(slot_data)
         else
             Tracker:AddLayouts("layouts/items/abilities/handed.json")
         end
-    else -- lock_abilities == ambidextrous
+    elseif slot_data["lock_abilites"] == "ambidextrous" then
         if slot_data["lock_running"] then
             Tracker:AddLayouts("layouts/items/abilities/ambidextrous_running.json")
         else
             Tracker:AddLayouts("layouts/items/abilities/ambidextrous.json")
         end
+    else
+        print("[BigWalk] ERROR: Unknown value for lock_abilities:",slot_data["lock_abilities"])
     end
 
     zones = SetSlotVisZonelock(slot_data)
