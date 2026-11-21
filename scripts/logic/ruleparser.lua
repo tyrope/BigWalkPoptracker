@@ -87,7 +87,7 @@ function ParseRegion(region, verbose)
     end
     for _,exit in pairs(SLOT_LOGIC["exits"]) do
         if exit[2] == region then
-            return CanReachRegion(region)
+            return ParseRule(SLOT_LOGIC["rules"][exit[3]+1]) and ParseRegion(exit[1])
         end
     end
     print("[BigWalk] ERROR: ParseRegion::Not accessible, ever.",region)
