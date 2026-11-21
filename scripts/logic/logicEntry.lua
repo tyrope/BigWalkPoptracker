@@ -62,13 +62,6 @@ function ParseAccess(locID)
         return AccessibilityLevel.Inspect
     end
 
-    -- DEBUG
-    if locID == "@Core/Yellow Flare Gun/Pickup" then
-        verbose = true
-    else
-        verbose = false
-    end
-
     if ParseRule(rules, verbose) and ParseRegion(region, verbose) then
         return AccessibilityLevel.Normal
     else
