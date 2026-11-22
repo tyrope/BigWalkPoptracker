@@ -63,7 +63,7 @@ function ParseAccess(locID)
     rules = SLOT_LOGIC["rules"][slot_loc[4]+1]
     region = slot_loc[3]
     if rules == nil then
-        print("[BigWalk] ERROR: ParseAccess::Rules for "..slot_loc[1].."not found, somehow?")
+        bwprint("ERROR","ParseAccess","Rules for "..slot_loc[1].."not found, somehow?")
         return AccessibilityLevel.Inspect
     end
 
