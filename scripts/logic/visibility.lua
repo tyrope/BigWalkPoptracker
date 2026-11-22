@@ -1,9 +1,15 @@
 require("scripts.lib.stringrecipes")
 
 SLOT_VIS_DATA = {}
+MAPS_LOADED = {}
 
 ----- Mostly locations, but also triggers items. -----
 function SetSlotVisData(slot_data)
+    if BIGWALK_VERBOSE then
+        print("[BigWalk]SetSlotVisData:: (re)connected to ap.")
+    end
+    SLOT_VIS_DATA = {}
+
     -- Gourd deposit count.
     if slot_data["deposit_locations"] == "all" then
         SLOT_VIS_DATA["@Core/Gourd Deposit/Count"] = true
@@ -104,7 +110,7 @@ function SetSlotVisMonuments(slot_data)
     for _,v in ipairs({"Drawbridge", "Red Funnel Tower", "Green Cup Tower", "Blue Castle Tower", "Yellow Twist Tower"}) do
         -- Key Cut 1-5
         for i=1,5 do
-            SLOT_VIS_DATA["@Core/"..v.."/Key Cut "..i] = slot_data["cut_key_sanity"]
+            SLOT_VIS_DATA["@Core/"..v.."/Key Cut "..i] = slot_data["cut_key_sanity"] ~= "off"
         end
     end
 
@@ -190,11 +196,14 @@ end
 
 function SetLocationVisibilities(slot_data)
     layout = "core"
+    table.insert(MAPS_LOADED, "@Core")
     if slot_data["light_sanity"] ~= "off" then
         layout = layout .. "-light"
+        table.insert(MAPS_LOADED, "@Lightsanity")
     end
     if slot_data["object_sanity"] == "every" then
         layout = layout .. "-object"
+        table.insert(MAPS_LOADED, "@Objectsanity")
     end
     Tracker:AddLayouts("layouts/maps/"..layout..".json")
 end
@@ -285,18 +294,20 @@ function SetItemVisibilities(slot_data)
     -- Abilities
     if slot_data["lock_abilities"] == "disabled" then
         Tracker:AddLayouts("layouts/items/abilities/disabled.json")
-    elseif slot_data["lock_abilites"] == "handed" then
+    elseif slot_data["lock_abilities"] == "handed" then
         if slot_data["lock_running"] then
             Tracker:AddLayouts("layouts/items/abilities/handed_running.json")
         else
             Tracker:AddLayouts("layouts/items/abilities/handed.json")
         end
-    else -- lock_abilities == ambidextrous
+    elseif slot_data["lock_abilities"] == "ambidextrous" then
         if slot_data["lock_running"] then
             Tracker:AddLayouts("layouts/items/abilities/ambidextrous_running.json")
         else
             Tracker:AddLayouts("layouts/items/abilities/ambidextrous.json")
         end
+    else
+        print("[BigWalk] ERROR: Unknown value for lock_abilities:", slot_data["lock_abilities"])
     end
 
     zones = SetSlotVisZonelock(slot_data)
@@ -325,10 +336,20 @@ end
 ---- RUNTIME -----
 
 function ParseVisible(locID)
+    onMap = false
+    for _, v in pairs(MAPS_LOADED) do
+        if string_starts_with(locID,v) then
+            onMap = true
+            break
+        end
+    end
+
     if SLOT_VIS_DATA[locID] ~= nil then
-        return SLOT_VIS_DATA[locID]
+        return onMap and SLOT_VIS_DATA[locID]
     else
-        print("[BigWalk] ERROR: ParseVisible::"..locID.." not in SLOT_VIS_DATA")
+        if onMap then
+            print("[BigWalk] ERROR: ParseVisible::"..locID.." not in SLOT_VIS_DATA")
+        end
         return false
     end
 end

@@ -5,7 +5,11 @@ SLOT_LOGIC = nil
 ID_LOOKUP_TABLE = {}
 
 function FetchSlotLogic(slot_data)
+    if BIGWALK_VERBOSE then
+        print("[BigWalk]FetchSlotLogic:: (re)connected to ap.")
+    end
     SLOT_LOGIC = slot_data["logic"]
+    ID_LOOKUP_TABLE = {}
 end
 
 function LookupSlotLocation(locID)
@@ -56,11 +60,13 @@ function ParseAccess(locID)
         return AccessibilityLevel.Inspect
     end
     rules = SLOT_LOGIC["rules"][slot_loc[4]+1]
+    region = slot_loc[3]
     if rules == nil then
         print("[BigWalk] ERROR: ParseAccess::Rules for "..slot_loc[1].."not found, somehow?")
         return AccessibilityLevel.Inspect
     end
-    if ParseRule(rules) then
+
+    if ParseRule(rules, verbose) and ParseRegion(region, verbose) then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
