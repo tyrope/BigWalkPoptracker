@@ -1,3 +1,5 @@
+require("scripts.lib.bigwalkprinter")
+
 -- ["and", [rules]] / ["or", [rules]] => all / any of the rules
 function ParseMultiple(method, rules)
     if method == "and" then
@@ -25,7 +27,7 @@ end
 function ParseHas(item, count, verbose)
     item_obj = Tracker:FindObjectForCode(ConvertItemName(item))
     temp = item_obj.AcquiredCount >= count or (item_obj.Active and count == 1)
-    if verbose then print("[BigWalk] INFO: ParseHas::("..item..","..count..") => ", temp) end
+    if verbose then bwprint("INFO","ParseHas","("..item..","..count..") => ", temp) end
     return temp
 end
 
@@ -37,33 +39,33 @@ function ParseItems(method, items, count, verbose)
         amount = Tracker:FindObjectForCode(convName).AcquiredCount
         active = Tracker:FindObjectForCode(convName).Active
         if method == "all" and (amount == 0 and not active) then
-            if verbose then print("[BigWalk] INFO: ParseItems::false") end
+            if verbose then bwprint("INFO","ParseItems","false") end
             return false
         elseif method == "any" and (amount > 0 or active) then
-            if verbose then print("[BigWalk] INFO: ParseItems::true") end
+            if verbose then bwprint("INFO","ParseItems","true") end
             return true
         elseif method == "from" and amount > 0 then
             count = count - amount
             if count <= 0 then
-                if verbose then print("[BigWalk] INFO: ParseItems::true") end
+                if verbose then bwprint("INFO","ParseItems","true") end
                 return true
             end
         elseif method == "from" and active then
             count = count - 1
             if count <= 0 then
-                if verbose then print("[BigWalk] INFO: ParseItems::true") end
+                if verbose then bwprint("INFO","ParseItems","true") end
                 return true
             end
         end
     end
     if method == "all" then
-        if verbose then print("[BigWalk] INFO: ParseItems::true") end
+        if verbose then bwprint("INFO","ParseItems","true") end
         return true
     elseif method == "any" or method == "from" then
-        if verbose then print("[BigWalk] INFO: ParseItems::false") end
+        if verbose then bwprint("INFO","ParseItems","false") end
         return false
     else
-        print("[BigWalk] ERROR: ParseItems::Unknown method.")
+        bwprint("ERROR","ParseItems","Unknown method.")
     end
 end
 
@@ -76,7 +78,7 @@ function ParseLocation(parentLoc, verbose)
             return ParseRule(loc[4]+1) and ParseRegion(loc[3])
         end
     end
-    print("[BigWalk]ERROR: ParseLocation::Rule location doesn't exist?!", parentLoc)
+    bwprint("ERROR","ParseLocation","Rule location doesn't exist?!",parentLoc)
     return false
 end
 
@@ -90,43 +92,43 @@ function ParseRegion(region, verbose)
             return ParseRule(SLOT_LOGIC["rules"][exit[3]+1]) and ParseRegion(exit[1])
         end
     end
-    print("[BigWalk] ERROR: ParseRegion::Not accessible, ever.",region)
+    bwprint("ERROR","ParseRegion","Not accessible, ever.",region)
     return false
 end
 
 -- Definitions provided at https://github.com/Grizfreak/BigWalk-archipelago/blob/master/apworld/README.md
 function ParseRule(rule, verbose)
     if rule[1] == "true" then
-        if verbose then print("[BigWalk] DEBUG: \"true\" rule is true.") end
+        if verbose then bwprint("DEBUG","ParseRule","\"true\" rule is", true) end
         return true
     elseif rule[1] == "false" then
-        if verbose then print("[BigWalk] DEBUG: \"false\" rule is false.") end
+        if verbose then bwprint("DEBUG","ParseRule","\"false\" rule is", false) end
         return false
     elseif rule[1] == "and" or rule[1] == "or" then
         temp = ParseMultiple(rule[1], rule[2])
-        if verbose then print("[BigWalk] DEBUG: \""..rule[1].."\" rule is:",temp) end
+        if verbose then bwprint("DEBUG","ParseRule","\""..rule[1].."\" rule is", temp) end
         return temp
     elseif rule[1] == "has" then
         temp = ParseHas(rule[2],rule[3],verbose)
-        if verbose then print("[BigWalk] DEBUG: \"has\" rule is:",temp) end
+        if verbose then bwprint("DEBUG","ParseRule","\"has\" rule is", temp) end
         return temp
     elseif rule[1] == "all" or rule[1] == "any" then
         temp = ParseItems(rule[1], rule[2], nil, verbose)
-        if verbose then print("[BigWalk] DEBUG: \""..rule[1].."\" rule is:",temp) end
+        if verbose then bwprint("DEBUG","ParseRule","\""..rule[1].."\" rule is", temp) end
         return temp
     elseif rule[1] == "from" then
         temp = ParseItems(rule[1], rule[2], rule[3], verbose)
-        if verbose then print("[BigWalk] DEBUG: \"from\" rule is:",temp) end
+        if verbose then bwprint("DEBUG","ParseRule","\"from\" rule is", temp) end
         return temp
     elseif rule[1] == "loc" then
         temp = ParseLocation(rule[2], verbose)
-        if verbose then print("[BigWalk] DEBUG: \"loc\" rule is:",temp) end
+        if verbose then bwprint("DEBUG","ParseRule","\"loc\" rule is", temp) end
         return temp
     elseif rule[1] == "reg" then
         temp = ParseRegion(rule[2], verbose)
-        if verbose then print("[BigWalk] DEBUG: \"reg\" rule is:",temp) end
+        if verbose then bwprint("DEBUG","ParseRule","\"reg\" rule is", temp) end
         return temp
     end
-    print("[BigWalk] ERROR: ParseRule::Rule type not recognized: "..rule[1])
+    bwprint("ERROR","ParseRule","Rule type not recognized: "..rule[1])
 end
 

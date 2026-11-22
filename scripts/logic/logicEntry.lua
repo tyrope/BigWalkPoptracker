@@ -1,12 +1,13 @@
 require("scripts.logic.ruleparser")
 require("scripts.logic.visibility")
+require("scripts.lib.bigwalkprinter")
 
 SLOT_LOGIC = nil
 ID_LOOKUP_TABLE = {}
 
 function FetchSlotLogic(slot_data)
     if BIGWALK_VERBOSE then
-        print("[BigWalk]FetchSlotLogic:: (re)connected to ap.")
+        bwprint("INFO","FetchSlotLogic","(re)connected to ap.")
     end
     SLOT_LOGIC = slot_data["logic"]
     ID_LOOKUP_TABLE = {}
@@ -45,7 +46,7 @@ function ParseAccess(locID)
     -- AccessibilityLevel.Normal        - Green
     loc_obj = Tracker:FindObjectForCode(locID)
     if loc_obj == nil then
-        print("[BigWalk] ERROR: ParseAccess("..locID..")::Input parsed as nil!")
+        bwprint("ERROR","ParseAccess("..locID..")","Input parsed as nil!")
         return nil
     end
     if SLOT_LOGIC == nil or loc_obj.AccessibilityLevel == AccessibilityLevel.Cleared then
@@ -55,7 +56,7 @@ function ParseAccess(locID)
     slot_loc = LookupSlotLocation(locID)
     if slot_loc == nil then
         if ParseVisible(locID) then
-            print("[BigWalk] ERROR: ParseAccess::Could not map "..locID.." to a slot location.")
+            bwprint("ERROR","ParseAccess","Could not map "..locID.." to a slot location.")
         end
         return AccessibilityLevel.Inspect
     end
