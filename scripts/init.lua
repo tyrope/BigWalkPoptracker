@@ -1,7 +1,5 @@
 local variant = Tracker.ActiveVariantUID
 
-BIGWALK_VERBOSE = false
-
 -- Libs
 require("scripts.lib.recent_items.init")
 require("scripts.lib.status_bar.init")
@@ -43,3 +41,4 @@ end
 require("scripts.luaitems")
 require("scripts.watches")
 ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
+

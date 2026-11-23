@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.2.1",
+            "download_url": "https://github.com/tyrope/BigWalkPoptracker/releases/download/v0.2.1/BigWalkPoptracker-v0.2.1.zip",
+            "sha256": "2c60a3fe85f3ba3e4b791380c5a2f41d2844c0b9113ace0ecbb39f9c8557d74f",
+            "changelog": [
+                "Locations that are now only blocked by a lack of Left Arch Door and/or Right Arch Door are yellow."
+            ]
+        },
+        {
             "package_version": "0.2.0",
             "download_url": "https://github.com/tyrope/BigWalkPoptracker/releases/download/v0.2.0/BigWalkPoptracker-v0.2.0.zip",
             "sha256": "0e5bbaeb38f359230231d1f21b9aad84adf1abc964674e1da9d19e82f07d3cff",

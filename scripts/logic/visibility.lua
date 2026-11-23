@@ -1,4 +1,5 @@
 require("scripts.lib.stringrecipes")
+require("scripts.lib.bigwalkprinter")
 
 SLOT_VIS_DATA = {}
 MAPS_LOADED = {}
@@ -6,7 +7,7 @@ MAPS_LOADED = {}
 ----- Mostly locations, but also triggers items. -----
 function SetSlotVisData(slot_data)
     if BIGWALK_VERBOSE then
-        print("[BigWalk]SetSlotVisData:: (re)connected to ap.")
+        bwprint("INFO","SetSlotVisData","(re)connected to ap.")
     end
     SLOT_VIS_DATA = {}
 
@@ -20,7 +21,7 @@ function SetSlotVisData(slot_data)
     elseif slot_data["deposit_locations"] == "none" then
         SLOT_VIS_DATA["@Core/Gourd Deposit/Count"] = false
     else
-        print("[BigWalk] ERROR: SetSlotVisData::Invalid value for slot_data[\"deposit_locations\"]")
+        bwprint("ERROR","SetSlotVisData","Invalid value for slot_data[\"deposit_locations\"]")
     end
 
     -- Radio stations.
@@ -307,7 +308,7 @@ function SetItemVisibilities(slot_data)
             Tracker:AddLayouts("layouts/items/abilities/ambidextrous.json")
         end
     else
-        print("[BigWalk] ERROR: Unknown value for lock_abilities:", slot_data["lock_abilities"])
+        bwprint("ERROR","SetItemVisibilities","Unknown value for lock_abilities:", slot_data["lock_abilities"])
     end
 
     zones = SetSlotVisZonelock(slot_data)
@@ -348,7 +349,7 @@ function ParseVisible(locID)
         return onMap and SLOT_VIS_DATA[locID]
     else
         if onMap then
-            print("[BigWalk] ERROR: ParseVisible::"..locID.." not in SLOT_VIS_DATA")
+            bwprint("ERROR","ParseVisible",locID.." not in SLOT_VIS_DATA")
         end
         return false
     end

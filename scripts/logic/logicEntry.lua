@@ -1,12 +1,13 @@
 require("scripts.logic.ruleparser")
 require("scripts.logic.visibility")
+require("scripts.lib.bigwalkprinter")
 
 SLOT_LOGIC = nil
 ID_LOOKUP_TABLE = {}
 
 function FetchSlotLogic(slot_data)
     if BIGWALK_VERBOSE then
-        print("[BigWalk]FetchSlotLogic:: (re)connected to ap.")
+        bwprint("INFO","FetchSlotLogic","(re)connected to ap.")
     end
     SLOT_LOGIC = slot_data["logic"]
     ID_LOOKUP_TABLE = {}
@@ -37,15 +38,15 @@ function LookupSlotLocation(locID)
 end
 
 function ParseAccess(locID)
-    -- AccessibilityLevel.None          - Red
-    -- AccessibilityLevel.NoPriority    - Red
-    -- AccessibilityLevel.Inspect       - Blue
-    -- AccessibilityLevel.Partial       - Yellow
-    -- AccessibilityLevel.SequenceBreak - Yellow
-    -- AccessibilityLevel.Normal        - Green
+    -- AccessibilityLevel.None          - 0, Red (Inaccessible)
+    -- AccessibilityLevel.Inspect       - 3, Blue (Inaccessible, but shows the reward)
+    -- AccessibilityLevel.SequenceBreak - 5, Yellow (Out of logic, but accessible)
+    -- AccessibilityLevel.Normal        - 6, Green (In logic)
+    -- AccessibilityLevel.Cleared        - 7, Gray (Done)
+
     loc_obj = Tracker:FindObjectForCode(locID)
     if loc_obj == nil then
-        print("[BigWalk] ERROR: ParseAccess("..locID..")::Input parsed as nil!")
+        bwprint("ERROR","ParseAccess("..locID..")","Input parsed as nil!")
         return nil
     end
     if SLOT_LOGIC == nil or loc_obj.AccessibilityLevel == AccessibilityLevel.Cleared then
@@ -55,22 +56,22 @@ function ParseAccess(locID)
     slot_loc = LookupSlotLocation(locID)
     if slot_loc == nil then
         if ParseVisible(locID) then
-            print("[BigWalk] ERROR: ParseAccess::Could not map "..locID.." to a slot location.")
+            bwprint("ERROR","ParseAccess","Could not map "..locID.." to a slot location.")
         end
         return AccessibilityLevel.Inspect
     end
+
     rules = SLOT_LOGIC["rules"][slot_loc[4]+1]
-    region = slot_loc[3]
     if rules == nil then
-        print("[BigWalk] ERROR: ParseAccess::Rules for "..slot_loc[1].."not found, somehow?")
+        bwprint("ERROR","ParseAccess","Rules for "..slot_loc[1].."not found, somehow?")
         return AccessibilityLevel.Inspect
     end
 
-    if ParseRule(rules, verbose) and ParseRegion(region, verbose) then
-        return AccessibilityLevel.Normal
-    else
-        return AccessibilityLevel.None
-    end
+
+    locAccess = ParseRule(rules,verbose)
+    regAccess = ParseRegion(slot_loc[3],verbose)
+
+    return combineAccess(locAccess, regAccess)
 end
 
 Archipelago:AddClearHandler("InitialLogic", FetchSlotLogic)
