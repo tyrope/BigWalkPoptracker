@@ -60,18 +60,18 @@ function ParseAccess(locID)
         end
         return AccessibilityLevel.Inspect
     end
+
     rules = SLOT_LOGIC["rules"][slot_loc[4]+1]
-    region = slot_loc[3]
     if rules == nil then
         bwprint("ERROR","ParseAccess","Rules for "..slot_loc[1].."not found, somehow?")
         return AccessibilityLevel.Inspect
     end
 
-    if ParseRule(rules, verbose) and ParseRegion(region, verbose) then
-        return AccessibilityLevel.Normal
-    else
-        return AccessibilityLevel.None
-    end
+
+    locAccess = ParseRule(rules,verbose)
+    regAccess = ParseRegion(slot_loc[3],verbose)
+
+    return combineAccess(locAccess, regAccess)
 end
 
 Archipelago:AddClearHandler("InitialLogic", FetchSlotLogic)

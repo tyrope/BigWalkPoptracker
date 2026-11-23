@@ -2,18 +2,42 @@ require("scripts.lib.bigwalkprinter")
 
 -- ["and", [rules]] / ["or", [rules]] => all / any of the rules
 function ParseMultiple(method, rules)
-    if method == "and" then
-        exitValue = false
-    elseif method == "or" then
-        exitValue = true
-    end
-
-    for _,rule in pairs(rules) do
-        if ParseRule(rule, verbose) == exitValue then
-            return exitValue
+    normalCount = 0
+    oolCount = 0
+    noneCount = 0
+    for _, rule in pairs(rules) do
+        r = ParseRule(rule, verbose)
+        if r == AccessibilityLevel.None then
+            noneCount = noneCount +1
+        elseif r == AccessibilityLevel.SequenceBreak then
+            oolCount = oolCount +1
+        elseif r == AccessibilityLevel.Normal then
+            normalCount = normalCount +1
         end
     end
-    return exitValue == false
+
+    if method == "and" then
+        if noneCount > 0 then
+            return AccessibilityLevel.None
+        elseif oolCount > 0 then
+            return AccessibilityLevel.SequenceBreak
+        elseif normalCount > 0 then
+            return AccessibilityLevel.Normal
+        else
+            bwprint("ERROR","ParseMultiple","AND rule parsed with 0 counts.")
+        end
+    elseif method == "or" then
+        if normalCount > 0 then
+            return AccessibilityLevel.Normal
+        elseif oolCount > 0 then
+            return AccessibilityLevel.SequenceBreak
+        elseif noneCount > 0 then
+            return AccessibilityLevel.None
+        else
+            bwprint("ERROR","ParseMultiple","OR rule parsed with 0 counts.")
+        end
+    end
+    return AccessibilityLevel.Inspect --TODO: Actually scream and die.
 end
 
 function ConvertItemName(item)
@@ -26,8 +50,17 @@ end
 -- ["has", item, count] => at least count of item received
 function ParseHas(item, count, verbose)
     item_obj = Tracker:FindObjectForCode(ConvertItemName(item))
-    temp = item_obj.AcquiredCount >= count or (item_obj.Active and count == 1)
-    if verbose then bwprint("INFO","ParseHas","("..item..","..count..") => ", temp) end
+    if item_obj.AcquiredCount >= count or (item_obj.Active and count == 1) then
+        -- Normal access.
+        temp = AccessibilityLevel.Normal
+    elseif item == "Left Arch Door" or item == "Right Arch Door" then
+        -- This is blocked only by a shortcut.
+        temp = AccessibilityLevel.SequenceBreak
+    else
+        -- No access.
+        temp = AccessibilityLevel.None
+    end
+    if verbose then bwprint("DEBUG","ParseHas","("..item..","..count..")", temp) end
     return temp
 end
 
@@ -39,31 +72,31 @@ function ParseItems(method, items, count, verbose)
         amount = Tracker:FindObjectForCode(convName).AcquiredCount
         active = Tracker:FindObjectForCode(convName).Active
         if method == "all" and (amount == 0 and not active) then
-            if verbose then bwprint("INFO","ParseItems","false") end
-            return false
+            if verbose then bwprint("DEBUG","ParseItems","false") end
+            return AccessibilityLevel.None
         elseif method == "any" and (amount > 0 or active) then
-            if verbose then bwprint("INFO","ParseItems","true") end
-            return true
+            if verbose then bwprint("DEBUG","ParseItems","true") end
+            return AccessibilityLevel.Normal
         elseif method == "from" and amount > 0 then
             count = count - amount
             if count <= 0 then
-                if verbose then bwprint("INFO","ParseItems","true") end
-                return true
+                if verbose then bwprint("DEBUG","ParseItems","true") end
+                return AccessibilityLevel.Normal
             end
         elseif method == "from" and active then
             count = count - 1
             if count <= 0 then
-                if verbose then bwprint("INFO","ParseItems","true") end
-                return true
+                if verbose then bwprint("DEBUG","ParseItems","true") end
+                return AccessibilityLevel.Normal
             end
         end
     end
     if method == "all" then
-        if verbose then bwprint("INFO","ParseItems","true") end
-        return true
+        if verbose then bwprint("DEBUG","ParseItems","true") end
+        return AccessibilityLevel.Normal
     elseif method == "any" or method == "from" then
-        if verbose then bwprint("INFO","ParseItems","false") end
-        return false
+        if verbose then bwprint("DEBUG","ParseItems","false") end
+        return AccessibilityLevel.None
     else
         bwprint("ERROR","ParseItems","Unknown method.")
     end
@@ -73,37 +106,58 @@ end
 function ParseLocation(parentLoc, verbose)
     for _,loc in pairs(SLOT_LOGIC["locations"]) do
         if loc[1] == parentLoc then
-            temp = ParseRule(loc[4]+1) and ParseRegion(loc[3])
-            if verbose then print("[BigWalk] INFO: ParseLogcation::",temp) end
-            return ParseRule(loc[4]+1) and ParseRegion(loc[3])
+            temp = combineAccess(ParseRule(loc[4]+1,verbose), ParseRegion(loc[3],verbose))
+            if verbose then bwprint("DEBUG","ParseLocation",temp) end
+            return temp
         end
     end
     bwprint("ERROR","ParseLocation","Rule location doesn't exist?!",parentLoc)
-    return false
+    return AccessibilityLevel.None
 end
 
 -- ["reg", region] => that region is reachable
 function ParseRegion(region, verbose)
     if region == SLOT_LOGIC["origin"] then
-        return true
+        return AccessibilityLevel.Normal
     end
     for _,exit in pairs(SLOT_LOGIC["exits"]) do
         if exit[2] == region then
-            return ParseRule(SLOT_LOGIC["rules"][exit[3]+1]) and ParseRegion(exit[1])
+            rule = ParseRule(SLOT_LOGIC["rules"][exit[3]+1])
+            region = ParseRegion(exit[1])
+            return combineAccess(rule, region)
         end
     end
     bwprint("ERROR","ParseRegion","Not accessible, ever.",region)
-    return false
+    return AccessibilityLevel.None
+end
+
+function combineAccess(locAccess, regAccess)
+    if regAccess == AccessibilityLevel.None then
+        -- Region's inaccessible.
+        return AccessibilityLevel.None
+    elseif regAccess == AccessibilityLevel.SequenceBreak then
+        -- Region's not-in-logic but accessible.
+        if locAccess ~= AccessibilityLevel.None then
+            -- Location's not inaccessible. Sequence Break.
+            return AccessibilityLevel.SequenceBreak
+        else
+            -- Location's inaccessible.
+            return AccessibilityLevel.None
+        end
+    elseif regAccess == AccessibilityLevel.Normal then
+        -- Region's In-logic, so the location sets the access.
+        return locAccess
+    end
 end
 
 -- Definitions provided at https://github.com/Grizfreak/BigWalk-archipelago/blob/master/apworld/README.md
 function ParseRule(rule, verbose)
     if rule[1] == "true" then
-        if verbose then bwprint("DEBUG","ParseRule","\"true\" rule is", true) end
-        return true
+        if verbose then bwprint("DEBUG","ParseRule","\"true\" rule") end
+        return AccessibilityLevel.Normal
     elseif rule[1] == "false" then
-        if verbose then bwprint("DEBUG","ParseRule","\"false\" rule is", false) end
-        return false
+        if verbose then bwprint("DEBUG","ParseRule","\"false\" rule") end
+        return AccessibilityLevel.None
     elseif rule[1] == "and" or rule[1] == "or" then
         temp = ParseMultiple(rule[1], rule[2])
         if verbose then bwprint("DEBUG","ParseRule","\""..rule[1].."\" rule is", temp) end
