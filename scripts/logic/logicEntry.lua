@@ -38,12 +38,12 @@ function LookupSlotLocation(locID)
 end
 
 function ParseAccess(locID)
-    -- AccessibilityLevel.None          - Red
-    -- AccessibilityLevel.NoPriority    - Red
-    -- AccessibilityLevel.Inspect       - Blue
-    -- AccessibilityLevel.Partial       - Yellow
-    -- AccessibilityLevel.SequenceBreak - Yellow
-    -- AccessibilityLevel.Normal        - Green
+    -- AccessibilityLevel.None          - 0, Red (Inaccessible)
+    -- AccessibilityLevel.Inspect       - 3, Blue (Inaccessible, but shows the reward)
+    -- AccessibilityLevel.SequenceBreak - 5, Yellow (Out of logic, but accessible)
+    -- AccessibilityLevel.Normal        - 6, Green (In logic)
+    -- AccessibilityLevel.Cleared        - 7, Gray (Done)
+
     loc_obj = Tracker:FindObjectForCode(locID)
     if loc_obj == nil then
         bwprint("ERROR","ParseAccess("..locID..")","Input parsed as nil!")
