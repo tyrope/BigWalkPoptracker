@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "0.2.2",
+            "download_url": "https://github.com/tyrope/BigWalkPoptracker/releases/download/v0.2.2/BigWalkPoptracker-v0.2.2.zip",
+            "sha256": "5d0a4c3d69bf4af2e5853194e45383651e61c3b9911ecf718b7d45949d7f3f70",
+            "changelog": [
+                "Replace placeholder drawbridge teleporter image with actual drawbridge teleporter image.",
+                "Move the \"Observation Room\" puzzle back on the map... for it was swimming in the ocean."
+            ]
+        },
+        {
             "package_version": "0.2.1",
             "download_url": "https://github.com/tyrope/BigWalkPoptracker/releases/download/v0.2.1/BigWalkPoptracker-v0.2.1.zip",
             "sha256": "2c60a3fe85f3ba3e4b791380c5a2f41d2844c0b9113ace0ecbb39f9c8557d74f",
